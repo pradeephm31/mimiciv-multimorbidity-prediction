@@ -1,0 +1,17 @@
+C:\Users\HP\pipeline_run\venv\Lib\site-packages\lightgbm\sklearn.py:1106: LGBMDeprecationWarning: The argument 'eval_set' is deprecated, use 'eval_X' and 'eval_y' instead.
+  eval_set = _validate_eval_set_Xy(eval_set=eval_set, eval_X=eval_X, eval_y=eval_y)
+[LightGBM (num_leaves=31, lr=0.05)] AUROC=0.7628 AUPRC=0.3805 Brier=0.0980 | TEST F1=0.3857 P=0.297 R=0.551 Acc=0.771
+C:\Users\HP\pipeline_run\venv\Lib\site-packages\lightgbm\sklearn.py:1106: LGBMDeprecationWarning: The argument 'eval_set' is deprecated, use 'eval_X' and 'eval_y' instead.
+  eval_set = _validate_eval_set_Xy(eval_set=eval_set, eval_X=eval_X, eval_y=eval_y)
+[LightGBM (num_leaves=63, lr=0.03)] AUROC=0.7630 AUPRC=0.3807 Brier=0.0980 | TEST F1=0.3853 P=0.292 R=0.566 Acc=0.764
+
+Lasso selected 29/57 features
+[XGBoost on 29 Lasso-selected features] AUROC=0.7603 AUPRC=0.3761 Brier=0.0984 | TEST F1=0.3853 P=0.298 R=0.545 Acc=0.772
+[XGBoost, lr=0.02 with up to 3000 trees] AUROC=0.7628 AUPRC=0.3806 Brier=0.0980 | TEST F1=0.3863 P=0.298 R=0.550 Acc=0.771
+[Ensemble: 50% XGBoost + 50% LightGBM] AUROC=0.7630 AUPRC=0.3808 Brier=0.2731 | TEST F1=0.3867 P=0.295 R=0.560 Acc=0.767
+[Ensemble: 60% XGBoost + 40% LightGBM] AUROC=0.7629 AUPRC=0.3805 Brier=0.2732 | TEST F1=0.3872 P=0.298 R=0.554 Acc=0.771
+
+=== Round-2 winner by validation F1: lightgbm_nl31 -> LightGBM (num_leaves=31, lr=0.05) ===
+    TEST AUROC=0.7628 F1=0.3857
+
+Saved f1_round2_results.json

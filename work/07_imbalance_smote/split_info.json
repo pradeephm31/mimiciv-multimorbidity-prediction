@@ -1,0 +1,11 @@
+{
+  "n_train_pairs": 192825,
+  "n_val_pairs": 64979,
+  "n_test_pairs": 64402,
+  "n_train_patients": 60033,
+  "n_val_patients": 20012,
+  "n_test_patients": 20012,
+  "base_rate_train": 0.1301,
+  "base_rate_val": 0.1332,
+  "base_rate_test": 0.1308
+}

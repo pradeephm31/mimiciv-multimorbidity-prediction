@@ -1,0 +1,181 @@
+{
+  "flags": [
+    "Renal disease"
+  ],
+  "n_patients": 20466,
+  "n_admissions": 125495,
+  "n_pairs": 105029,
+  "n_test_patients": 4094,
+  "frac_no_current_dx": 0.0569,
+  "mean_current_dx": 2.59,
+  "mean_next_dx": 2.85,
+  "escalation": {
+    "auroc": 0.7909,
+    "auprc": 0.517,
+    "base_rate_test": 0.2135
+  },
+  "multilabel": {
+    "persistence_current": {
+      "3": {
+        "precision": 0.7437,
+        "recall": 0.5762,
+        "f1": 0.6493,
+        "n_predicted": 9038,
+        "n_true": 11667
+      },
+      "5": {
+        "precision": 0.7486,
+        "recall": 0.6722,
+        "f1": 0.7083,
+        "n_predicted": 10475,
+        "n_true": 11667
+      },
+      "10": {
+        "precision": 0.7489,
+        "recall": 0.6806,
+        "f1": 0.7132,
+        "n_predicted": 10603,
+        "n_true": 11667
+      }
+    },
+    "persistence_history": {
+      "3": {
+        "precision": 0.7013,
+        "recall": 0.6175,
+        "f1": 0.6567,
+        "n_predicted": 10273,
+        "n_true": 11667
+      },
+      "5": {
+        "precision": 0.6415,
+        "recall": 0.7438,
+        "f1": 0.6889,
+        "n_predicted": 13527,
+        "n_true": 11667
+      },
+      "10": {
+        "precision": 0.607,
+        "recall": 0.7714,
+        "f1": 0.6794,
+        "n_predicted": 14828,
+        "n_true": 11667
+      }
+    },
+    "current_model_rule_a": {
+      "3": {
+        "precision": 0.7709,
+        "recall": 0.6126,
+        "f1": 0.6827,
+        "n_predicted": 9271,
+        "n_true": 11667
+      },
+      "5": {
+        "precision": 0.749,
+        "recall": 0.6874,
+        "f1": 0.7169,
+        "n_predicted": 10708,
+        "n_true": 11667
+      },
+      "10": {
+        "precision": 0.7469,
+        "recall": 0.6937,
+        "f1": 0.7193,
+        "n_predicted": 10836,
+        "n_true": 11667
+      }
+    },
+    "current_model_rule_b": {
+      "3": {
+        "precision": 0.7703,
+        "recall": 0.5967,
+        "f1": 0.6725,
+        "n_predicted": 9038,
+        "n_true": 11667
+      },
+      "5": {
+        "precision": 0.748,
+        "recall": 0.6716,
+        "f1": 0.7077,
+        "n_predicted": 10475,
+        "n_true": 11667
+      },
+      "10": {
+        "precision": 0.7458,
+        "recall": 0.6778,
+        "f1": 0.7102,
+        "n_predicted": 10603,
+        "n_true": 11667
+      }
+    },
+    "history_model_rule_a": {
+      "3": {
+        "precision": 0.7821,
+        "recall": 0.6215,
+        "f1": 0.6926,
+        "n_predicted": 9271,
+        "n_true": 11667
+      },
+      "5": {
+        "precision": 0.7585,
+        "recall": 0.6962,
+        "f1": 0.726,
+        "n_predicted": 10708,
+        "n_true": 11667
+      },
+      "10": {
+        "precision": 0.7552,
+        "recall": 0.7014,
+        "f1": 0.7273,
+        "n_predicted": 10836,
+        "n_true": 11667
+      }
+    },
+    "history_model_rule_b": {
+      "3": {
+        "precision": 0.7809,
+        "recall": 0.605,
+        "f1": 0.6818,
+        "n_predicted": 9038,
+        "n_true": 11667
+      },
+      "5": {
+        "precision": 0.7569,
+        "recall": 0.6796,
+        "f1": 0.7162,
+        "n_predicted": 10475,
+        "n_true": 11667
+      },
+      "10": {
+        "precision": 0.7536,
+        "recall": 0.6848,
+        "f1": 0.7176,
+        "n_predicted": 10603,
+        "n_true": 11667
+      }
+    },
+    "history_model_rule_ever": {
+      "3": {
+        "precision": 0.7362,
+        "recall": 0.6482,
+        "f1": 0.6894,
+        "n_predicted": 10273,
+        "n_true": 11667
+      },
+      "5": {
+        "precision": 0.6583,
+        "recall": 0.7633,
+        "f1": 0.7069,
+        "n_predicted": 13527,
+        "n_true": 11667
+      },
+      "10": {
+        "precision": 0.6167,
+        "recall": 0.7838,
+        "f1": 0.6903,
+        "n_predicted": 14828,
+        "n_true": 11667
+      }
+    }
+  },
+  "seconds": 367
+}

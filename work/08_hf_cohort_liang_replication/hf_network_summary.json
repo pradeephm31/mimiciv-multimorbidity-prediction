@@ -1,0 +1,32 @@
+{
+  "n_patients": 21975,
+  "n_admissions": 130206,
+  "n_communities": 3,
+  "modularity": 0.0,
+  "silhouette": 0.078,
+  "communities": [
+    [
+      "Cerebrovascular disease",
+      "Chronic pulmonary disease",
+      "Congestive heart failure",
+      "Dementia",
+      "Diabetes with complication",
+      "Diabetes without complication",
+      "Malignancy",
+      "Metastatic solid tumor",
+      "Mild liver disease",
+      "Moderate or severe liver disease",
+      "Myocardial infarction",
+      "Peptic ulcer disease",
+      "Peripheral vascular disease",
+      "Renal disease",
+      "Rheumatic disease"
+    ],
+    [
+      "Hemiplegia or paraplegia"
+    ],
+    [
+      "AIDS/HIV"
+    ]
+  ]
+}

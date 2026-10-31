@@ -1,0 +1,12 @@
+
+== category absent at the current visit, present at the next  (pooled, 1,005,355 category-pairs, 30,621 positives)
+   model_current_features   {'auroc': 0.8173, 'ap': 0.1527}
+   model_history_features   {'auroc': 0.8556, 'ap': 0.277}
+   recurrence_baseline      {'auroc': 0.6619, 'ap': 0.1369}
+
+== patient has never had the category so far, present at the next visit  (pooled, 960,741 category-pairs, 19,740 positives)
+   model_current_features   {'auroc': 0.7898, 'ap': 0.0691}
+   model_history_features   {'auroc': 0.8059, 'ap': 0.0999}
+   recurrence_baseline      {'auroc': 0.5, 'ap': 0.0205}
+
+Saved onset_analysis_results.json

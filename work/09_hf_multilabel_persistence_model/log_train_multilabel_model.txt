@@ -1,0 +1,33 @@
+Train: 65,111  Val: 21,209  Test: 21,911
+Test patients: 4,395
+
+Training 17 per-category classifiers...
+  [1/17] Myocardial infarction: pos_rate_train=0.191, best_iter=304
+  [2/17] Congestive heart failure: pos_rate_train=0.585, best_iter=389
+  [3/17] Peripheral vascular disease: pos_rate_train=0.151, best_iter=240
+  [4/17] Cerebrovascular disease: pos_rate_train=0.084, best_iter=272
+  [5/17] Dementia: pos_rate_train=0.041, best_iter=24
+  [6/17] Chronic pulmonary disease: pos_rate_train=0.279, best_iter=7
+  [7/17] Rheumatic disease: pos_rate_train=0.045, best_iter=2
+  [8/17] Peptic ulcer disease: pos_rate_train=0.017, best_iter=53
+  [9/17] Mild liver disease: pos_rate_train=0.057, best_iter=157
+  [10/17] Diabetes without complication: pos_rate_train=0.208, best_iter=390
+  [11/17] Diabetes with complication: pos_rate_train=0.227, best_iter=399
+  [12/17] Hemiplegia or paraplegia: pos_rate_train=0.013, best_iter=126
+  [13/17] Renal disease: pos_rate_train=0.415, best_iter=399
+  [14/17] Malignancy: pos_rate_train=0.098, best_iter=241
+  [15/17] Moderate or severe liver disease: pos_rate_train=0.026, best_iter=112
+  [16/17] Metastatic solid tumor: pos_rate_train=0.035, best_iter=112
+  [17/17] AIDS/HIV: pos_rate_train=0.006, best_iter=248
+
+=== Multi-label model (rich XGBoost features) ===
+[Multi-label XGBoost] L=3: P=0.5727 R=0.6941 F1=0.6276
+[Multi-label XGBoost] L=5: P=0.4215 R=0.8514 F1=0.5639
+[Multi-label XGBoost] L=10: P=0.2400 R=0.9695 F1=0.3847
+
+=== Persistence baseline (same test set) ===
+[Persistence] L=3: P=0.5657 R=0.6856 F1=0.6199
+[Persistence] L=5: P=0.4143 R=0.8368 F1=0.5542
+[Persistence] L=10: P=0.2379 R=0.9612 F1=0.3814
+
+Saved multilabel_results.json

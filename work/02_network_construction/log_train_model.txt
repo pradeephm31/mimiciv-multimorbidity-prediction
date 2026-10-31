@@ -1,0 +1,36 @@
+Train: 257,804 pairs (80,045 patients)
+Test:  64,402 pairs (20,012 patients)
+Train escalation rate: 13.09% | Test escalation rate: 13.08%
+
+[Community-features-only model] AUROC=0.692  AUPRC=0.310 (base rate 0.131)  Brier=0.215
+score_trend                   0.500905
+charlson_score                0.122851
+dominant_community            0.049203
+admit_seq                     0.044930
+comm2_count                   0.043856
+days_since_prior_admission    0.040272
+n_categories                  0.038735
+comm0_active                  0.038010
+comm1_active                  0.031614
+comm2_active                  0.030274
+comm1_count                   0.029783
+comm0_count                   0.029566
+dtype: float32
+
+[Full-feature model (17 categories + community features)] AUROC=0.707  AUPRC=0.321 (base rate 0.131)  Brier=0.212
+score_trend                      0.272786
+Diabetes without complication    0.111737
+charlson_score                   0.072416
+Hemiplegia or paraplegia         0.062121
+Mild liver disease               0.061167
+Malignancy                       0.038990
+admit_seq                        0.032102
+comm1_active                     0.032081
+comm1_count                      0.031890
+Chronic pulmonary disease        0.026293
+Renal disease                    0.026006
+days_since_prior_admission       0.021794
+dtype: float32
+
+Saved model_results.json
+Saved escalation_model.json (XGBoost model file)

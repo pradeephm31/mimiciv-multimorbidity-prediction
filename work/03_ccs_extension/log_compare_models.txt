@@ -1,0 +1,17 @@
+Merged modeling table: (322206, 298)
+Train: 257,804 pairs (80,045 patients)
+Test:  64,402 pairs (20,012 patients)
+[Charlson: community-only (6 feat)] n_features=12  AUROC=0.6923  AUPRC=0.3103  Brier=0.2147
+[Charlson: full (17 raw + community)] n_features=30  AUROC=0.7068  AUPRC=0.3208  Brier=0.2117
+[CCS: community-only (5 modules)] n_features=16  AUROC=0.7206  AUPRC=0.3327  Brier=0.2093
+[CCS: full (251 raw categories + community)] n_features=267  AUROC=0.7535  AUPRC=0.3541  Brier=0.1991
+[Combined: Charlson full + CCS full] n_features=293  AUROC=0.7592  AUPRC=0.3590  Brier=0.1975
+
+Saved comparison_results.json
+
+=== Summary ===
+  Charlson: community-only (6 feat)             AUROC=0.6923  AUPRC=0.3103  F1@best=0.3345
+  Charlson: full (17 raw + community)           AUROC=0.7068  AUPRC=0.3208  F1@best=0.3527
+  CCS: community-only (5 modules)               AUROC=0.7206  AUPRC=0.3327  F1@best=0.3513
+  CCS: full (251 raw categories + community)    AUROC=0.7535  AUPRC=0.3541  F1@best=0.3871
+  Combined: Charlson full + CCS full            AUROC=0.7592  AUPRC=0.3590  F1@best=0.3901

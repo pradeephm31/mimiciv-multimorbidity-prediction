@@ -1,0 +1,622 @@
+{
+  "new_vs_current_visit": {
+    "per_category": {
+      "Myocardial infarction": {
+        "n_pairs": 59108,
+        "n_positive": 2311,
+        "rate": 0.0391,
+        "model_current_features": {
+          "auroc": 0.7847,
+          "ap": 0.1354
+        },
+        "model_history_features": {
+          "auroc": 0.8282,
+          "ap": 0.2611
+        },
+        "recurrence_baseline": {
+          "auroc": 0.6723,
+          "ap": 0.1692
+        }
+      },
+      "Congestive heart failure": {
+        "n_pairs": 52797,
+        "n_positive": 3298,
+        "rate": 0.0625,
+        "model_current_features": {
+          "auroc": 0.7921,
+          "ap": 0.2189
+        },
+        "model_history_features": {
+          "auroc": 0.8244,
+          "ap": 0.3233
+        },
+        "recurrence_baseline": {
+          "auroc": 0.6353,
+          "ap": 0.1866
+        }
+      },
+      "Peripheral vascular disease": {
+        "n_pairs": 59342,
+        "n_positive": 2316,
+        "rate": 0.039,
+        "model_current_features": {
+          "auroc": 0.7724,
+          "ap": 0.1289
+        },
+        "model_history_features": {
+          "auroc": 0.8222,
+          "ap": 0.2557
+        },
+        "recurrence_baseline": {
+          "auroc": 0.6734,
+          "ap": 0.165
+        }
+      },
+      "Cerebrovascular disease": {
+        "n_pairs": 60638,
+        "n_positive": 2094,
+        "rate": 0.0345,
+        "model_current_features": {
+          "auroc": 0.7267,
+          "ap": 0.081
+        },
+        "model_history_features": {
+          "auroc": 0.7844,
+          "ap": 0.1652
+        },
+        "recurrence_baseline": {
+          "auroc": 0.62,
+          "ap": 0.0999
+        }
+      },
+      "Dementia": {
+        "n_pairs": 62791,
+        "n_positive": 987,
+        "rate": 0.0157,
+        "model_current_features": {
+          "auroc": 0.8537,
+          "ap": 0.0825
+        },
+        "model_history_features": {
+          "auroc": 0.87,
+          "ap": 0.1451
+        },
+        "recurrence_baseline": {
+          "auroc": 0.5715,
+          "ap": 0.0713
+        }
+      },
+      "Chronic pulmonary disease": {
+        "n_pairs": 52075,
+        "n_positive": 3458,
+        "rate": 0.0664,
+        "model_current_features": {
+          "auroc": 0.6427,
+          "ap": 0.126
+        },
+        "model_history_features": {
+          "auroc": 0.7612,
+          "ap": 0.3232
+        },
+        "recurrence_baseline": {
+          "auroc": 0.6722,
+          "ap": 0.2069
+        }
+      },
+      "Rheumatic disease": {
+        "n_pairs": 62495,
+        "n_positive": 438,
+        "rate": 0.007,
+        "model_current_features": {
+          "auroc": 0.6918,
+          "ap": 0.0241
+        },
+        "model_history_features": {
+          "auroc": 0.8195,
+          "ap": 0.2374
+        },
+        "recurrence_baseline": {
+          "auroc": 0.7331,
+          "ap": 0.1408
+        }
+      },
+      "Peptic ulcer disease": {
+        "n_pairs": 63555,
+        "n_positive": 671,
+        "rate": 0.0106,
+        "model_current_features": {
+          "auroc": 0.6005,
+          "ap": 0.0153
+        },
+        "model_history_features": {
+          "auroc": 0.6662,
+          "ap": 0.0365
+        },
+        "recurrence_baseline": {
+          "auroc": 0.5775,
+          "ap": 0.0231
+        }
+      },
+      "Mild liver disease": {
+        "n_pairs": 60784,
+        "n_positive": 1964,
+        "rate": 0.0323,
+        "model_current_features": {
+          "auroc": 0.7402,
+          "ap": 0.1548
+        },
+        "model_history_features": {
+          "auroc": 0.7873,
+          "ap": 0.2306
+        },
+        "recurrence_baseline": {
+          "auroc": 0.6623,
+          "ap": 0.1245
+        }
+      },
+      "Diabetes without complication": {
+        "n_pairs": 54065,
+        "n_positive": 2946,
+        "rate": 0.0545,
+        "model_current_features": {
+          "auroc": 0.7656,
+          "ap": 0.1933
+        },
+        "model_history_features": {
+          "auroc": 0.8248,
+          "ap": 0.3281
+        },
+        "recurrence_baseline": {
+          "auroc": 0.7049,
+          "ap": 0.1542
+        }
+      },
+      "Diabetes with complication": {
+        "n_pairs": 57402,
+        "n_positive": 2256,
+        "rate": 0.0393,
+        "model_current_features": {
+          "auroc": 0.8859,
+          "ap": 0.2759
+        },
+        "model_history_features": {
+          "auroc": 0.9164,
+          "ap": 0.3782
+        },
+        "recurrence_baseline": {
+          "auroc": 0.687,
+          "ap": 0.2042
+        }
+      },
+      "Hemiplegia or paraplegia": {
+        "n_pairs": 63473,
+        "n_positive": 587,
+        "rate": 0.0092,
+        "model_current_features": {
+          "auroc": 0.678,
+          "ap": 0.0231
+        },
+        "model_history_features": {
+          "auroc": 0.715,
+          "ap": 0.0582
+        },
+        "recurrence_baseline": {
+          "auroc": 0.5591,
+          "ap": 0.0278
+        }
+      },
+      "Renal disease": {
+        "n_pairs": 52219,
+        "n_positive": 2953,
+        "rate": 0.0566,
+        "model_current_features": {
+          "auroc": 0.8056,
+          "ap": 0.2455
+        },
+        "model_history_features": {
+          "auroc": 0.8311,
+          "ap": 0.353
+        },
+        "recurrence_baseline": {
+          "auroc": 0.6571,
+          "ap": 0.2141
+        }
+      },
+      "Malignancy": {
+        "n_pairs": 57411,
+        "n_positive": 2048,
+        "rate": 0.0357,
+        "model_current_features": {
+          "auroc": 0.7352,
+          "ap": 0.1096
+        },
+        "model_history_features": {
+          "auroc": 0.7832,
+          "ap": 0.1791
+        },
+        "recurrence_baseline": {
+          "auroc": 0.6157,
+          "ap": 0.0948
+        }
+      },
+      "Moderate or severe liver disease": {
+        "n_pairs": 62475,
+        "n_positive": 816,
+        "rate": 0.0131,
+        "model_current_features": {
+          "auroc": 0.8829,
+          "ap": 0.264
+        },
+        "model_history_features": {
+          "auroc": 0.8985,
+          "ap": 0.3127
+        },
+        "recurrence_baseline": {
+          "auroc": 0.7191,
+          "ap": 0.1539
+        }
+      },
+      "Metastatic solid tumor": {
+        "n_pairs": 60851,
+        "n_positive": 1273,
+        "rate": 0.0209,
+        "model_current_features": {
+          "auroc": 0.8283,
+          "ap": 0.2
+        },
+        "model_history_features": {
+          "auroc": 0.8543,
+          "ap": 0.2465
+        },
+        "recurrence_baseline": {
+          "auroc": 0.6271,
+          "ap": 0.1187
+        }
+      },
+      "AIDS/HIV": {
+        "n_pairs": 63874,
+        "n_positive": 205,
+        "rate": 0.0032,
+        "model_current_features": {
+          "auroc": 0.8366,
+          "ap": 0.1279
+        },
+        "model_history_features": {
+          "auroc": 0.8843,
+          "ap": 0.2367
+        },
+        "recurrence_baseline": {
+          "auroc": 0.7466,
+          "ap": 0.1473
+        }
+      }
+    },
+    "pooled": {
+      "n_pairs": 1005355,
+      "n_positive": 30621,
+      "rate": 0.0305,
+      "model_current_features": {
+        "auroc": 0.8173,
+        "ap": 0.1527
+      },
+      "model_history_features": {
+        "auroc": 0.8556,
+        "ap": 0.277
+      },
+      "recurrence_baseline": {
+        "auroc": 0.6619,
+        "ap": 0.1369
+      }
+    }
+  },
+  "first_ever": {
+    "per_category": {
+      "Myocardial infarction": {
+        "n_pairs": 55854,
+        "n_positive": 1427,
+        "rate": 0.0255,
+        "model_current_features": {
+          "auroc": 0.7454,
+          "ap": 0.0582
+        },
+        "model_history_features": {
+          "auroc": 0.7603,
+          "ap": 0.0717
+        },
+        "recurrence_baseline": {
+          "auroc": 0.5,
+          "ap": 0.0255
+        }
+      },
+      "Congestive heart failure": {
+        "n_pairs": 49697,
+        "n_positive": 2280,
+        "rate": 0.0459,
+        "model_current_features": {
+          "auroc": 0.7707,
+          "ap": 0.1202
+        },
+        "model_history_features": {
+          "auroc": 0.7815,
+          "ap": 0.1404
+        },
+        "recurrence_baseline": {
+          "auroc": 0.5,
+          "ap": 0.0459
+        }
+      },
+      "Peripheral vascular disease": {
+        "n_pairs": 55869,
+        "n_positive": 1419,
+        "rate": 0.0254,
+        "model_current_features": {
+          "auroc": 0.7277,
+          "ap": 0.0539
+        },
+        "model_history_features": {
+          "auroc": 0.7493,
+          "ap": 0.0682
+        },
+        "recurrence_baseline": {
+          "auroc": 0.5,
+          "ap": 0.0254
+        }
+      },
+      "Cerebrovascular disease": {
+        "n_pairs": 57361,
+        "n_positive": 1501,
+        "rate": 0.0262,
+        "model_current_features": {
+          "auroc": 0.7168,
+          "ap": 0.0525
+        },
+        "model_history_features": {
+          "auroc": 0.7376,
+          "ap": 0.063
+        },
+        "recurrence_baseline": {
+          "auroc": 0.5,
+          "ap": 0.0262
+        }
+      },
+      "Dementia": {
+        "n_pairs": 62193,
+        "n_positive": 839,
+        "rate": 0.0135,
+        "model_current_features": {
+          "auroc": 0.8547,
+          "ap": 0.07
+        },
+        "model_history_features": {
+          "auroc": 0.8535,
+          "ap": 0.0683
+        },
+        "recurrence_baseline": {
+          "auroc": 0.5,
+          "ap": 0.0135
+        }
+      },
+      "Chronic pulmonary disease": {
+        "n_pairs": 47205,
+        "n_positive": 2054,
+        "rate": 0.0435,
+        "model_current_features": {
+          "auroc": 0.551,
+          "ap": 0.049
+        },
+        "model_history_features": {
+          "auroc": 0.651,
+          "ap": 0.0739
+        },
+        "recurrence_baseline": {
+          "auroc": 0.5,
+          "ap": 0.0435
+        }
+      },
+      "Rheumatic disease": {
+        "n_pairs": 61519,
+        "n_positive": 229,
+        "rate": 0.0037,
+        "model_current_features": {
+          "auroc": 0.587,
+          "ap": 0.0048
+        },
+        "model_history_features": {
+          "auroc": 0.6657,
+          "ap": 0.007
+        },
+        "recurrence_baseline": {
+          "auroc": 0.5,
+          "ap": 0.0037
+        }
+      },
+      "Peptic ulcer disease": {
+        "n_pairs": 61708,
+        "n_positive": 549,
+        "rate": 0.0089,
+        "model_current_features": {
+          "auroc": 0.5987,
+          "ap": 0.013
+        },
+        "model_history_features": {
+          "auroc": 0.6112,
+          "ap": 0.0149
+        },
+        "recurrence_baseline": {
+          "auroc": 0.5,
+          "ap": 0.0089
+        }
+      },
+      "Mild liver disease": {
+        "n_pairs": 56759,
+        "n_positive": 1228,
+        "rate": 0.0216,
+        "model_current_features": {
+          "auroc": 0.6778,
+          "ap": 0.0951
+        },
+        "model_history_features": {
+          "auroc": 0.7013,
+          "ap": 0.1108
+        },
+        "recurrence_baseline": {
+          "auroc": 0.5,
+          "ap": 0.0216
+        }
+      },
+      "Diabetes without complication": {
+        "n_pairs": 47818,
+        "n_positive": 1477,
+        "rate": 0.0309,
+        "model_current_features": {
+          "auroc": 0.696,
+          "ap": 0.093
+        },
+        "model_history_features": {
+          "auroc": 0.734,
+          "ap": 0.1123
+        },
+        "recurrence_baseline": {
+          "auroc": 0.5,
+          "ap": 0.0309
+        }
+      },
+      "Diabetes with complication": {
+        "n_pairs": 54786,
+        "n_positive": 1349,
+        "rate": 0.0246,
+        "model_current_features": {
+          "auroc": 0.8685,
+          "ap": 0.1514
+        },
+        "model_history_features": {
+          "auroc": 0.8918,
+          "ap": 0.1808
+        },
+        "recurrence_baseline": {
+          "auroc": 0.5,
+          "ap": 0.0246
+        }
+      },
+      "Hemiplegia or paraplegia": {
+        "n_pairs": 62427,
+        "n_positive": 509,
+        "rate": 0.0082,
+        "model_current_features": {
+          "auroc": 0.6703,
+          "ap": 0.0181
+        },
+        "model_history_features": {
+          "auroc": 0.6816,
+          "ap": 0.0206
+        },
+        "recurrence_baseline": {
+          "auroc": 0.5,
+          "ap": 0.0082
+        }
+      },
+      "Renal disease": {
+        "n_pairs": 49228,
+        "n_positive": 1921,
+        "rate": 0.039,
+        "model_current_features": {
+          "auroc": 0.7605,
+          "ap": 0.0947
+        },
+        "model_history_features": {
+          "auroc": 0.7732,
+          "ap": 0.1166
+        },
+        "recurrence_baseline": {
+          "auroc": 0.5,
+          "ap": 0.039
+        }
+      },
+      "Malignancy": {
+        "n_pairs": 53968,
+        "n_positive": 1474,
+        "rate": 0.0273,
+        "model_current_features": {
+          "auroc": 0.7038,
+          "ap": 0.0688
+        },
+        "model_history_features": {
+          "auroc": 0.7402,
+          "ap": 0.0842
+        },
+        "recurrence_baseline": {
+          "auroc": 0.5,
+          "ap": 0.0273
+        }
+      },
+      "Moderate or severe liver disease": {
+        "n_pairs": 61084,
+        "n_positive": 446,
+        "rate": 0.0073,
+        "model_current_features": {
+          "auroc": 0.8113,
+          "ap": 0.0776
+        },
+        "model_history_features": {
+          "auroc": 0.8302,
+          "ap": 0.1087
+        },
+        "recurrence_baseline": {
+          "auroc": 0.5,
+          "ap": 0.0073
+        }
+      },
+      "Metastatic solid tumor": {
+        "n_pairs": 59796,
+        "n_positive": 935,
+        "rate": 0.0156,
+        "model_current_features": {
+          "auroc": 0.784,
+          "ap": 0.0689
+        },
+        "model_history_features": {
+          "auroc": 0.8121,
+          "ap": 0.0798
+        },
+        "recurrence_baseline": {
+          "auroc": 0.5,
+          "ap": 0.0156
+        }
+      },
+      "AIDS/HIV": {
+        "n_pairs": 63469,
+        "n_positive": 103,
+        "rate": 0.0016,
+        "model_current_features": {
+          "auroc": 0.7337,
+          "ap": 0.0035
+        },
+        "model_history_features": {
+          "auroc": 0.7749,
+          "ap": 0.0058
+        },
+        "recurrence_baseline": {
+          "auroc": 0.5,
+          "ap": 0.0016
+        }
+      }
+    },
+    "pooled": {
+      "n_pairs": 960741,
+      "n_positive": 19740,
+      "rate": 0.0205,
+      "model_current_features": {
+        "auroc": 0.7898,
+        "ap": 0.0691
+      },
+      "model_history_features": {
+        "auroc": 0.8059,
+        "ap": 0.0999
+      },
+      "recurrence_baseline": {
+        "auroc": 0.5,
+        "ap": 0.0205
+      }
+    }
+  }
+}

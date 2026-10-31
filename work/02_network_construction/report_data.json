@@ -1,0 +1,399 @@
+{
+  "n_patients_total": 223291,
+  "n_admissions_total": 545497,
+  "n_patients_multi": 100057,
+  "pct_patients_multi": 44.8,
+  "mapped_category_prevalence_overall": {
+    "Chronic pulmonary disease": 0.1743,
+    "Renal disease": 0.1578,
+    "Congestive heart failure": 0.1553,
+    "Diabetes without complication": 0.1428,
+    "Diabetes with complication": 0.0884,
+    "Malignancy": 0.087,
+    "Myocardial infarction": 0.0819,
+    "Peripheral vascular disease": 0.0684,
+    "Cerebrovascular disease": 0.067,
+    "Metastatic solid tumor": 0.0512,
+    "Mild liver disease": 0.0484,
+    "Dementia": 0.0301,
+    "Moderate or severe liver disease": 0.0258,
+    "Rheumatic disease": 0.0254,
+    "Hemiplegia or paraplegia": 0.0176,
+    "Peptic ulcer disease": 0.0131,
+    "AIDS/HIV": 0.0068
+  },
+  "trajectory": [
+    {
+      "admit_seq": 1,
+      "mean_score": 1.3505,
+      "median_score": 1.0,
+      "mean_categories": 0.9084,
+      "n_admissions": 223291,
+      "n_patients": 223291,
+      "mortality_rate": 0.0235
+    },
+    {
+      "admit_seq": 2,
+      "mean_score": 1.7796,
+      "median_score": 1.0,
+      "mean_categories": 1.1299,
+      "n_admissions": 100057,
+      "n_patients": 100057,
+      "mortality_rate": 0.0183
+    },
+    {
+      "admit_seq": 3,
+      "mean_score": 2.1669,
+      "median_score": 1.0,
+      "mean_categories": 1.3385,
+      "n_admissions": 55965,
+      "n_patients": 55965,
+      "mortality_rate": 0.0199
+    },
+    {
+      "admit_seq": 4,
+      "mean_score": 2.4289,
+      "median_score": 2.0,
+      "mean_categories": 1.4924,
+      "n_admissions": 35891,
+      "n_patients": 35891,
+      "mortality_rate": 0.0224
+    },
+    {
+      "admit_seq": 5,
+      "mean_score": 2.6118,
+      "median_score": 2.0,
+      "mean_categories": 1.6073,
+      "n_admissions": 24731,
+      "n_patients": 24731,
+      "mortality_rate": 0.0235
+    },
+    {
+      "admit_seq": 6,
+      "mean_score": 2.7393,
+      "median_score": 2.0,
+      "mean_categories": 1.6914,
+      "n_admissions": 18107,
+      "n_patients": 18107,
+      "mortality_rate": 0.0201
+    },
+    {
+      "admit_seq": 7,
+      "mean_score": 2.8507,
+      "median_score": 2.0,
+      "mean_categories": 1.7723,
+      "n_admissions": 13801,
+      "n_patients": 13801,
+      "mortality_rate": 0.0228
+    },
+    {
+      "admit_seq": 8,
+      "mean_score": 2.902,
+      "median_score": 2.0,
+      "mean_categories": 1.8195,
+      "n_admissions": 10848,
+      "n_patients": 10848,
+      "mortality_rate": 0.0232
+    }
+  ],
+  "transitions": [
+    {
+      "category": "Chronic pulmonary disease",
+      "weight": 1,
+      "prevalence_any_admission": 0.1743,
+      "n_admission_pairs": 322206,
+      "onset_rate": 0.065,
+      "persistence_rate": 0.7725,
+      "n_had_before": 61072,
+      "n_not_before": 261134
+    },
+    {
+      "category": "Congestive heart failure",
+      "weight": 1,
+      "prevalence_any_admission": 0.1553,
+      "n_admission_pairs": 322206,
+      "onset_rate": 0.0624,
+      "persistence_rate": 0.831,
+      "n_had_before": 56487,
+      "n_not_before": 265719
+    },
+    {
+      "category": "Renal disease",
+      "weight": 2,
+      "prevalence_any_admission": 0.1578,
+      "n_admission_pairs": 322206,
+      "onset_rate": 0.0567,
+      "persistence_rate": 0.8503,
+      "n_had_before": 60535,
+      "n_not_before": 261671
+    },
+    {
+      "category": "Diabetes without complication",
+      "weight": 1,
+      "prevalence_any_admission": 0.1428,
+      "n_admission_pairs": 322206,
+      "onset_rate": 0.0536,
+      "persistence_rate": 0.6918,
+      "n_had_before": 51833,
+      "n_not_before": 270373
+    },
+    {
+      "category": "Diabetes with complication",
+      "weight": 2,
+      "prevalence_any_admission": 0.0884,
+      "n_admission_pairs": 322206,
+      "onset_rate": 0.0392,
+      "persistence_rate": 0.7788,
+      "n_had_before": 34401,
+      "n_not_before": 287805
+    },
+    {
+      "category": "Myocardial infarction",
+      "weight": 1,
+      "prevalence_any_admission": 0.0819,
+      "n_admission_pairs": 322206,
+      "onset_rate": 0.0392,
+      "persistence_rate": 0.6565,
+      "n_had_before": 27366,
+      "n_not_before": 294840
+    },
+    {
+      "category": "Peripheral vascular disease",
+      "weight": 1,
+      "prevalence_any_admission": 0.0684,
+      "n_admission_pairs": 322206,
+      "onset_rate": 0.0379,
+      "persistence_rate": 0.6044,
+      "n_had_before": 24957,
+      "n_not_before": 297249
+    },
+    {
+      "category": "Malignancy",
+      "weight": 2,
+      "prevalence_any_admission": 0.087,
+      "n_admission_pairs": 322206,
+      "onset_rate": 0.0358,
+      "persistence_rate": 0.6975,
+      "n_had_before": 34124,
+      "n_not_before": 288082
+    },
+    {
+      "category": "Cerebrovascular disease",
+      "weight": 1,
+      "prevalence_any_admission": 0.067,
+      "n_admission_pairs": 322206,
+      "onset_rate": 0.0346,
+      "persistence_rate": 0.5259,
+      "n_had_before": 18788,
+      "n_not_before": 303418
+    },
+    {
+      "category": "Mild liver disease",
+      "weight": 1,
+      "prevalence_any_admission": 0.0484,
+      "n_admission_pairs": 322206,
+      "onset_rate": 0.0323,
+      "persistence_rate": 0.489,
+      "n_had_before": 17786,
+      "n_not_before": 304420
+    },
+    {
+      "category": "Metastatic solid tumor",
+      "weight": 6,
+      "prevalence_any_admission": 0.0512,
+      "n_admission_pairs": 322206,
+      "onset_rate": 0.0212,
+      "persistence_rate": 0.7895,
+      "n_had_before": 17286,
+      "n_not_before": 304920
+    },
+    {
+      "category": "Dementia",
+      "weight": 1,
+      "prevalence_any_admission": 0.0301,
+      "n_admission_pairs": 322206,
+      "onset_rate": 0.0155,
+      "persistence_rate": 0.7472,
+      "n_had_before": 7782,
+      "n_not_before": 314424
+    },
+    {
+      "category": "Moderate or severe liver disease",
+      "weight": 3,
+      "prevalence_any_admission": 0.0258,
+      "n_admission_pairs": 322206,
+      "onset_rate": 0.0128,
+      "persistence_rate": 0.6557,
+      "n_had_before": 9769,
+      "n_not_before": 312437
+    },
+    {
+      "category": "Peptic ulcer disease",
+      "weight": 1,
+      "prevalence_any_admission": 0.0131,
+      "n_admission_pairs": 322206,
+      "onset_rate": 0.0108,
+      "persistence_rate": 0.2533,
+      "n_had_before": 4378,
+      "n_not_before": 317828
+    },
+    {
+      "category": "Hemiplegia or paraplegia",
+      "weight": 2,
+      "prevalence_any_admission": 0.0176,
+      "n_admission_pairs": 322206,
+      "onset_rate": 0.0091,
+      "persistence_rate": 0.444,
+      "n_had_before": 4633,
+      "n_not_before": 317573
+    },
+    {
+      "category": "Rheumatic disease",
+      "weight": 1,
+      "prevalence_any_admission": 0.0254,
+      "n_admission_pairs": 322206,
+      "onset_rate": 0.0072,
+      "persistence_rate": 0.7864,
+      "n_had_before": 9298,
+      "n_not_before": 312908
+    },
+    {
+      "category": "AIDS/HIV",
+      "weight": 6,
+      "prevalence_any_admission": 0.0068,
+      "n_admission_pairs": 322206,
+      "onset_rate": 0.0034,
+      "persistence_rate": 0.6395,
+      "n_had_before": 2827,
+      "n_not_before": 319379
+    }
+  ],
+  "acquisition": [
+    {
+      "category": "Congestive heart failure",
+      "had_at_first_admission_pct": 0.104,
+      "newly_acquired_by_last_admission_pct": 0.1023
+    },
+    {
+      "category": "Renal disease",
+      "had_at_first_admission_pct": 0.1066,
+      "newly_acquired_by_last_admission_pct": 0.0849
+    },
+    {
+      "category": "Chronic pulmonary disease",
+      "had_at_first_admission_pct": 0.1506,
+      "newly_acquired_by_last_admission_pct": 0.0813
+    },
+    {
+      "category": "Diabetes with complication",
+      "had_at_first_admission_pct": 0.0555,
+      "newly_acquired_by_last_admission_pct": 0.0536
+    },
+    {
+      "category": "Diabetes without complication",
+      "had_at_first_admission_pct": 0.1453,
+      "newly_acquired_by_last_admission_pct": 0.0518
+    },
+    {
+      "category": "Myocardial infarction",
+      "had_at_first_admission_pct": 0.069,
+      "newly_acquired_by_last_admission_pct": 0.0504
+    },
+    {
+      "category": "Cerebrovascular disease",
+      "had_at_first_admission_pct": 0.0609,
+      "newly_acquired_by_last_admission_pct": 0.0493
+    },
+    {
+      "category": "Malignancy",
+      "had_at_first_admission_pct": 0.084,
+      "newly_acquired_by_last_admission_pct": 0.0468
+    },
+    {
+      "category": "Peripheral vascular disease",
+      "had_at_first_admission_pct": 0.0588,
+      "newly_acquired_by_last_admission_pct": 0.0441
+    },
+    {
+      "category": "Metastatic solid tumor",
+      "had_at_first_admission_pct": 0.0451,
+      "newly_acquired_by_last_admission_pct": 0.0406
+    },
+    {
+      "category": "Dementia",
+      "had_at_first_admission_pct": 0.0187,
+      "newly_acquired_by_last_admission_pct": 0.034
+    },
+    {
+      "category": "Mild liver disease",
+      "had_at_first_admission_pct": 0.0392,
+      "newly_acquired_by_last_admission_pct": 0.0338
+    },
+    {
+      "category": "Moderate or severe liver disease",
+      "had_at_first_admission_pct": 0.0193,
+      "newly_acquired_by_last_admission_pct": 0.015
+    },
+    {
+      "category": "Hemiplegia or paraplegia",
+      "had_at_first_admission_pct": 0.0153,
+      "newly_acquired_by_last_admission_pct": 0.0147
+    },
+    {
+      "category": "Peptic ulcer disease",
+      "had_at_first_admission_pct": 0.0122,
+      "newly_acquired_by_last_admission_pct": 0.0119
+    },
+    {
+      "category": "Rheumatic disease",
+      "had_at_first_admission_pct": 0.0224,
+      "newly_acquired_by_last_admission_pct": 0.0088
+    },
+    {
+      "category": "AIDS/HIV",
+      "had_at_first_admission_pct": 0.0051,
+      "newly_acquired_by_last_admission_pct": 0.0027
+    }
+  ],
+  "archetypes": [
+    {
+      "archetype": "Stable comorbidity burden",
+      "n_patients": 69733,
+      "pct": 69.7
+    },
+    {
+      "archetype": "Escalating comorbidity burden",
+      "n_patients": 17344,
+      "pct": 17.3
+    },
+    {
+      "archetype": "Terminal admission (in-hospital death)",
+      "n_patients": 6536,
+      "pct": 6.5
+    },
+    {
+      "archetype": "Declining recorded burden",
+      "n_patients": 6444,
+      "pct": 6.4
+    }
+  ],
+  "charlson_weights": {
+    "Myocardial infarction": 1,
+    "Congestive heart failure": 1,
+    "Peripheral vascular disease": 1,
+    "Cerebrovascular disease": 1,
+    "Dementia": 1,
+    "Chronic pulmonary disease": 1,
+    "Rheumatic disease": 1,
+    "Peptic ulcer disease": 1,
+    "Mild liver disease": 1,
+    "Diabetes without complication": 1,
+    "Diabetes with complication": 2,
+    "Hemiplegia or paraplegia": 2,
+    "Renal disease": 2,
+    "Malignancy": 2,
+    "Moderate or severe liver disease": 3,
+    "Metastatic solid tumor": 6,
+    "AIDS/HIV": 6
+  }
+}

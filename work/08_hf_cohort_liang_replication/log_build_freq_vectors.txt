@@ -1,0 +1,10 @@
+Population TCN: 17 nodes, 196 significant directed edges
+
+Computing FULL-history frequency vectors for 21,975 candidate-pool patients...
+  done in 20.9s
+
+Prediction-eligible (>=3 visits): 15,831; evaluating on random sample of 5,000
+Computing TRUNCATED (visits 1..V-1) frequency vectors for 5,000 target patients...
+  done in 4.6s
+
+Saved frequency vectors and patient lists.

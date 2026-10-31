@@ -1,0 +1,14 @@
+
+=== general_population: refit test AUROC 0.7624 (Stage 06: 0.7624); AUPRC 0.3793; best_iteration 597
+  top 8: ['age_at_admission', 'score_trend', 'charlson_trend_slope_3adm', 'charlson_score', 'admissions_per_year_so_far', 'gender_male', 'age_points', 'charlson_score_lag2']
+  group shares: {'Burden score and trajectory': 0.4082, 'Age and sex': 0.2611, 'Charlson category flags': 0.1459, 'Admission history and timing': 0.0968, 'ICU, procedures and DRG': 0.06, 'Network communities (Louvain)': 0.0281}
+  Spearman(SHAP importance, XGBoost built-in importance) = 0.835; bootstrap stability {'n_bootstrap': 5, 'mean_spearman': 0.9995, 'mean_top10_overlap': 0.98}
+  done in 49s
+
+=== heart_failure: refit test AUROC 0.7503 (Stage 08: 0.7503); AUPRC 0.4412; best_iteration 569
+  top 8: ['score_trend', 'charlson_score', 'charlson_trend_slope_3adm', 'age_at_admission', 'admissions_per_year_so_far', 'Renal disease', 'Congestive heart failure', 'charlson_score_lag2']
+  group shares: {'Burden score and trajectory': 0.4482, 'Charlson category flags': 0.2057, 'Age and sex': 0.1219, 'Admission history and timing': 0.1103, 'ICU, procedures and DRG': 0.0741, 'Network communities (Louvain)': 0.0398}
+  Spearman(SHAP importance, XGBoost built-in importance) = 0.756; bootstrap stability {'n_bootstrap': 5, 'mean_spearman': 0.9995, 'mean_top10_overlap': 1.0}
+  done in 30s
+
+Saved escalation SHAP outputs

@@ -1,0 +1,19 @@
+{
+  "AIDS/HIV": 0,
+  "Diabetes without complication": 0,
+  "Peptic ulcer disease": 0,
+  "Rheumatic disease": 0,
+  "Chronic pulmonary disease": 0,
+  "Malignancy": 0,
+  "Mild liver disease": 0,
+  "Moderate or severe liver disease": 0,
+  "Metastatic solid tumor": 0,
+  "Renal disease": 1,
+  "Peripheral vascular disease": 1,
+  "Myocardial infarction": 1,
+  "Congestive heart failure": 1,
+  "Diabetes with complication": 1,
+  "Hemiplegia or paraplegia": 2,
+  "Dementia": 2,
+  "Cerebrovascular disease": 2
+}

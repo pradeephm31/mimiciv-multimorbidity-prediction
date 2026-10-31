@@ -1,0 +1,9 @@
+current dx = 0             n= 7,764  F1@L=5  persistence_current=0.000  persistence_history=0.237  stage10_model=0.000  history_model=0.239
+current dx = 1             n= 5,690  F1@L=5  persistence_current=0.622  persistence_history=0.611  stage10_model=0.622  history_model=0.611
+current dx >= 2            n= 6,558  F1@L=5  persistence_current=0.736  persistence_history=0.712  stage10_model=0.732  history_model=0.720
+2 admissions in total      n= 8,897  F1@L=5  persistence_current=0.620  persistence_history=0.620  stage10_model=0.618  history_model=0.621
+3 admissions in total      n= 3,920  F1@L=5  persistence_current=0.666  persistence_history=0.662  stage10_model=0.661  history_model=0.666
+4-5 admissions in total    n= 3,569  F1@L=5  persistence_current=0.686  persistence_history=0.668  stage10_model=0.683  history_model=0.672
+6+ admissions in total     n= 3,626  F1@L=5  persistence_current=0.727  persistence_history=0.669  stage10_model=0.724  history_model=0.681
+all                        n=20,012  F1@L=5  persistence_current=0.672  persistence_history=0.653  stage10_model=0.669  history_model=0.659
+Saved subgroup_analysis_results.json

@@ -1,0 +1,11 @@
+full model (57 features): {'auroc': 0.7624, 'auprc': 0.3793, 'best_f1_on_test': 0.3931, 'base_rate': 0.1308}
+without Admission history and timing         removed  5: AUROC 0.7604 (-0.0020), AUPRC 0.3784 (-0.0009)
+without Age and sex                          removed  3: AUROC 0.7581 (-0.0043), AUPRC 0.3765 (-0.0028)
+without Burden score and trajectory          removed 12: AUROC 0.7001 (-0.0623), AUPRC 0.2474 (-0.1319)
+without Charlson category flags              removed 17: AUROC 0.756 (-0.0064), AUPRC 0.3738 (-0.0055)
+without ICU, procedures and DRG              removed 13: AUROC 0.7617 (-0.0007), AUPRC 0.3762 (-0.0031)
+without Network communities (Louvain)        removed  7: AUROC 0.7626 (+0.0002), AUPRC 0.3791 (-0.0002)
+17 flags only: {'n_features': 17, 'auroc': 0.6108, 'auprc': 0.1844, 'best_f1_on_test': 0.2653, 'base_rate': 0.1308} 
+17 flags + communities: {'n_features': 24, 'auroc': 0.6175, 'auprc': 0.1882, 'best_f1_on_test': 0.2674, 'base_rate': 0.1308}
+
+Saved ablation_by_group.json (289s)

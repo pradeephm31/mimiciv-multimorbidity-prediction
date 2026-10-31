@@ -1,0 +1,46 @@
+
+=== heart_failure: 21,975 patients, 108,231 pairs; test 4,395 patients (train 65,111 / val 21,209 / test 21,911 pairs)
+   no current dx: 7.0%; mean current 2.51, next 2.81; escalation {'auroc': 0.7503, 'auprc': 0.4412, 'base_rate_test': 0.1892}
+   persistence_current      {3: 0.6495, 5: 0.7038, 10: 0.7086}
+   persistence_history      {3: 0.6529, 5: 0.6826, 10: 0.6746}
+   current_model_rule_a     {3: 0.676, 5: 0.7109, 10: 0.7133}
+   current_model_rule_b     {3: 0.6661, 5: 0.702, 10: 0.7045}
+   history_model_rule_a     {3: 0.6917, 5: 0.7234, 10: 0.7242}
+   history_model_rule_b     {3: 0.681, 5: 0.7137, 10: 0.7146}
+   history_model_rule_ever  {3: 0.6864, 5: 0.7045, 10: 0.6877}
+   done in 354s
+
+=== renal_disease: 20,466 patients, 105,029 pairs; test 4,094 patients (train 63,221 / val 20,987 / test 20,821 pairs)
+   no current dx: 5.7%; mean current 2.59, next 2.85; escalation {'auroc': 0.7909, 'auprc': 0.517, 'base_rate_test': 0.2135}
+   persistence_current      {3: 0.6493, 5: 0.7083, 10: 0.7132}
+   persistence_history      {3: 0.6567, 5: 0.6889, 10: 0.6794}
+   current_model_rule_a     {3: 0.6827, 5: 0.7169, 10: 0.7193}
+   current_model_rule_b     {3: 0.6725, 5: 0.7077, 10: 0.7102}
+   history_model_rule_a     {3: 0.6926, 5: 0.726, 10: 0.7273}
+   history_model_rule_b     {3: 0.6818, 5: 0.7162, 10: 0.7176}
+   history_model_rule_ever  {3: 0.6894, 5: 0.7069, 10: 0.6903}
+   done in 367s
+
+=== chronic_pulmonary_disease: 25,074 patients, 111,081 pairs; test 5,015 patients (train 65,478 / val 22,402 / test 23,201 pairs)
+   no current dx: 12.5%; mean current 1.98, next 2.17; escalation {'auroc': 0.7624, 'auprc': 0.3908, 'base_rate_test': 0.1492}
+   persistence_current      {3: 0.6503, 5: 0.6948, 10: 0.6983}
+   persistence_history      {3: 0.6514, 5: 0.6778, 10: 0.6714}
+   current_model_rule_a     {3: 0.6898, 5: 0.7157, 10: 0.7163}
+   current_model_rule_b     {3: 0.6648, 5: 0.6928, 10: 0.6935}
+   history_model_rule_a     {3: 0.6958, 5: 0.7215, 10: 0.7224}
+   history_model_rule_b     {3: 0.6712, 5: 0.699, 10: 0.7}
+   history_model_rule_ever  {3: 0.673, 5: 0.6899, 10: 0.6791}
+   done in 361s
+
+=== diabetes: 26,625 patients, 118,565 pairs; test 5,325 patients (train 70,760 / val 23,603 / test 24,202 pairs)
+   no current dx: 7.0%; mean current 2.28, next 2.49; escalation {'auroc': 0.7557, 'auprc': 0.424, 'base_rate_test': 0.1707}
+   persistence_current      {3: 0.6363, 5: 0.6856, 10: 0.6887}
+   persistence_history      {3: 0.6423, 5: 0.668, 10: 0.6625}
+   current_model_rule_a     {3: 0.6582, 5: 0.6892, 10: 0.6905}
+   current_model_rule_b     {3: 0.6499, 5: 0.6818, 10: 0.6832}
+   history_model_rule_a     {3: 0.6708, 5: 0.6988, 10: 0.6997}
+   history_model_rule_b     {3: 0.6617, 5: 0.6906, 10: 0.6915}
+   history_model_rule_ever  {3: 0.6655, 5: 0.6797, 10: 0.6662}
+   done in 348s
+
+Saved cohort_summary.json

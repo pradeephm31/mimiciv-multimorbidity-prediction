@@ -1,0 +1,17 @@
+Merged modeling table with enrichment: (322206, 309)
+Train: 257,804 pairs (80,045 patients)
+Test:  64,402 pairs (20,012 patients)
+[Charlson full (baseline, no enrichment)] n_features=30  AUROC=0.7068  AUPRC=0.3208  F1best=0.3527
+[Charlson full + age/ICU/procedures/DRG] n_features=41  AUROC=0.7490  AUPRC=0.3508  F1best=0.3754
+[CCS full (baseline, no enrichment)] n_features=267  AUROC=0.7535  AUPRC=0.3541  F1best=0.3871
+[CCS full + age/ICU/procedures/DRG] n_features=278  AUROC=0.7656  AUPRC=0.3659  F1best=0.3960
+[Combined (Charlson+CCS) + enrichment] n_features=304  AUROC=0.7716  AUPRC=0.3716  F1best=0.3992
+[Enrichment features only (age/ICU/procedures/DRG + score/trend)] n_features=15  AUROC=0.7372  AUPRC=0.3407  F1best=0.3628
+
+=== Summary ===
+  Charlson full (baseline, no enrichment)                 AUROC=0.7068  AUPRC=0.3208  F1@best=0.3527
+  Charlson full + age/ICU/procedures/DRG                  AUROC=0.7490  AUPRC=0.3508  F1@best=0.3754
+  CCS full (baseline, no enrichment)                      AUROC=0.7535  AUPRC=0.3541  F1@best=0.3871
+  CCS full + age/ICU/procedures/DRG                       AUROC=0.7656  AUPRC=0.3659  F1@best=0.3960
+  Combined (Charlson+CCS) + enrichment                    AUROC=0.7716  AUPRC=0.3716  F1@best=0.3992
+  Enrichment features only (age/ICU/procedures/DRG + score/trend) AUROC=0.7372  AUPRC=0.3407  F1@best=0.3628

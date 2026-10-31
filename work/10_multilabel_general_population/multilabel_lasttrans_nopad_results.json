@@ -1,0 +1,55 @@
+{
+  "n_patients": 20012,
+  "n_patients_no_current_dx": 7764,
+  "model_results": {
+    "3": {
+      "precision": 0.5445,
+      "recall": 0.6134,
+      "f1": 0.5769
+    },
+    "5": {
+      "precision": 0.5485,
+      "recall": 0.6545,
+      "f1": 0.5968
+    },
+    "10": {
+      "precision": 0.5486,
+      "recall": 0.6572,
+      "f1": 0.598
+    }
+  },
+  "model_results_symmetric": {
+    "3": {
+      "precision": 0.7139,
+      "recall": 0.5942,
+      "f1": 0.6486
+    },
+    "5": {
+      "precision": 0.7065,
+      "recall": 0.6353,
+      "f1": 0.669
+    },
+    "10": {
+      "precision": 0.7059,
+      "recall": 0.6379,
+      "f1": 0.6702
+    }
+  },
+  "persistence_results": {
+    "3": {
+      "precision": 0.7063,
+      "recall": 0.5879,
+      "f1": 0.6416
+    },
+    "5": {
+      "precision": 0.7095,
+      "recall": 0.638,
+      "f1": 0.6719
+    },
+    "10": {
+      "precision": 0.71,
+      "recall": 0.6416,
+      "f1": 0.674
+    }
+  }
+}

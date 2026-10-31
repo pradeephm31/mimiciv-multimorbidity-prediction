@@ -1,0 +1,1 @@
+{'baseline_imputed_no_resampling': 0.3879, 'class_weight_full': 0.3875, 'smote_ratio30': 0.386, 'smote_ratio50': 0.3747, 'smote_ratio100': 0.3596, 'smotenc_ratio30': 0.3821, 'smotenc_ratio50': 0.3674, 'smotenc_ratio100': 0.3539, 'smotenc_underample_hybrid': 0.3822}

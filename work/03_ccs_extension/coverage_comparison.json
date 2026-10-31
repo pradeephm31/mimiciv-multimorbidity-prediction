@@ -1,0 +1,8 @@
+{
+  "charlson_mapped_row_fraction": 0.1451,
+  "ccs_mapped_row_fraction": 0.9522,
+  "charlson_n_categories": 17,
+  "ccs_n_categories_in_scheme": 308,
+  "ccs_n_categories_observed": 279,
+  "ccs_n_categories_used_500plus": 251
+}

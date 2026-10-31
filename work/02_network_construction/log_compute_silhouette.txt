@@ -1,0 +1,27 @@
+resolution=0.5: n_communities=1, sizes=[17], modularity=0.0000, silhouette=None
+resolution=0.8: n_communities=1, sizes=[17], modularity=0.0000, silhouette=None
+resolution=1.0: n_communities=3, sizes=[9, 5, 3], modularity=0.0394, silhouette=0.07538637765817491
+
+  Per-category silhouette (resolution=1.0, the chosen partition):
+    community 0: AIDS/HIV                            silhouette=-0.001
+    community 0: Moderate or severe liver disease    silhouette=-0.003
+    community 0: Metastatic solid tumor              silhouette=-0.012
+    community 0: Peptic ulcer disease                silhouette=-0.012
+    community 0: Rheumatic disease                   silhouette=-0.029
+    community 0: Mild liver disease                  silhouette=-0.030
+    community 0: Malignancy                          silhouette=-0.048
+    community 0: Diabetes without complication       silhouette=-0.177
+    community 0: Chronic pulmonary disease           silhouette=-0.284
+    community 1: Renal disease                       silhouette=0.561
+    community 1: Congestive heart failure            silhouette=0.505
+    community 1: Diabetes with complication          silhouette=0.398
+    community 1: Myocardial infarction               silhouette=0.272
+    community 1: Peripheral vascular disease         silhouette=0.230
+    community 2: Hemiplegia or paraplegia            silhouette=0.024
+    community 2: Dementia                            silhouette=-0.029
+    community 2: Cerebrovascular disease             silhouette=-0.082
+resolution=1.2: n_communities=3, sizes=[9, 5, 3], modularity=0.0394, silhouette=0.07538637765817491
+resolution=1.5: n_communities=9, sizes=[5, 3, 2, 2, 1, 1, 1, 1, 1], modularity=-0.0514, silhouette=-0.08338257708268274
+resolution=2.0: n_communities=12, sizes=[3, 3, 2, 1, 1, 1, 1, 1, 1, 1, 1, 1], modularity=-0.0859, silhouette=-0.03600327666116381
+
+Saved silhouette_results.json

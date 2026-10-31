@@ -1,0 +1,181 @@
+{
+  "flags": [
+    "Congestive heart failure"
+  ],
+  "n_patients": 21975,
+  "n_admissions": 130206,
+  "n_pairs": 108231,
+  "n_test_patients": 4395,
+  "frac_no_current_dx": 0.0696,
+  "mean_current_dx": 2.51,
+  "mean_next_dx": 2.81,
+  "escalation": {
+    "auroc": 0.7503,
+    "auprc": 0.4412,
+    "base_rate_test": 0.1892
+  },
+  "multilabel": {
+    "persistence_current": {
+      "3": {
+        "precision": 0.749,
+        "recall": 0.5733,
+        "f1": 0.6495,
+        "n_predicted": 9464,
+        "n_true": 12366
+      },
+      "5": {
+        "precision": 0.7505,
+        "recall": 0.6626,
+        "f1": 0.7038,
+        "n_predicted": 10918,
+        "n_true": 12366
+      },
+      "10": {
+        "precision": 0.751,
+        "recall": 0.6708,
+        "f1": 0.7086,
+        "n_predicted": 11045,
+        "n_true": 12366
+      }
+    },
+    "persistence_history": {
+      "3": {
+        "precision": 0.698,
+        "recall": 0.6133,
+        "f1": 0.6529,
+        "n_predicted": 10865,
+        "n_true": 12366
+      },
+      "5": {
+        "precision": 0.6401,
+        "recall": 0.731,
+        "f1": 0.6826,
+        "n_predicted": 14122,
+        "n_true": 12366
+      },
+      "10": {
+        "precision": 0.6062,
+        "recall": 0.7604,
+        "f1": 0.6746,
+        "n_predicted": 15512,
+        "n_true": 12366
+      }
+    },
+    "current_model_rule_a": {
+      "3": {
+        "precision": 0.7658,
+        "recall": 0.605,
+        "f1": 0.676,
+        "n_predicted": 9770,
+        "n_true": 12366
+      },
+      "5": {
+        "precision": 0.7471,
+        "recall": 0.6781,
+        "f1": 0.7109,
+        "n_predicted": 11224,
+        "n_true": 12366
+      },
+      "10": {
+        "precision": 0.7452,
+        "recall": 0.6841,
+        "f1": 0.7133,
+        "n_predicted": 11351,
+        "n_true": 12366
+      }
+    },
+    "current_model_rule_b": {
+      "3": {
+        "precision": 0.7682,
+        "recall": 0.5879,
+        "f1": 0.6661,
+        "n_predicted": 9464,
+        "n_true": 12366
+      },
+      "5": {
+        "precision": 0.7486,
+        "recall": 0.6609,
+        "f1": 0.702,
+        "n_predicted": 10918,
+        "n_true": 12366
+      },
+      "10": {
+        "precision": 0.7467,
+        "recall": 0.6669,
+        "f1": 0.7045,
+        "n_predicted": 11045,
+        "n_true": 12366
+      }
+    },
+    "history_model_rule_a": {
+      "3": {
+        "precision": 0.7836,
+        "recall": 0.6191,
+        "f1": 0.6917,
+        "n_predicted": 9770,
+        "n_true": 12366
+      },
+      "5": {
+        "precision": 0.7602,
+        "recall": 0.69,
+        "f1": 0.7234,
+        "n_predicted": 11224,
+        "n_true": 12366
+      },
+      "10": {
+        "precision": 0.7566,
+        "recall": 0.6945,
+        "f1": 0.7242,
+        "n_predicted": 11351,
+        "n_true": 12366
+      }
+    },
+    "history_model_rule_b": {
+      "3": {
+        "precision": 0.7854,
+        "recall": 0.6011,
+        "f1": 0.681,
+        "n_predicted": 9464,
+        "n_true": 12366
+      },
+      "5": {
+        "precision": 0.761,
+        "recall": 0.6719,
+        "f1": 0.7137,
+        "n_predicted": 10918,
+        "n_true": 12366
+      },
+      "10": {
+        "precision": 0.7574,
+        "recall": 0.6765,
+        "f1": 0.7146,
+        "n_predicted": 11045,
+        "n_true": 12366
+      }
+    },
+    "history_model_rule_ever": {
+      "3": {
+        "precision": 0.7338,
+        "recall": 0.6448,
+        "f1": 0.6864,
+        "n_predicted": 10865,
+        "n_true": 12366
+      },
+      "5": {
+        "precision": 0.6607,
+        "recall": 0.7546,
+        "f1": 0.7045,
+        "n_predicted": 14122,
+        "n_true": 12366
+      },
+      "10": {
+        "precision": 0.618,
+        "recall": 0.7752,
+        "f1": 0.6877,
+        "n_predicted": 15512,
+        "n_true": 12366
+      }
+    }
+  },
+  "seconds": 354
+}

@@ -1,0 +1,1 @@
+Training patients: 80,045; sampled 28,016 (35%); subsample pairs: 90,408; escalation rate: 0.1322

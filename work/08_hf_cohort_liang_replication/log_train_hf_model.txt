@@ -1,0 +1,41 @@
+{
+  "n_train_pairs": 65111,
+  "n_val_pairs": 21209,
+  "n_test_pairs": 21911,
+  "n_train_patients": 13185,
+  "n_val_patients": 4395,
+  "n_test_patients": 4395,
+  "base_rate_train": 0.182,
+  "base_rate_val": 0.1798,
+  "base_rate_test": 0.1892
+}
+Leakage check passed.
+
+Using previously-tuned params: {'max_depth': 4, 'learning_rate': 0.02, 'min_child_weight': 10, 'subsample': 0.8, 'colsample_bytree': 0.8, 'gamma': 0.5, 'reg_alpha': 0, 'reg_lambda': 5.0}
+
+Best iteration: 569
+
+=== HF-cohort model (held-out test set) ===
+AUROC=0.7503  AUPRC=0.4412  Brier=0.1315
+At threshold 0.5: F1=0.2411 P=0.6293 R=0.1491 Acc=0.8224
+At best (val) threshold 0.240: F1=0.4562 P=0.3978 R=0.5346 Acc=0.7588
+
+Top 15 features:
+score_trend                      0.156770
+charlson_score                   0.069835
+Congestive heart failure         0.059097
+charlson_trend_slope_3adm        0.053031
+comm1_active                     0.047074
+Renal disease                    0.043657
+has_apr_drg                      0.037831
+n_categories                     0.025965
+charlson_score_lag2              0.023603
+comm1_count                      0.022294
+charlson_score_lag1              0.021704
+admissions_per_year_so_far       0.020549
+Diabetes without complication    0.019123
+age_at_admission                 0.018275
+age_points                       0.017056
+dtype: float32
+
+Saved hf_model_results.json
