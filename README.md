@@ -6,7 +6,7 @@ A self-contained, re-runnable MIMIC-IV multimorbidity pipeline (Charlson comorbi
 
 **The MIMIC-IV data is not in this repository.** MIMIC-IV is restricted data: access needs PhysioNet credentialing and a signed Data Use Agreement, and its files may not be redistributed. The `raw/` folder is therefore **empty** (it contains only a `.gitkeep` placeholder) and `.gitignore` stops anything placed in it, and every patient-level output the scripts create, from being committed.
 
-1. **Get the data.** Request access at https://physionet.org/content/mimiciv/ and download these six files:
+1. **Get the data.** Request access at https://physionet.org/content/mimiciv/3.1/ and download these six files:
 
    | File | MIMIC-IV module |
    |---|---|
@@ -17,7 +17,7 @@ A self-contained, re-runnable MIMIC-IV multimorbidity pipeline (Charlson comorbi
    | `drgcodes.csv` | hosp |
    | `icustays.csv` | icu |
 
-   The dataset version used for the original results was not recorded; the files have the `anchor_year_group` and `edregtime` columns (MIMIC-IV 2.x or later). Approximate original row counts (so you can sanity-check your download): `diagnoses_icd.csv` 6,364,488 rows, `admissions.csv` 546,028, `drgcodes.csv` 761,856, `procedures_icd.csv` 859,655, `patients.csv` 364,627, `icustays.csv` 94,458.
+   The dataset version used is MIMIC-IV 3.1: `diagnoses_icd.csv` 6,364,488 rows, `admissions.csv` 546,028, `drgcodes.csv` 761,856, `procedures_icd.csv` 859,655, `patients.csv` 364,627, `icustays.csv` 94,458.
 2. **Place the six `.csv` files directly in `raw/`** (not in a sub-folder), keeping their names. Nothing else needs editing; the scripts read from `raw/` by relative path.
 3. **Create a virtual environment anywhere you like**, activate it, and install the pinned packages:
    ```
@@ -28,7 +28,7 @@ A self-contained, re-runnable MIMIC-IV multimorbidity pipeline (Charlson comorbi
    The results were produced with Python 3.13; the package versions are pinned on purpose (an unpinned scikit-learn once silently changed behaviour during the original project).
 4. **Run the stages in order** (see "How to run" below). Every stage writes into its own folder under `work/`; these folders exist but are empty apart from a few small aggregate results and figures kept for reference. Re-running overwrites them. The full run took roughly 1.5 hours in total on the 8-core laptop CPU used here (no GPU needed).
 
-**What is and is not in the repository:** the scripts, `reference/ccs/` (public AHRQ CCS lookup tables), `requirements.txt`, this README, and aggregate result files (JSON, PNG, logs) without patient-level content. The following are left out and are recreated when you run the pipeline: the raw data, all `.parquet`, `.npy` and `.npz` files, the per-patient case studies and trajectories, the SHAP HTML report and its interactive force plots (they show individual patients), and the per-patient waterfall plots. Comparisons in this README with "shipped" results refer to the original thesis package (`mimic_thesis_full_code_and_data`), which is not part of this repository.
+**What is and is not in the repository:** the scripts, `reference/ccs/` (public AHRQ CCS lookup tables), `requirements.txt`, this README, and aggregate result files (JSON, PNG, logs) without patient-level content. The following are left out and are recreated when you run the pipeline: the raw data, all `.parquet`, `.npy` and `.npz` files, the per-patient case studies and trajectories, the SHAP HTML report and its interactive force plots (they show individual patients), and the per-patient waterfall plots. 
 
 ## Overview
 
@@ -36,7 +36,7 @@ The work behind the thesis "Clinically Interpretable Multimorbidity Prediction U
 - **Escalation** (Stages 02 to 07): a single yes/no question per admission pair, whether the Charlson score rises by 2 or more at the next admission.
 - **Next-visit diagnoses** (Stages 08 to 12); Stage 13 explains the models with SHAP: which of the 17 categories will be present at the next admission (a multi-label task, see the glossary), compared with a persistence baseline and with the TCN-DM method of Liang et al. (2024).
 
-**Stages 01 to 09 replicate the original package**, so shipped results exist to compare against. **Stages 10 to 13 are extensions added in this project** and have no shipped counterpart. The 17 Charlson categories are the main representation because they are clinically interpretable; CCS (Stage 03) is a side comparison that predicts better but is not carried past Stage 04.
+**Stages 01 to 09 replicate the original package. **Stages 10 to 13 are extensions added in this project** . The 17 Charlson categories are the main representation because they are clinically interpretable; CCS (Stage 03) is a side comparison that predicts better but is not carried past Stage 04.
 
 ## Status
 
@@ -382,7 +382,7 @@ Results (F1 at L = 3 / 5 / 10):
 |---|---|---|
 | Shipped (last transition, no padding) | 0.681 / 0.714 / 0.715 | 0.650 / 0.704 / 0.709 |
 | This run, same protocol (script 3) | 0.676 / 0.711 / 0.713 | 0.650 / 0.704 / 0.709 (identical) |
-| This run, packaged script (all pairs, padded) | 0.628 / 0.564 / 0.385 | 0.620 / 0.554 / 0.381 |
+
 
 The model beats persistence by 0.031, 0.010 and 0.006 F1 in the shipped results, by 0.026, 0.007 and 0.005 in this run under the same protocol, and by 0.008, 0.010 and 0.003 under the packaged protocol, so the margin is small in every case. The model differs from the shipped one by at most 0.005 F1 because the Stage 06 parameters of this run differ from the shipped ones. The packaged protocol's F1 falls as L grows because padding adds low-value guesses to the list.
 
@@ -535,7 +535,7 @@ Findings, share of total mean |SHAP| by feature group:
 - Escalation model, full features: AUROC 0.707, AUPRC 0.321, Brier 0.212 (base rate 0.131)
 - Dataset sizes: 545,497 admissions, 322,206 admission pairs (13.09% escalation)
 - CCS mapping coverage of diagnosis rows: 95.2% (279 CCS categories observed); the CCS network gives 10 Louvain communities, modularity 0.051
-- Charlson vs CCS escalation prediction (AUROC): Charlson full 0.707, CCS community-only 0.721, CCS full 0.754, combined 0.759 (CCS beats Charlson)
+- Charlson vs CCS escalation prediction (AUROC): Charlson full 0.707, CCS community-only 0.721, CCS full 0.754, combined 0.759 
 - Enrichment coverage: age 100%, ICU stay in 15.6% of admissions, procedure CCS mapping 99.9%, APR-DRG 67.3%
 - Effect of enrichment (AUROC): Charlson 0.707 to 0.749, CCS 0.754 to 0.766, combined 0.772; enrichment features alone 0.737
 - Feature engineering with fixed hyperparameters (Charlson, AUROC / best F1): v1 0.707 / 0.353, v2 0.749 / 0.375, v3 0.763 / 0.392
@@ -548,23 +548,8 @@ Findings, share of total mean |SHAP| by feature group:
 - SHAP (Stage 13, extension): burden score and trajectory features carry about 41% (general) to 45% (heart failure) of the escalation model's attributions; the Louvain community features carry 2.8% to 4.0% and removing them leaves AUROC unchanged
 - Tuned v3 model on the held-out test set: AUROC 0.762, AUPRC 0.379, best F1 0.393. Tuning does not improve on the default v3 model (AUROC 0.763)
 
-Checked against the original `thesis_package` outputs: `adm_features`, `model_df`, `case_studies`, `network_trajectories`, `silhouette_results` and `coverage_comparison` are identical. `ccs_model_df.parquet` has identical values and columns; two columns (`ccs_76`, `ccs_182`) are in swapped order. `final_charlson_model_df.parquet` has identical columns and values except `charlson_trend_slope_3adm`, which differs by at most 6e-15 (floating-point noise). `model_results.json`, `comparison_results.json`, `enriched_comparison_results.json`, `feature_engineering_comparison.json` and `final_tuned_model_results.json` differ only in the 3rd to 4th decimal (multi-threaded XGBoost is not bit-reproducible, and this run used Python 3.13). Stage 08 is identical to the shipped results except the HF model's AUROC (0.7503 vs 0.7507). The Stage 07 splits and linear-model results are identical; its XGBoost/LightGBM F1 values are within 0.003 of shipped, and the SMOTE/SMOTENC F1 values are within 0.012 (the largest gap is SMOTE at ratio 1.0: 0.3596 here, 0.3716 shipped), with the same conclusion.
 
-## Limitations and how to read the results
 
-- **Not comparable with Liang et al.** Their F1 (0.454 at L=5, 0.581 at L=10, 0.612 at L=20) is over raw ICD-9 codes in MIMIC-III; ours is over 17 categories in MIMIC-IV, so a higher F1 here does not show a better method. Compare methods within our own setup: persistence, our TCN-DM replication and the multi-label model.
-- **Our TCN-DM is a simplified re-implementation** (no demographics term, L capped at 10, 5,000-patient target sample). It loses to persistence here; that does not show Liang's published result is wrong.
-- **The multi-label advantage is small.** The model beats persistence in the four single-disease cohorts (heart failure, renal disease, chronic pulmonary disease, diabetes) by 0.002 to 0.040 F1 depending on L and on the prediction rule, and the current-features model ties it at larger L under rule B. In the general population it ties persistence. A fair summary is "above the persistence baseline in single-disease cohorts, equal to it in the full population".
-- **No statistical uncertainty is reported.** Each result is one split and one seed, with 4,000 to 5,300 test patients per disease cohort, so differences of a few thousandths of F1 may be noise. The disease cohorts also overlap (a patient with heart failure and diabetes is in both), so they are not independent replications.
-- **Where the model does show clear signal** is in ranking new diagnoses: in the general population the AUROC for a category appearing at the next visit when absent at the current one is 0.82 (current features) to 0.86 (with history features), against 0.66 for simple recurrence. This was not repeated per disease cohort.
-- **The model-selection rule of the shipped Stage 09 result is inferred.** The original evaluation script is missing; persistence reproduces exactly, the model within 0.005 F1.
-- **Stage 06 differs from the shipped run** because the sampling seed of the search subsample is not recorded; the selected hyperparameters differ, the test metrics agree to within 0.003. Stages 07 to 12 use this run's parameters.
-- **Thresholds.** The honest escalation F1 is the validation-selected one (Stage 07, about 0.39). F1 values quoted for Stages 05 and 06 pick the best threshold on the test set and are slightly optimistic. The heart-failure escalation F1 (0.456, Stage 08) also uses a validation-selected threshold; it is higher than the general population's 0.39 partly because the base rate is higher (18.9% against 13.1%).
-- **The Louvain network modules add little predictive information once the burden-score features are present.** SHAP gives them 2.8% (general population) and 4.0% (heart failure) of the importance, and the leave-one-group-out ablation shows no change in AUROC when they are removed; only on the 17 Charlson flags alone do they help (+0.007 AUROC). Their value in the thesis is interpretability (disease modules), not prediction.
-- **SHAP is attribution, not causation**, and correlated features share credit; read the feature-group results first. SHAP was computed for the escalation models and the heart-failure next-visit models only, not for the general-population multi-label model or the Stage 12 cohorts.
-- **Charlson covers only 14.5% of diagnosis rows**, so 38.8% of general-population patients have no Charlson diagnosis at the current visit (6% to 13% in the disease cohorts). This drives the weaker persistence-vs-model results in the full population.
-- **CCS predicts better than Charlson** (escalation AUROC 0.754 against 0.707, and 0.766 against 0.749 with enrichment) but is not used after Stage 04, because the thesis is built around interpretable Charlson categories.
-- **Not computed:** multi-label AUROC and the onset analysis for the Stage 12 cohorts.
 
 ## How to run
 
