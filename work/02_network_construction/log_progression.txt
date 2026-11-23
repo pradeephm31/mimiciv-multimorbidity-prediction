@@ -1,0 +1,64 @@
+Total patients: 223,291; with >=2 admissions: 100,057 (44.8%)
+
+Charlson score trajectory by admission number:
+   admit_seq  mean_score  ...  n_patients  mortality_rate
+0          1    1.350493  ...      223291        0.023543
+1          2    1.779596  ...      100057        0.018340
+2          3    2.166908  ...       55965        0.019941
+3          4    2.428882  ...       35891        0.022401
+4          5    2.611823  ...       24731        0.023533
+5          6    2.739272  ...       18107        0.020103
+6          7    2.850663  ...       13801        0.022752
+7          8    2.902010  ...       10848        0.023230
+
+[8 rows x 7 columns]
+
+Category transition rates across consecutive admissions:
+                        category  weight  prevalence_any_admission  n_admission_pairs  onset_rate  persistence_rate  n_had_before  n_not_before
+       Chronic pulmonary disease       1                  0.174291             322206    0.064967          0.772514         61072        261134
+        Congestive heart failure       1                  0.155299             322206    0.062401          0.830952         56487        265719
+                   Renal disease       2                  0.157840             322206    0.056686          0.850335         60535        261671
+   Diabetes without complication       1                  0.142826             322206    0.053582          0.691837         51833        270373
+      Diabetes with complication       2                  0.088442             322206    0.039207          0.778844         34401        287805
+           Myocardial infarction       1                  0.081947             322206    0.039153          0.656508         27366        294840
+     Peripheral vascular disease       1                  0.068435             322206    0.037914          0.604359         24957        297249
+                      Malignancy       2                  0.087005             322206    0.035785          0.697456         34124        288082
+         Cerebrovascular disease       1                  0.067040             322206    0.034579          0.525921         18788        303418
+              Mild liver disease       1                  0.048422             322206    0.032337          0.489036         17786        304420
+          Metastatic solid tumor       6                  0.051225             322206    0.021183          0.789483         17286        304920
+                        Dementia       1                  0.030088             322206    0.015514          0.747237          7782        314424
+Moderate or severe liver disease       3                  0.025795             322206    0.012838          0.655748          9769        312437
+            Peptic ulcer disease       1                  0.013135             322206    0.010792          0.253312          4378        317828
+        Hemiplegia or paraplegia       2                  0.017582             322206    0.009113          0.443989          4633        317573
+               Rheumatic disease       1                  0.025373             322206    0.007203          0.786406          9298        312908
+                        AIDS/HIV       6                  0.006845             322206    0.003363          0.639547          2827        319379
+
+Category acquisition from first -> last admission (patients with >=2 admissions):
+                                  had_at_first_admission_pct  newly_acquired_by_last_admission_pct
+Congestive heart failure                            0.103981                              0.102306
+Renal disease                                       0.106629                              0.084877
+Chronic pulmonary disease                           0.150584                              0.081304
+Diabetes with complication                          0.055488                              0.053553
+Diabetes without complication                       0.145327                              0.051791
+Myocardial infarction                               0.068981                              0.050421
+Cerebrovascular disease                             0.060855                              0.049272
+Malignancy                                          0.083962                              0.046849
+Peripheral vascular disease                         0.058836                              0.044069
+Metastatic solid tumor                              0.045064                              0.040629
+Dementia                                            0.018709                              0.033956
+Mild liver disease                                  0.039218                              0.033849
+Moderate or severe liver disease                    0.019259                              0.015021
+Hemiplegia or paraplegia                            0.015271                              0.014727
+Peptic ulcer disease                                0.012163                              0.011949
+Rheumatic disease                                   0.022357                              0.008822
+AIDS/HIV                                            0.005147                              0.002712
+
+Progression archetypes among patients with >=2 admissions:
+                                        n_patients   pct
+archetype                                               
+Stable comorbidity burden                    69733  69.7
+Escalating comorbidity burden                17344  17.3
+Terminal admission (in-hospital death)        6536   6.5
+Declining recorded burden                     6444   6.4
+
+Saved report_data.json

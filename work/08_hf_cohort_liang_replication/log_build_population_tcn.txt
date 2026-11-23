@@ -1,0 +1,22 @@
+Total adjacent-visit transition instances: 108,231
+Significant directed TCPs (chi-square p<0.05): 234
+Final TCN edges after directionality filtering: 196
+
+Saved hf_population_tcn.json
+
+Sample edges:
+  Myocardial infarction -> Myocardial infarction  (n=12672, self)
+  Myocardial infarction -> Congestive heart failure  (n=13413, forward)
+  Myocardial infarction -> Peripheral vascular disease  (n=4297, bidirectional)
+  Peripheral vascular disease -> Myocardial infarction  (n=4224, bidirectional)
+  Myocardial infarction -> Cerebrovascular disease  (n=2087, bidirectional)
+  Cerebrovascular disease -> Myocardial infarction  (n=2066, bidirectional)
+  Myocardial infarction -> Chronic pulmonary disease  (n=5200, bidirectional)
+  Chronic pulmonary disease -> Myocardial infarction  (n=5266, bidirectional)
+  Myocardial infarction -> Rheumatic disease  (n=760, bidirectional)
+  Rheumatic disease -> Myocardial infarction  (n=817, bidirectional)
+  Myocardial infarction -> Mild liver disease  (n=860, bidirectional)
+  Mild liver disease -> Myocardial infarction  (n=858, bidirectional)
+  Diabetes without complication -> Myocardial infarction  (n=5011, forward)
+  Myocardial infarction -> Diabetes with complication  (n=5630, forward)
+  Myocardial infarction -> Renal disease  (n=9210, bidirectional)

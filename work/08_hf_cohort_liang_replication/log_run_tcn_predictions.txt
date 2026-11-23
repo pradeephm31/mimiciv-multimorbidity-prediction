@@ -1,0 +1,21 @@
+Candidate pool: 21,975 patients. Targets: 5,000 patients.
+
+Running predictions...
+  2000/5000 done (6.9s elapsed)
+  3000/5000 done (10.2s elapsed)
+  4000/5000 done (13.4s elapsed)
+Total prediction time: 16.6s
+[TCN-ALL] L=3: Precision=0.0705 Recall=0.0692 F1=0.0699
+[TCN-ALL] L=5: Precision=0.0624 Recall=0.1019 F1=0.0774
+[TCN-ALL] L=10: Precision=0.1739 Recall=0.5663 F1=0.2661
+[TCN-CN] L=3: Precision=0.2591 Recall=0.2543 F1=0.2567
+[TCN-CN] L=5: Precision=0.2077 Recall=0.3397 F1=0.2578
+[TCN-CN] L=10: Precision=0.2057 Recall=0.6728 F1=0.3151
+[TCN-JI] L=3: Precision=0.4655 Recall=0.4568 F1=0.4611
+[TCN-JI] L=5: Precision=0.3585 Recall=0.5864 F1=0.4450
+[TCN-JI] L=10: Precision=0.2476 Recall=0.8097 F1=0.3792
+[TCN-DM] L=3: Precision=0.5444 Recall=0.5038 F1=0.5233
+[TCN-DM] L=5: Precision=0.5045 Recall=0.6982 F1=0.5857
+[TCN-DM] L=10: Precision=0.4696 Recall=0.8130 F1=0.5953
+
+Saved tcn_prediction_results.json

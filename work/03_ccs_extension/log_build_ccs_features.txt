@@ -1,0 +1,4 @@
+Admission-pairs available: 322,206
+Escalation rate: 13.09%
+Saved ccs_model_df.parquet: (322206, 273)
+Saved ccs_comm_meta.json, adm_with_ccs_comm.parquet

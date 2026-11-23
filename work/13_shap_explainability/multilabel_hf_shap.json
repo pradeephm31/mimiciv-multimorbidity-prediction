@@ -1,0 +1,1270 @@
+{
+  "n_patients": 21975,
+  "n_test_pairs": 21911,
+  "n_explained_rows": 5000,
+  "beeswarm_categories": [
+    "Congestive heart failure",
+    "Renal disease",
+    "Chronic pulmonary disease"
+  ],
+  "categories": {
+    "Myocardial infarction": {
+      "prevalence_next_visit": 0.1787,
+      "test_auroc": 0.8285,
+      "top_features": [
+        {
+          "feature": "Myocardial infarction",
+          "group": "Charlson category flags",
+          "mean_abs_shap": 0.98172
+        },
+        {
+          "feature": "n_categories_lag1",
+          "group": "Burden score and trajectory",
+          "mean_abs_shap": 0.17809
+        },
+        {
+          "feature": "gender_male",
+          "group": "Age and sex",
+          "mean_abs_shap": 0.11636
+        },
+        {
+          "feature": "comm1_count",
+          "group": "Network communities (Louvain)",
+          "mean_abs_shap": 0.11376
+        },
+        {
+          "feature": "age_at_admission",
+          "group": "Age and sex",
+          "mean_abs_shap": 0.08593
+        },
+        {
+          "feature": "charlson_trend_slope_3adm",
+          "group": "Burden score and trajectory",
+          "mean_abs_shap": 0.07804
+        },
+        {
+          "feature": "Congestive heart failure",
+          "group": "Charlson category flags",
+          "mean_abs_shap": 0.07182
+        },
+        {
+          "feature": "score_trend",
+          "group": "Burden score and trajectory",
+          "mean_abs_shap": 0.06774
+        }
+      ],
+      "group_importance": {
+        "Charlson category flags": {
+          "mean_abs_shap": 1.17287,
+          "share": 0.5167
+        },
+        "Burden score and trajectory": {
+          "mean_abs_shap": 0.46863,
+          "share": 0.2065
+        },
+        "Age and sex": {
+          "mean_abs_shap": 0.21022,
+          "share": 0.0926
+        },
+        "Network communities (Louvain)": {
+          "mean_abs_shap": 0.17589,
+          "share": 0.0775
+        },
+        "Admission history and timing": {
+          "mean_abs_shap": 0.12393,
+          "share": 0.0546
+        },
+        "ICU, procedures and DRG": {
+          "mean_abs_shap": 0.1182,
+          "share": 0.0521
+        }
+      },
+      "own_current_flag_mean_abs_shap": 0.98172,
+      "own_flag_rank": 2
+    },
+    "Congestive heart failure": {
+      "prevalence_next_visit": 0.5915,
+      "test_auroc": 0.8233,
+      "top_features": [
+        {
+          "feature": "Congestive heart failure",
+          "group": "Charlson category flags",
+          "mean_abs_shap": 1.04804
+        },
+        {
+          "feature": "age_at_admission",
+          "group": "Age and sex",
+          "mean_abs_shap": 0.13842
+        },
+        {
+          "feature": "n_categories_lag1",
+          "group": "Burden score and trajectory",
+          "mean_abs_shap": 0.13094
+        },
+        {
+          "feature": "n_categories_lag2",
+          "group": "Burden score and trajectory",
+          "mean_abs_shap": 0.10746
+        },
+        {
+          "feature": "admissions_per_year_so_far",
+          "group": "Admission history and timing",
+          "mean_abs_shap": 0.10212
+        },
+        {
+          "feature": "comm1_count",
+          "group": "Network communities (Louvain)",
+          "mean_abs_shap": 0.08351
+        },
+        {
+          "feature": "score_trend",
+          "group": "Burden score and trajectory",
+          "mean_abs_shap": 0.08281
+        },
+        {
+          "feature": "n_categories_lag3",
+          "group": "Burden score and trajectory",
+          "mean_abs_shap": 0.06434
+        }
+      ],
+      "group_importance": {
+        "Charlson category flags": {
+          "mean_abs_shap": 1.1285,
+          "share": 0.4858
+        },
+        "Burden score and trajectory": {
+          "mean_abs_shap": 0.48509,
+          "share": 0.2088
+        },
+        "Age and sex": {
+          "mean_abs_shap": 0.2123,
+          "share": 0.0914
+        },
+        "ICU, procedures and DRG": {
+          "mean_abs_shap": 0.20394,
+          "share": 0.0878
+        },
+        "Admission history and timing": {
+          "mean_abs_shap": 0.17477,
+          "share": 0.0752
+        },
+        "Network communities (Louvain)": {
+          "mean_abs_shap": 0.11849,
+          "share": 0.051
+        }
+      },
+      "own_current_flag_mean_abs_shap": 1.04804,
+      "own_flag_rank": 2
+    },
+    "Peripheral vascular disease": {
+      "prevalence_next_visit": 0.1474,
+      "test_auroc": 0.8378,
+      "top_features": [
+        {
+          "feature": "Peripheral vascular disease",
+          "group": "Charlson category flags",
+          "mean_abs_shap": 0.87215
+        },
+        {
+          "feature": "comm1_count",
+          "group": "Network communities (Louvain)",
+          "mean_abs_shap": 0.17087
+        },
+        {
+          "feature": "cum_procedures",
+          "group": "ICU, procedures and DRG",
+          "mean_abs_shap": 0.11372
+        },
+        {
+          "feature": "n_categories_lag1",
+          "group": "Burden score and trajectory",
+          "mean_abs_shap": 0.10757
+        },
+        {
+          "feature": "admit_seq",
+          "group": "Admission history and timing",
+          "mean_abs_shap": 0.07364
+        },
+        {
+          "feature": "score_trend",
+          "group": "Burden score and trajectory",
+          "mean_abs_shap": 0.07177
+        },
+        {
+          "feature": "age_at_admission",
+          "group": "Age and sex",
+          "mean_abs_shap": 0.06504
+        },
+        {
+          "feature": "gender_male",
+          "group": "Age and sex",
+          "mean_abs_shap": 0.05946
+        }
+      ],
+      "group_importance": {
+        "Charlson category flags": {
+          "mean_abs_shap": 1.03583,
+          "share": 0.4895
+        },
+        "Burden score and trajectory": {
+          "mean_abs_shap": 0.34634,
+          "share": 0.1637
+        },
+        "Network communities (Louvain)": {
+          "mean_abs_shap": 0.25603,
+          "share": 0.121
+        },
+        "ICU, procedures and DRG": {
+          "mean_abs_shap": 0.20918,
+          "share": 0.0988
+        },
+        "Admission history and timing": {
+          "mean_abs_shap": 0.13663,
+          "share": 0.0646
+        },
+        "Age and sex": {
+          "mean_abs_shap": 0.13214,
+          "share": 0.0624
+        }
+      },
+      "own_current_flag_mean_abs_shap": 0.87215,
+      "own_flag_rank": 2
+    },
+    "Cerebrovascular disease": {
+      "prevalence_next_visit": 0.0911,
+      "test_auroc": 0.7999,
+      "top_features": [
+        {
+          "feature": "Cerebrovascular disease",
+          "group": "Charlson category flags",
+          "mean_abs_shap": 0.54097
+        },
+        {
+          "feature": "age_at_admission",
+          "group": "Age and sex",
+          "mean_abs_shap": 0.18656
+        },
+        {
+          "feature": "comm2_count",
+          "group": "Network communities (Louvain)",
+          "mean_abs_shap": 0.14138
+        },
+        {
+          "feature": "score_trend",
+          "group": "Burden score and trajectory",
+          "mean_abs_shap": 0.07926
+        },
+        {
+          "feature": "n_categories_lag2",
+          "group": "Burden score and trajectory",
+          "mean_abs_shap": 0.06497
+        },
+        {
+          "feature": "charlson_trend_slope_3adm",
+          "group": "Burden score and trajectory",
+          "mean_abs_shap": 0.06337
+        },
+        {
+          "feature": "comm2_active",
+          "group": "Network communities (Louvain)",
+          "mean_abs_shap": 0.05865
+        },
+        {
+          "feature": "n_categories_lag1",
+          "group": "Burden score and trajectory",
+          "mean_abs_shap": 0.05686
+        }
+      ],
+      "group_importance": {
+        "Charlson category flags": {
+          "mean_abs_shap": 0.67337,
+          "share": 0.406
+        },
+        "Burden score and trajectory": {
+          "mean_abs_shap": 0.34272,
+          "share": 0.2067
+        },
+        "Network communities (Louvain)": {
+          "mean_abs_shap": 0.26579,
+          "share": 0.1603
+        },
+        "Age and sex": {
+          "mean_abs_shap": 0.23102,
+          "share": 0.1393
+        },
+        "ICU, procedures and DRG": {
+          "mean_abs_shap": 0.08141,
+          "share": 0.0491
+        },
+        "Admission history and timing": {
+          "mean_abs_shap": 0.06416,
+          "share": 0.0387
+        }
+      },
+      "own_current_flag_mean_abs_shap": 0.54097,
+      "own_flag_rank": 1
+    },
+    "Dementia": {
+      "prevalence_next_visit": 0.0467,
+      "test_auroc": 0.8868,
+      "top_features": [
+        {
+          "feature": "Dementia",
+          "group": "Charlson category flags",
+          "mean_abs_shap": 0.27204
+        },
+        {
+          "feature": "age_at_admission",
+          "group": "Age and sex",
+          "mean_abs_shap": 0.13097
+        },
+        {
+          "feature": "age_points",
+          "group": "Age and sex",
+          "mean_abs_shap": 0.04864
+        },
+        {
+          "feature": "comm2_count",
+          "group": "Network communities (Louvain)",
+          "mean_abs_shap": 0.04142
+        },
+        {
+          "feature": "n_procedures",
+          "group": "ICU, procedures and DRG",
+          "mean_abs_shap": 0.01525
+        },
+        {
+          "feature": "score_trend",
+          "group": "Burden score and trajectory",
+          "mean_abs_shap": 0.00674
+        },
+        {
+          "feature": "Cerebrovascular disease",
+          "group": "Charlson category flags",
+          "mean_abs_shap": 0.00515
+        },
+        {
+          "feature": "acci_score",
+          "group": "Burden score and trajectory",
+          "mean_abs_shap": 0.00416
+        }
+      ],
+      "group_importance": {
+        "Charlson category flags": {
+          "mean_abs_shap": 0.27837,
+          "share": 0.5084
+        },
+        "Age and sex": {
+          "mean_abs_shap": 0.17961,
+          "share": 0.328
+        },
+        "Network communities (Louvain)": {
+          "mean_abs_shap": 0.0433,
+          "share": 0.0791
+        },
+        "ICU, procedures and DRG": {
+          "mean_abs_shap": 0.02448,
+          "share": 0.0447
+        },
+        "Burden score and trajectory": {
+          "mean_abs_shap": 0.01674,
+          "share": 0.0306
+        },
+        "Admission history and timing": {
+          "mean_abs_shap": 0.00503,
+          "share": 0.0092
+        }
+      },
+      "own_current_flag_mean_abs_shap": 0.27204,
+      "own_flag_rank": 2
+    },
+    "Chronic pulmonary disease": {
+      "prevalence_next_visit": 0.2729,
+      "test_auroc": 0.8822,
+      "top_features": [
+        {
+          "feature": "Chronic pulmonary disease",
+          "group": "Charlson category flags",
+          "mean_abs_shap": 0.20534
+        },
+        {
+          "feature": "score_trend",
+          "group": "Burden score and trajectory",
+          "mean_abs_shap": 0.01539
+        },
+        {
+          "feature": "has_apr_drg",
+          "group": "ICU, procedures and DRG",
+          "mean_abs_shap": 0.00493
+        },
+        {
+          "feature": "charlson_trend_slope_3adm",
+          "group": "Burden score and trajectory",
+          "mean_abs_shap": 0.00369
+        },
+        {
+          "feature": "n_categories_lag1",
+          "group": "Burden score and trajectory",
+          "mean_abs_shap": 0.00358
+        },
+        {
+          "feature": "admissions_per_year_so_far",
+          "group": "Admission history and timing",
+          "mean_abs_shap": 0.00148
+        },
+        {
+          "feature": "n_categories_lag2",
+          "group": "Burden score and trajectory",
+          "mean_abs_shap": 0.0014
+        },
+        {
+          "feature": "gender_male",
+          "group": "Age and sex",
+          "mean_abs_shap": 0.0014
+        }
+      ],
+      "group_importance": {
+        "Charlson category flags": {
+          "mean_abs_shap": 0.20534,
+          "share": 0.8508
+        },
+        "Burden score and trajectory": {
+          "mean_abs_shap": 0.02614,
+          "share": 0.1083
+        },
+        "ICU, procedures and DRG": {
+          "mean_abs_shap": 0.00627,
+          "share": 0.026
+        },
+        "Admission history and timing": {
+          "mean_abs_shap": 0.0021,
+          "share": 0.0087
+        },
+        "Age and sex": {
+          "mean_abs_shap": 0.0015,
+          "share": 0.0062
+        },
+        "Network communities (Louvain)": {
+          "mean_abs_shap": 0.0,
+          "share": 0.0
+        }
+      },
+      "own_current_flag_mean_abs_shap": 0.20534,
+      "own_flag_rank": 2
+    },
+    "Rheumatic disease": {
+      "prevalence_next_visit": 0.0361,
+      "test_auroc": 0.9193,
+      "top_features": [
+        {
+          "feature": "Rheumatic disease",
+          "group": "Charlson category flags",
+          "mean_abs_shap": 0.0725
+        },
+        {
+          "feature": "gender_male",
+          "group": "Age and sex",
+          "mean_abs_shap": 0.00441
+        },
+        {
+          "feature": "score_trend",
+          "group": "Burden score and trajectory",
+          "mean_abs_shap": 0.00201
+        },
+        {
+          "feature": "charlson_score",
+          "group": "Burden score and trajectory",
+          "mean_abs_shap": 0.00145
+        },
+        {
+          "feature": "charlson_trend_slope_3adm",
+          "group": "Burden score and trajectory",
+          "mean_abs_shap": 0.00111
+        },
+        {
+          "feature": "drg_severity",
+          "group": "ICU, procedures and DRG",
+          "mean_abs_shap": 0.00056
+        },
+        {
+          "feature": "n_categories_lag1",
+          "group": "Burden score and trajectory",
+          "mean_abs_shap": 0.00045
+        },
+        {
+          "feature": "admit_seq",
+          "group": "Admission history and timing",
+          "mean_abs_shap": 0.00031
+        }
+      ],
+      "group_importance": {
+        "Charlson category flags": {
+          "mean_abs_shap": 0.0725,
+          "share": 0.871
+        },
+        "Burden score and trajectory": {
+          "mean_abs_shap": 0.00521,
+          "share": 0.0626
+        },
+        "Age and sex": {
+          "mean_abs_shap": 0.00441,
+          "share": 0.053
+        },
+        "ICU, procedures and DRG": {
+          "mean_abs_shap": 0.0008,
+          "share": 0.0097
+        },
+        "Admission history and timing": {
+          "mean_abs_shap": 0.00031,
+          "share": 0.0038
+        },
+        "Network communities (Louvain)": {
+          "mean_abs_shap": 0.0,
+          "share": 0.0
+        }
+      },
+      "own_current_flag_mean_abs_shap": 0.0725,
+      "own_flag_rank": 2
+    },
+    "Peptic ulcer disease": {
+      "prevalence_next_visit": 0.0176,
+      "test_auroc": 0.6699,
+      "top_features": [
+        {
+          "feature": "Peptic ulcer disease",
+          "group": "Charlson category flags",
+          "mean_abs_shap": 0.1648
+        },
+        {
+          "feature": "age_at_admission",
+          "group": "Age and sex",
+          "mean_abs_shap": 0.07205
+        },
+        {
+          "feature": "cum_icu_stays",
+          "group": "ICU, procedures and DRG",
+          "mean_abs_shap": 0.04482
+        },
+        {
+          "feature": "comm0_count",
+          "group": "Network communities (Louvain)",
+          "mean_abs_shap": 0.02036
+        },
+        {
+          "feature": "had_icu_prev_admission",
+          "group": "ICU, procedures and DRG",
+          "mean_abs_shap": 0.013
+        },
+        {
+          "feature": "Renal disease",
+          "group": "Charlson category flags",
+          "mean_abs_shap": 0.01243
+        },
+        {
+          "feature": "gender_male",
+          "group": "Age and sex",
+          "mean_abs_shap": 0.01171
+        },
+        {
+          "feature": "admit_seq",
+          "group": "Admission history and timing",
+          "mean_abs_shap": 0.01168
+        }
+      ],
+      "group_importance": {
+        "Charlson category flags": {
+          "mean_abs_shap": 0.21154,
+          "share": 0.4413
+        },
+        "Age and sex": {
+          "mean_abs_shap": 0.09352,
+          "share": 0.1951
+        },
+        "ICU, procedures and DRG": {
+          "mean_abs_shap": 0.08897,
+          "share": 0.1856
+        },
+        "Burden score and trajectory": {
+          "mean_abs_shap": 0.04039,
+          "share": 0.0842
+        },
+        "Network communities (Louvain)": {
+          "mean_abs_shap": 0.02341,
+          "share": 0.0488
+        },
+        "Admission history and timing": {
+          "mean_abs_shap": 0.02157,
+          "share": 0.045
+        }
+      },
+      "own_current_flag_mean_abs_shap": 0.1648,
+      "own_flag_rank": 1
+    },
+    "Mild liver disease": {
+      "prevalence_next_visit": 0.0618,
+      "test_auroc": 0.8494,
+      "top_features": [
+        {
+          "feature": "Mild liver disease",
+          "group": "Charlson category flags",
+          "mean_abs_shap": 0.67818
+        },
+        {
+          "feature": "Moderate or severe liver disease",
+          "group": "Charlson category flags",
+          "mean_abs_shap": 0.19035
+        },
+        {
+          "feature": "age_at_admission",
+          "group": "Age and sex",
+          "mean_abs_shap": 0.18918
+        },
+        {
+          "feature": "gender_male",
+          "group": "Age and sex",
+          "mean_abs_shap": 0.06387
+        },
+        {
+          "feature": "comm0_count",
+          "group": "Network communities (Louvain)",
+          "mean_abs_shap": 0.0595
+        },
+        {
+          "feature": "score_trend",
+          "group": "Burden score and trajectory",
+          "mean_abs_shap": 0.05843
+        },
+        {
+          "feature": "age_points",
+          "group": "Age and sex",
+          "mean_abs_shap": 0.04069
+        },
+        {
+          "feature": "acci_score",
+          "group": "Burden score and trajectory",
+          "mean_abs_shap": 0.04044
+        }
+      ],
+      "group_importance": {
+        "Charlson category flags": {
+          "mean_abs_shap": 0.90643,
+          "share": 0.5629
+        },
+        "Age and sex": {
+          "mean_abs_shap": 0.29373,
+          "share": 0.1824
+        },
+        "Burden score and trajectory": {
+          "mean_abs_shap": 0.20719,
+          "share": 0.1287
+        },
+        "Network communities (Louvain)": {
+          "mean_abs_shap": 0.10255,
+          "share": 0.0637
+        },
+        "ICU, procedures and DRG": {
+          "mean_abs_shap": 0.0637,
+          "share": 0.0396
+        },
+        "Admission history and timing": {
+          "mean_abs_shap": 0.03662,
+          "share": 0.0227
+        }
+      },
+      "own_current_flag_mean_abs_shap": 0.67818,
+      "own_flag_rank": 2
+    },
+    "Diabetes without complication": {
+      "prevalence_next_visit": 0.2234,
+      "test_auroc": 0.8771,
+      "top_features": [
+        {
+          "feature": "Diabetes without complication",
+          "group": "Charlson category flags",
+          "mean_abs_shap": 1.24232
+        },
+        {
+          "feature": "Diabetes with complication",
+          "group": "Charlson category flags",
+          "mean_abs_shap": 0.31964
+        },
+        {
+          "feature": "n_categories_lag1",
+          "group": "Burden score and trajectory",
+          "mean_abs_shap": 0.13923
+        },
+        {
+          "feature": "Renal disease",
+          "group": "Charlson category flags",
+          "mean_abs_shap": 0.11437
+        },
+        {
+          "feature": "comm0_count",
+          "group": "Network communities (Louvain)",
+          "mean_abs_shap": 0.10109
+        },
+        {
+          "feature": "admissions_per_year_so_far",
+          "group": "Admission history and timing",
+          "mean_abs_shap": 0.09868
+        },
+        {
+          "feature": "charlson_score_lag1",
+          "group": "Burden score and trajectory",
+          "mean_abs_shap": 0.08442
+        },
+        {
+          "feature": "n_categories_lag2",
+          "group": "Burden score and trajectory",
+          "mean_abs_shap": 0.07153
+        }
+      ],
+      "group_importance": {
+        "Charlson category flags": {
+          "mean_abs_shap": 1.77395,
+          "share": 0.6326
+        },
+        "Burden score and trajectory": {
+          "mean_abs_shap": 0.57035,
+          "share": 0.2034
+        },
+        "Admission history and timing": {
+          "mean_abs_shap": 0.15665,
+          "share": 0.0559
+        },
+        "Network communities (Louvain)": {
+          "mean_abs_shap": 0.12149,
+          "share": 0.0433
+        },
+        "ICU, procedures and DRG": {
+          "mean_abs_shap": 0.10975,
+          "share": 0.0391
+        },
+        "Age and sex": {
+          "mean_abs_shap": 0.07215,
+          "share": 0.0257
+        }
+      },
+      "own_current_flag_mean_abs_shap": 1.24232,
+      "own_flag_rank": 1
+    },
+    "Diabetes with complication": {
+      "prevalence_next_visit": 0.214,
+      "test_auroc": 0.9318,
+      "top_features": [
+        {
+          "feature": "Diabetes with complication",
+          "group": "Charlson category flags",
+          "mean_abs_shap": 1.45905
+        },
+        {
+          "feature": "Diabetes without complication",
+          "group": "Charlson category flags",
+          "mean_abs_shap": 0.68341
+        },
+        {
+          "feature": "admissions_per_year_so_far",
+          "group": "Admission history and timing",
+          "mean_abs_shap": 0.19507
+        },
+        {
+          "feature": "charlson_score_lag1",
+          "group": "Burden score and trajectory",
+          "mean_abs_shap": 0.15627
+        },
+        {
+          "feature": "score_trend",
+          "group": "Burden score and trajectory",
+          "mean_abs_shap": 0.15499
+        },
+        {
+          "feature": "comm1_count",
+          "group": "Network communities (Louvain)",
+          "mean_abs_shap": 0.14478
+        },
+        {
+          "feature": "age_at_admission",
+          "group": "Age and sex",
+          "mean_abs_shap": 0.11673
+        },
+        {
+          "feature": "Renal disease",
+          "group": "Charlson category flags",
+          "mean_abs_shap": 0.11594
+        }
+      ],
+      "group_importance": {
+        "Charlson category flags": {
+          "mean_abs_shap": 2.37617,
+          "share": 0.6277
+        },
+        "Burden score and trajectory": {
+          "mean_abs_shap": 0.68383,
+          "share": 0.1806
+        },
+        "Admission history and timing": {
+          "mean_abs_shap": 0.27238,
+          "share": 0.072
+        },
+        "Network communities (Louvain)": {
+          "mean_abs_shap": 0.19312,
+          "share": 0.051
+        },
+        "Age and sex": {
+          "mean_abs_shap": 0.14564,
+          "share": 0.0385
+        },
+        "ICU, procedures and DRG": {
+          "mean_abs_shap": 0.1143,
+          "share": 0.0302
+        }
+      },
+      "own_current_flag_mean_abs_shap": 1.45905,
+      "own_flag_rank": 1
+    },
+    "Hemiplegia or paraplegia": {
+      "prevalence_next_visit": 0.0135,
+      "test_auroc": 0.7366,
+      "top_features": [
+        {
+          "feature": "Hemiplegia or paraplegia",
+          "group": "Charlson category flags",
+          "mean_abs_shap": 0.29585
+        },
+        {
+          "feature": "comm2_count",
+          "group": "Network communities (Louvain)",
+          "mean_abs_shap": 0.15881
+        },
+        {
+          "feature": "admissions_per_year_so_far",
+          "group": "Admission history and timing",
+          "mean_abs_shap": 0.10762
+        },
+        {
+          "feature": "cum_icu_los_days",
+          "group": "ICU, procedures and DRG",
+          "mean_abs_shap": 0.08591
+        },
+        {
+          "feature": "age_at_admission",
+          "group": "Age and sex",
+          "mean_abs_shap": 0.06026
+        },
+        {
+          "feature": "charlson_score_lag3",
+          "group": "Burden score and trajectory",
+          "mean_abs_shap": 0.04531
+        },
+        {
+          "feature": "score_trend",
+          "group": "Burden score and trajectory",
+          "mean_abs_shap": 0.04444
+        },
+        {
+          "feature": "comm2_active",
+          "group": "Network communities (Louvain)",
+          "mean_abs_shap": 0.04287
+        }
+      ],
+      "group_importance": {
+        "Charlson category flags": {
+          "mean_abs_shap": 0.34813,
+          "share": 0.3013
+        },
+        "Network communities (Louvain)": {
+          "mean_abs_shap": 0.21627,
+          "share": 0.1872
+        },
+        "Burden score and trajectory": {
+          "mean_abs_shap": 0.19816,
+          "share": 0.1715
+        },
+        "ICU, procedures and DRG": {
+          "mean_abs_shap": 0.17581,
+          "share": 0.1521
+        },
+        "Admission history and timing": {
+          "mean_abs_shap": 0.13295,
+          "share": 0.115
+        },
+        "Age and sex": {
+          "mean_abs_shap": 0.08429,
+          "share": 0.0729
+        }
+      },
+      "own_current_flag_mean_abs_shap": 0.29585,
+      "own_flag_rank": 1
+    },
+    "Renal disease": {
+      "prevalence_next_visit": 0.4014,
+      "test_auroc": 0.9072,
+      "top_features": [
+        {
+          "feature": "Renal disease",
+          "group": "Charlson category flags",
+          "mean_abs_shap": 1.58073
+        },
+        {
+          "feature": "comm1_count",
+          "group": "Network communities (Louvain)",
+          "mean_abs_shap": 0.18937
+        },
+        {
+          "feature": "charlson_score_lag2",
+          "group": "Burden score and trajectory",
+          "mean_abs_shap": 0.1502
+        },
+        {
+          "feature": "charlson_score_lag1",
+          "group": "Burden score and trajectory",
+          "mean_abs_shap": 0.14278
+        },
+        {
+          "feature": "score_trend",
+          "group": "Burden score and trajectory",
+          "mean_abs_shap": 0.13027
+        },
+        {
+          "feature": "age_at_admission",
+          "group": "Age and sex",
+          "mean_abs_shap": 0.11507
+        },
+        {
+          "feature": "charlson_trend_slope_3adm",
+          "group": "Burden score and trajectory",
+          "mean_abs_shap": 0.10238
+        },
+        {
+          "feature": "gender_male",
+          "group": "Age and sex",
+          "mean_abs_shap": 0.09919
+        }
+      ],
+      "group_importance": {
+        "Charlson category flags": {
+          "mean_abs_shap": 1.79189,
+          "share": 0.5551
+        },
+        "Burden score and trajectory": {
+          "mean_abs_shap": 0.68829,
+          "share": 0.2132
+        },
+        "Network communities (Louvain)": {
+          "mean_abs_shap": 0.24969,
+          "share": 0.0774
+        },
+        "Age and sex": {
+          "mean_abs_shap": 0.23863,
+          "share": 0.0739
+        },
+        "ICU, procedures and DRG": {
+          "mean_abs_shap": 0.1703,
+          "share": 0.0528
+        },
+        "Admission history and timing": {
+          "mean_abs_shap": 0.08911,
+          "share": 0.0276
+        }
+      },
+      "own_current_flag_mean_abs_shap": 1.58073,
+      "own_flag_rank": 2
+    },
+    "Malignancy": {
+      "prevalence_next_visit": 0.1014,
+      "test_auroc": 0.8942,
+      "top_features": [
+        {
+          "feature": "Malignancy",
+          "group": "Charlson category flags",
+          "mean_abs_shap": 1.19562
+        },
+        {
+          "feature": "age_at_admission",
+          "group": "Age and sex",
+          "mean_abs_shap": 0.16047
+        },
+        {
+          "feature": "comm0_count",
+          "group": "Network communities (Louvain)",
+          "mean_abs_shap": 0.11037
+        },
+        {
+          "feature": "score_trend",
+          "group": "Burden score and trajectory",
+          "mean_abs_shap": 0.07038
+        },
+        {
+          "feature": "gender_male",
+          "group": "Age and sex",
+          "mean_abs_shap": 0.07002
+        },
+        {
+          "feature": "Metastatic solid tumor",
+          "group": "Charlson category flags",
+          "mean_abs_shap": 0.06846
+        },
+        {
+          "feature": "Diabetes without complication",
+          "group": "Charlson category flags",
+          "mean_abs_shap": 0.06048
+        },
+        {
+          "feature": "charlson_trend_slope_3adm",
+          "group": "Burden score and trajectory",
+          "mean_abs_shap": 0.0597
+        }
+      ],
+      "group_importance": {
+        "Charlson category flags": {
+          "mean_abs_shap": 1.43837,
+          "share": 0.5958
+        },
+        "Burden score and trajectory": {
+          "mean_abs_shap": 0.2929,
+          "share": 0.1213
+        },
+        "Age and sex": {
+          "mean_abs_shap": 0.28161,
+          "share": 0.1167
+        },
+        "Network communities (Louvain)": {
+          "mean_abs_shap": 0.21967,
+          "share": 0.091
+        },
+        "ICU, procedures and DRG": {
+          "mean_abs_shap": 0.10025,
+          "share": 0.0415
+        },
+        "Admission history and timing": {
+          "mean_abs_shap": 0.08133,
+          "share": 0.0337
+        }
+      },
+      "own_current_flag_mean_abs_shap": 1.19562,
+      "own_flag_rank": 1
+    },
+    "Moderate or severe liver disease": {
+      "prevalence_next_visit": 0.0326,
+      "test_auroc": 0.933,
+      "top_features": [
+        {
+          "feature": "Moderate or severe liver disease",
+          "group": "Charlson category flags",
+          "mean_abs_shap": 0.80131
+        },
+        {
+          "feature": "Mild liver disease",
+          "group": "Charlson category flags",
+          "mean_abs_shap": 0.44606
+        },
+        {
+          "feature": "comm0_count",
+          "group": "Network communities (Louvain)",
+          "mean_abs_shap": 0.13812
+        },
+        {
+          "feature": "age_at_admission",
+          "group": "Age and sex",
+          "mean_abs_shap": 0.09233
+        },
+        {
+          "feature": "score_trend",
+          "group": "Burden score and trajectory",
+          "mean_abs_shap": 0.07165
+        },
+        {
+          "feature": "gender_male",
+          "group": "Age and sex",
+          "mean_abs_shap": 0.06041
+        },
+        {
+          "feature": "comm0_active",
+          "group": "Network communities (Louvain)",
+          "mean_abs_shap": 0.03204
+        },
+        {
+          "feature": "charlson_score_lag1",
+          "group": "Burden score and trajectory",
+          "mean_abs_shap": 0.03073
+        }
+      ],
+      "group_importance": {
+        "Charlson category flags": {
+          "mean_abs_shap": 1.29971,
+          "share": 0.6699
+        },
+        "Burden score and trajectory": {
+          "mean_abs_shap": 0.1994,
+          "share": 0.1028
+        },
+        "Network communities (Louvain)": {
+          "mean_abs_shap": 0.1846,
+          "share": 0.0951
+        },
+        "Age and sex": {
+          "mean_abs_shap": 0.17098,
+          "share": 0.0881
+        },
+        "ICU, procedures and DRG": {
+          "mean_abs_shap": 0.06654,
+          "share": 0.0343
+        },
+        "Admission history and timing": {
+          "mean_abs_shap": 0.01896,
+          "share": 0.0098
+        }
+      },
+      "own_current_flag_mean_abs_shap": 0.80131,
+      "own_flag_rank": 1
+    },
+    "Metastatic solid tumor": {
+      "prevalence_next_visit": 0.0369,
+      "test_auroc": 0.9038,
+      "top_features": [
+        {
+          "feature": "Metastatic solid tumor",
+          "group": "Charlson category flags",
+          "mean_abs_shap": 0.72344
+        },
+        {
+          "feature": "Malignancy",
+          "group": "Charlson category flags",
+          "mean_abs_shap": 0.32119
+        },
+        {
+          "feature": "charlson_score",
+          "group": "Burden score and trajectory",
+          "mean_abs_shap": 0.12448
+        },
+        {
+          "feature": "charlson_trend_slope_3adm",
+          "group": "Burden score and trajectory",
+          "mean_abs_shap": 0.07544
+        },
+        {
+          "feature": "charlson_score_lag2",
+          "group": "Burden score and trajectory",
+          "mean_abs_shap": 0.06121
+        },
+        {
+          "feature": "charlson_score_lag1",
+          "group": "Burden score and trajectory",
+          "mean_abs_shap": 0.05696
+        },
+        {
+          "feature": "score_trend",
+          "group": "Burden score and trajectory",
+          "mean_abs_shap": 0.05419
+        },
+        {
+          "feature": "age_at_admission",
+          "group": "Age and sex",
+          "mean_abs_shap": 0.0502
+        }
+      ],
+      "group_importance": {
+        "Charlson category flags": {
+          "mean_abs_shap": 1.05736,
+          "share": 0.5902
+        },
+        "Burden score and trajectory": {
+          "mean_abs_shap": 0.48512,
+          "share": 0.2708
+        },
+        "Admission history and timing": {
+          "mean_abs_shap": 0.09004,
+          "share": 0.0503
+        },
+        "Network communities (Louvain)": {
+          "mean_abs_shap": 0.07396,
+          "share": 0.0413
+        },
+        "Age and sex": {
+          "mean_abs_shap": 0.05566,
+          "share": 0.0311
+        },
+        "ICU, procedures and DRG": {
+          "mean_abs_shap": 0.02948,
+          "share": 0.0165
+        }
+      },
+      "own_current_flag_mean_abs_shap": 0.72344,
+      "own_flag_rank": 2
+    },
+    "AIDS/HIV": {
+      "prevalence_next_visit": 0.0085,
+      "test_auroc": 0.9513,
+      "top_features": [
+        {
+          "feature": "AIDS/HIV",
+          "group": "Charlson category flags",
+          "mean_abs_shap": 0.80813
+        },
+        {
+          "feature": "age_at_admission",
+          "group": "Age and sex",
+          "mean_abs_shap": 0.63027
+        },
+        {
+          "feature": "gender_male",
+          "group": "Age and sex",
+          "mean_abs_shap": 0.24936
+        },
+        {
+          "feature": "charlson_score",
+          "group": "Burden score and trajectory",
+          "mean_abs_shap": 0.18231
+        },
+        {
+          "feature": "score_trend",
+          "group": "Burden score and trajectory",
+          "mean_abs_shap": 0.16691
+        },
+        {
+          "feature": "acci_score",
+          "group": "Burden score and trajectory",
+          "mean_abs_shap": 0.15533
+        },
+        {
+          "feature": "charlson_score_lag1",
+          "group": "Burden score and trajectory",
+          "mean_abs_shap": 0.13969
+        },
+        {
+          "feature": "charlson_score_lag2",
+          "group": "Burden score and trajectory",
+          "mean_abs_shap": 0.1233
+        }
+      ],
+      "group_importance": {
+        "Burden score and trajectory": {
+          "mean_abs_shap": 1.05695,
+          "share": 0.3225
+        },
+        "Charlson category flags": {
+          "mean_abs_shap": 0.9684,
+          "share": 0.2955
+        },
+        "Age and sex": {
+          "mean_abs_shap": 0.968,
+          "share": 0.2953
+        },
+        "ICU, procedures and DRG": {
+          "mean_abs_shap": 0.16539,
+          "share": 0.0505
+        },
+        "Admission history and timing": {
+          "mean_abs_shap": 0.08927,
+          "share": 0.0272
+        },
+        "Network communities (Louvain)": {
+          "mean_abs_shap": 0.02963,
+          "share": 0.009
+        }
+      },
+      "own_current_flag_mean_abs_shap": 0.80813,
+      "own_flag_rank": 2
+    }
+  }
+}

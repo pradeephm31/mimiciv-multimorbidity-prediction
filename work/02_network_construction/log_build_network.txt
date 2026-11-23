@@ -1,0 +1,14 @@
+Building co-occurrence matrix (within-admission) ...
+Building transition matrix (admission t -> admission t+1, same patient) ...
+  admission-pairs used for transitions: 322,206
+Network: 17 nodes, 136 edges
+
+Louvain found 3 communities, modularity=0.039
+  Community 0: ['AIDS/HIV', 'Chronic pulmonary disease', 'Diabetes without complication', 'Malignancy', 'Metastatic solid tumor', 'Mild liver disease', 'Moderate or severe liver disease', 'Peptic ulcer disease', 'Rheumatic disease']
+  Community 1: ['Congestive heart failure', 'Diabetes with complication', 'Myocardial infarction', 'Peripheral vascular disease', 'Renal disease']
+  Community 2: ['Cerebrovascular disease', 'Dementia', 'Hemiplegia or paraplegia']
+  [sensitivity] resolution=0.5: 1 communities, sizes=[17]
+  [sensitivity] resolution=1.5: 9 communities, sizes=[5, 3, 2, 2, 1, 1, 1, 1, 1]
+  [sensitivity] resolution=2.0: 12 communities, sizes=[3, 3, 2, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+
+Saved network_data.json

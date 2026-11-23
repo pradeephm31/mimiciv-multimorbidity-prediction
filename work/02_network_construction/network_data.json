@@ -1,0 +1,1087 @@
+{
+  "nodes": [
+    {
+      "id": "Myocardial infarction",
+      "community": 1,
+      "weight_charlson": 1,
+      "prevalence": 0.08194728843605006
+    },
+    {
+      "id": "Congestive heart failure",
+      "community": 1,
+      "weight_charlson": 1,
+      "prevalence": 0.15529874591427634
+    },
+    {
+      "id": "Peripheral vascular disease",
+      "community": 1,
+      "weight_charlson": 1,
+      "prevalence": 0.06843484015494128
+    },
+    {
+      "id": "Cerebrovascular disease",
+      "community": 2,
+      "weight_charlson": 1,
+      "prevalence": 0.06703978207029553
+    },
+    {
+      "id": "Dementia",
+      "community": 2,
+      "weight_charlson": 1,
+      "prevalence": 0.03008815813835823
+    },
+    {
+      "id": "Chronic pulmonary disease",
+      "community": 0,
+      "weight_charlson": 1,
+      "prevalence": 0.17429060104821842
+    },
+    {
+      "id": "Rheumatic disease",
+      "community": 0,
+      "weight_charlson": 1,
+      "prevalence": 0.025373191786572612
+    },
+    {
+      "id": "Peptic ulcer disease",
+      "community": 0,
+      "weight_charlson": 1,
+      "prevalence": 0.013134811007209939
+    },
+    {
+      "id": "Mild liver disease",
+      "community": 0,
+      "weight_charlson": 1,
+      "prevalence": 0.048421897828952315
+    },
+    {
+      "id": "Diabetes without complication",
+      "community": 0,
+      "weight_charlson": 1,
+      "prevalence": 0.14282571673171437
+    },
+    {
+      "id": "Diabetes with complication",
+      "community": 1,
+      "weight_charlson": 2,
+      "prevalence": 0.08844228290898025
+    },
+    {
+      "id": "Hemiplegia or paraplegia",
+      "community": 2,
+      "weight_charlson": 2,
+      "prevalence": 0.017582131524096375
+    },
+    {
+      "id": "Renal disease",
+      "community": 1,
+      "weight_charlson": 2,
+      "prevalence": 0.1578395481551686
+    },
+    {
+      "id": "Malignancy",
+      "community": 0,
+      "weight_charlson": 2,
+      "prevalence": 0.08700506143938463
+    },
+    {
+      "id": "Moderate or severe liver disease",
+      "community": 0,
+      "weight_charlson": 3,
+      "prevalence": 0.025794825636071324
+    },
+    {
+      "id": "Metastatic solid tumor",
+      "community": 0,
+      "weight_charlson": 6,
+      "prevalence": 0.05122484633279376
+    },
+    {
+      "id": "AIDS/HIV",
+      "community": 0,
+      "weight_charlson": 6,
+      "prevalence": 0.006845133887079123
+    }
+  ],
+  "edges": [
+    {
+      "source": "Myocardial infarction",
+      "target": "Congestive heart failure",
+      "weight": 0.5022,
+      "cooc_count": 20752,
+      "trans_count": 25876
+    },
+    {
+      "source": "Myocardial infarction",
+      "target": "Peripheral vascular disease",
+      "weight": 0.1999,
+      "cooc_count": 8008,
+      "trans_count": 10670
+    },
+    {
+      "source": "Myocardial infarction",
+      "target": "Cerebrovascular disease",
+      "weight": 0.1201,
+      "cooc_count": 5262,
+      "trans_count": 5757
+    },
+    {
+      "source": "Myocardial infarction",
+      "target": "Dementia",
+      "weight": 0.0445,
+      "cooc_count": 1950,
+      "trans_count": 2132
+    },
+    {
+      "source": "Myocardial infarction",
+      "target": "Chronic pulmonary disease",
+      "weight": 0.2629,
+      "cooc_count": 10779,
+      "trans_count": 13673
+    },
+    {
+      "source": "Myocardial infarction",
+      "target": "Rheumatic disease",
+      "weight": 0.0384,
+      "cooc_count": 1522,
+      "trans_count": 2078
+    },
+    {
+      "source": "Myocardial infarction",
+      "target": "Peptic ulcer disease",
+      "weight": 0.0205,
+      "cooc_count": 873,
+      "trans_count": 1013
+    },
+    {
+      "source": "Myocardial infarction",
+      "target": "Mild liver disease",
+      "weight": 0.0491,
+      "cooc_count": 2008,
+      "trans_count": 2555
+    },
+    {
+      "source": "Myocardial infarction",
+      "target": "Diabetes without complication",
+      "weight": 0.242,
+      "cooc_count": 9700,
+      "trans_count": 12911
+    },
+    {
+      "source": "Myocardial infarction",
+      "target": "Diabetes with complication",
+      "weight": 0.2396,
+      "cooc_count": 9383,
+      "trans_count": 13098
+    },
+    {
+      "source": "Myocardial infarction",
+      "target": "Hemiplegia or paraplegia",
+      "weight": 0.0191,
+      "cooc_count": 911,
+      "trans_count": 805
+    },
+    {
+      "source": "Myocardial infarction",
+      "target": "Renal disease",
+      "weight": 0.3911,
+      "cooc_count": 15414,
+      "trans_count": 21241
+    },
+    {
+      "source": "Myocardial infarction",
+      "target": "Malignancy",
+      "weight": 0.0851,
+      "cooc_count": 3317,
+      "trans_count": 4671
+    },
+    {
+      "source": "Myocardial infarction",
+      "target": "Moderate or severe liver disease",
+      "weight": 0.0171,
+      "cooc_count": 714,
+      "trans_count": 870
+    },
+    {
+      "source": "Myocardial infarction",
+      "target": "Metastatic solid tumor",
+      "weight": 0.0391,
+      "cooc_count": 1638,
+      "trans_count": 1978
+    },
+    {
+      "source": "Myocardial infarction",
+      "target": "AIDS/HIV",
+      "weight": 0.0067,
+      "cooc_count": 242,
+      "trans_count": 400
+    },
+    {
+      "source": "Congestive heart failure",
+      "target": "Peripheral vascular disease",
+      "weight": 0.3615,
+      "cooc_count": 13973,
+      "trans_count": 20039
+    },
+    {
+      "source": "Congestive heart failure",
+      "target": "Cerebrovascular disease",
+      "weight": 0.203,
+      "cooc_count": 8386,
+      "trans_count": 10466
+    },
+    {
+      "source": "Congestive heart failure",
+      "target": "Dementia",
+      "weight": 0.1018,
+      "cooc_count": 4387,
+      "trans_count": 4985
+    },
+    {
+      "source": "Congestive heart failure",
+      "target": "Chronic pulmonary disease",
+      "weight": 0.6427,
+      "cooc_count": 25326,
+      "trans_count": 34910
+    },
+    {
+      "source": "Congestive heart failure",
+      "target": "Rheumatic disease",
+      "weight": 0.0902,
+      "cooc_count": 3452,
+      "trans_count": 5048
+    },
+    {
+      "source": "Congestive heart failure",
+      "target": "Peptic ulcer disease",
+      "weight": 0.0395,
+      "cooc_count": 1586,
+      "trans_count": 2105
+    },
+    {
+      "source": "Congestive heart failure",
+      "target": "Mild liver disease",
+      "weight": 0.1161,
+      "cooc_count": 4558,
+      "trans_count": 6328
+    },
+    {
+      "source": "Congestive heart failure",
+      "target": "Diabetes without complication",
+      "weight": 0.4719,
+      "cooc_count": 17952,
+      "trans_count": 26568
+    },
+    {
+      "source": "Congestive heart failure",
+      "target": "Diabetes with complication",
+      "weight": 0.5238,
+      "cooc_count": 19827,
+      "trans_count": 29636
+    },
+    {
+      "source": "Congestive heart failure",
+      "target": "Hemiplegia or paraplegia",
+      "weight": 0.0305,
+      "cooc_count": 1417,
+      "trans_count": 1341
+    },
+    {
+      "source": "Congestive heart failure",
+      "target": "Renal disease",
+      "weight": 1.0,
+      "cooc_count": 38336,
+      "trans_count": 55881
+    },
+    {
+      "source": "Congestive heart failure",
+      "target": "Malignancy",
+      "weight": 0.1821,
+      "cooc_count": 6969,
+      "trans_count": 10189
+    },
+    {
+      "source": "Congestive heart failure",
+      "target": "Moderate or severe liver disease",
+      "weight": 0.0458,
+      "cooc_count": 1832,
+      "trans_count": 2453
+    },
+    {
+      "source": "Congestive heart failure",
+      "target": "Metastatic solid tumor",
+      "weight": 0.0672,
+      "cooc_count": 2794,
+      "trans_count": 3438
+    },
+    {
+      "source": "Congestive heart failure",
+      "target": "AIDS/HIV",
+      "weight": 0.0089,
+      "cooc_count": 335,
+      "trans_count": 511
+    },
+    {
+      "source": "Peripheral vascular disease",
+      "target": "Cerebrovascular disease",
+      "weight": 0.1223,
+      "cooc_count": 5130,
+      "trans_count": 6186
+    },
+    {
+      "source": "Peripheral vascular disease",
+      "target": "Dementia",
+      "weight": 0.0351,
+      "cooc_count": 1508,
+      "trans_count": 1721
+    },
+    {
+      "source": "Peripheral vascular disease",
+      "target": "Chronic pulmonary disease",
+      "weight": 0.2438,
+      "cooc_count": 9807,
+      "trans_count": 12953
+    },
+    {
+      "source": "Peripheral vascular disease",
+      "target": "Rheumatic disease",
+      "weight": 0.0359,
+      "cooc_count": 1400,
+      "trans_count": 1968
+    },
+    {
+      "source": "Peripheral vascular disease",
+      "target": "Peptic ulcer disease",
+      "weight": 0.0175,
+      "cooc_count": 750,
+      "trans_count": 864
+    },
+    {
+      "source": "Peripheral vascular disease",
+      "target": "Mild liver disease",
+      "weight": 0.0425,
+      "cooc_count": 1677,
+      "trans_count": 2307
+    },
+    {
+      "source": "Peripheral vascular disease",
+      "target": "Diabetes without complication",
+      "weight": 0.1863,
+      "cooc_count": 7149,
+      "trans_count": 10401
+    },
+    {
+      "source": "Peripheral vascular disease",
+      "target": "Diabetes with complication",
+      "weight": 0.222,
+      "cooc_count": 8191,
+      "trans_count": 12870
+    },
+    {
+      "source": "Peripheral vascular disease",
+      "target": "Hemiplegia or paraplegia",
+      "weight": 0.0142,
+      "cooc_count": 665,
+      "trans_count": 614
+    },
+    {
+      "source": "Peripheral vascular disease",
+      "target": "Renal disease",
+      "weight": 0.3564,
+      "cooc_count": 13567,
+      "trans_count": 20052
+    },
+    {
+      "source": "Peripheral vascular disease",
+      "target": "Malignancy",
+      "weight": 0.0659,
+      "cooc_count": 2543,
+      "trans_count": 3663
+    },
+    {
+      "source": "Peripheral vascular disease",
+      "target": "Moderate or severe liver disease",
+      "weight": 0.0159,
+      "cooc_count": 635,
+      "trans_count": 849
+    },
+    {
+      "source": "Peripheral vascular disease",
+      "target": "Metastatic solid tumor",
+      "weight": 0.0324,
+      "cooc_count": 1312,
+      "trans_count": 1708
+    },
+    {
+      "source": "Peripheral vascular disease",
+      "target": "AIDS/HIV",
+      "weight": 0.0036,
+      "cooc_count": 128,
+      "trans_count": 220
+    },
+    {
+      "source": "Cerebrovascular disease",
+      "target": "Dementia",
+      "weight": 0.0737,
+      "cooc_count": 3393,
+      "trans_count": 3286
+    },
+    {
+      "source": "Cerebrovascular disease",
+      "target": "Chronic pulmonary disease",
+      "weight": 0.1601,
+      "cooc_count": 6848,
+      "trans_count": 7908
+    },
+    {
+      "source": "Cerebrovascular disease",
+      "target": "Rheumatic disease",
+      "weight": 0.024,
+      "cooc_count": 1022,
+      "trans_count": 1191
+    },
+    {
+      "source": "Cerebrovascular disease",
+      "target": "Peptic ulcer disease",
+      "weight": 0.0114,
+      "cooc_count": 473,
+      "trans_count": 587
+    },
+    {
+      "source": "Cerebrovascular disease",
+      "target": "Mild liver disease",
+      "weight": 0.0278,
+      "cooc_count": 1202,
+      "trans_count": 1358
+    },
+    {
+      "source": "Cerebrovascular disease",
+      "target": "Diabetes without complication",
+      "weight": 0.1654,
+      "cooc_count": 7004,
+      "trans_count": 8279
+    },
+    {
+      "source": "Cerebrovascular disease",
+      "target": "Diabetes with complication",
+      "weight": 0.1211,
+      "cooc_count": 4930,
+      "trans_count": 6347
+    },
+    {
+      "source": "Cerebrovascular disease",
+      "target": "Hemiplegia or paraplegia",
+      "weight": 0.0833,
+      "cooc_count": 5009,
+      "trans_count": 2012
+    },
+    {
+      "source": "Cerebrovascular disease",
+      "target": "Renal disease",
+      "weight": 0.2051,
+      "cooc_count": 8345,
+      "trans_count": 10763
+    },
+    {
+      "source": "Cerebrovascular disease",
+      "target": "Malignancy",
+      "weight": 0.0572,
+      "cooc_count": 2327,
+      "trans_count": 2998
+    },
+    {
+      "source": "Cerebrovascular disease",
+      "target": "Moderate or severe liver disease",
+      "weight": 0.0111,
+      "cooc_count": 488,
+      "trans_count": 529
+    },
+    {
+      "source": "Cerebrovascular disease",
+      "target": "Metastatic solid tumor",
+      "weight": 0.0366,
+      "cooc_count": 1606,
+      "trans_count": 1746
+    },
+    {
+      "source": "Cerebrovascular disease",
+      "target": "AIDS/HIV",
+      "weight": 0.0028,
+      "cooc_count": 110,
+      "trans_count": 152
+    },
+    {
+      "source": "Dementia",
+      "target": "Chronic pulmonary disease",
+      "weight": 0.0668,
+      "cooc_count": 2843,
+      "trans_count": 3319
+    },
+    {
+      "source": "Dementia",
+      "target": "Rheumatic disease",
+      "weight": 0.0097,
+      "cooc_count": 419,
+      "trans_count": 475
+    },
+    {
+      "source": "Dementia",
+      "target": "Peptic ulcer disease",
+      "weight": 0.0052,
+      "cooc_count": 235,
+      "trans_count": 241
+    },
+    {
+      "source": "Dementia",
+      "target": "Mild liver disease",
+      "weight": 0.0096,
+      "cooc_count": 410,
+      "trans_count": 477
+    },
+    {
+      "source": "Dementia",
+      "target": "Diabetes without complication",
+      "weight": 0.0643,
+      "cooc_count": 2643,
+      "trans_count": 3338
+    },
+    {
+      "source": "Dementia",
+      "target": "Diabetes with complication",
+      "weight": 0.055,
+      "cooc_count": 2276,
+      "trans_count": 2832
+    },
+    {
+      "source": "Dementia",
+      "target": "Hemiplegia or paraplegia",
+      "weight": 0.0086,
+      "cooc_count": 429,
+      "trans_count": 336
+    },
+    {
+      "source": "Dementia",
+      "target": "Renal disease",
+      "weight": 0.1083,
+      "cooc_count": 4584,
+      "trans_count": 5426
+    },
+    {
+      "source": "Dementia",
+      "target": "Malignancy",
+      "weight": 0.0228,
+      "cooc_count": 955,
+      "trans_count": 1156
+    },
+    {
+      "source": "Dementia",
+      "target": "Moderate or severe liver disease",
+      "weight": 0.0033,
+      "cooc_count": 136,
+      "trans_count": 173
+    },
+    {
+      "source": "Dementia",
+      "target": "Metastatic solid tumor",
+      "weight": 0.0097,
+      "cooc_count": 458,
+      "trans_count": 415
+    },
+    {
+      "source": "Dementia",
+      "target": "AIDS/HIV",
+      "weight": 0.0025,
+      "cooc_count": 105,
+      "trans_count": 130
+    },
+    {
+      "source": "Chronic pulmonary disease",
+      "target": "Rheumatic disease",
+      "weight": 0.0928,
+      "cooc_count": 3653,
+      "trans_count": 5042
+    },
+    {
+      "source": "Chronic pulmonary disease",
+      "target": "Peptic ulcer disease",
+      "weight": 0.0353,
+      "cooc_count": 1466,
+      "trans_count": 1810
+    },
+    {
+      "source": "Chronic pulmonary disease",
+      "target": "Mild liver disease",
+      "weight": 0.1367,
+      "cooc_count": 5463,
+      "trans_count": 7312
+    },
+    {
+      "source": "Chronic pulmonary disease",
+      "target": "Diabetes without complication",
+      "weight": 0.4257,
+      "cooc_count": 16673,
+      "trans_count": 23270
+    },
+    {
+      "source": "Chronic pulmonary disease",
+      "target": "Diabetes with complication",
+      "weight": 0.2726,
+      "cooc_count": 10442,
+      "trans_count": 15248
+    },
+    {
+      "source": "Chronic pulmonary disease",
+      "target": "Hemiplegia or paraplegia",
+      "weight": 0.0369,
+      "cooc_count": 1582,
+      "trans_count": 1818
+    },
+    {
+      "source": "Chronic pulmonary disease",
+      "target": "Renal disease",
+      "weight": 0.498,
+      "cooc_count": 19192,
+      "trans_count": 27684
+    },
+    {
+      "source": "Chronic pulmonary disease",
+      "target": "Malignancy",
+      "weight": 0.2238,
+      "cooc_count": 8748,
+      "trans_count": 12257
+    },
+    {
+      "source": "Chronic pulmonary disease",
+      "target": "Moderate or severe liver disease",
+      "weight": 0.0628,
+      "cooc_count": 2441,
+      "trans_count": 3463
+    },
+    {
+      "source": "Chronic pulmonary disease",
+      "target": "Metastatic solid tumor",
+      "weight": 0.1159,
+      "cooc_count": 4778,
+      "trans_count": 5985
+    },
+    {
+      "source": "Chronic pulmonary disease",
+      "target": "AIDS/HIV",
+      "weight": 0.0214,
+      "cooc_count": 803,
+      "trans_count": 1216
+    },
+    {
+      "source": "Rheumatic disease",
+      "target": "Peptic ulcer disease",
+      "weight": 0.006,
+      "cooc_count": 239,
+      "trans_count": 323
+    },
+    {
+      "source": "Rheumatic disease",
+      "target": "Mild liver disease",
+      "weight": 0.0183,
+      "cooc_count": 718,
+      "trans_count": 997
+    },
+    {
+      "source": "Rheumatic disease",
+      "target": "Diabetes without complication",
+      "weight": 0.0551,
+      "cooc_count": 2111,
+      "trans_count": 3086
+    },
+    {
+      "source": "Rheumatic disease",
+      "target": "Diabetes with complication",
+      "weight": 0.0316,
+      "cooc_count": 1194,
+      "trans_count": 1786
+    },
+    {
+      "source": "Rheumatic disease",
+      "target": "Hemiplegia or paraplegia",
+      "weight": 0.0044,
+      "cooc_count": 197,
+      "trans_count": 210
+    },
+    {
+      "source": "Rheumatic disease",
+      "target": "Renal disease",
+      "weight": 0.0832,
+      "cooc_count": 3144,
+      "trans_count": 4718
+    },
+    {
+      "source": "Rheumatic disease",
+      "target": "Malignancy",
+      "weight": 0.0255,
+      "cooc_count": 987,
+      "trans_count": 1414
+    },
+    {
+      "source": "Rheumatic disease",
+      "target": "Moderate or severe liver disease",
+      "weight": 0.0067,
+      "cooc_count": 261,
+      "trans_count": 369
+    },
+    {
+      "source": "Rheumatic disease",
+      "target": "Metastatic solid tumor",
+      "weight": 0.013,
+      "cooc_count": 519,
+      "trans_count": 691
+    },
+    {
+      "source": "Rheumatic disease",
+      "target": "AIDS/HIV",
+      "weight": 0.0009,
+      "cooc_count": 32,
+      "trans_count": 49
+    },
+    {
+      "source": "Peptic ulcer disease",
+      "target": "Mild liver disease",
+      "weight": 0.0163,
+      "cooc_count": 661,
+      "trans_count": 863
+    },
+    {
+      "source": "Peptic ulcer disease",
+      "target": "Diabetes without complication",
+      "weight": 0.0282,
+      "cooc_count": 1116,
+      "trans_count": 1527
+    },
+    {
+      "source": "Peptic ulcer disease",
+      "target": "Diabetes with complication",
+      "weight": 0.0221,
+      "cooc_count": 878,
+      "trans_count": 1189
+    },
+    {
+      "source": "Peptic ulcer disease",
+      "target": "Hemiplegia or paraplegia",
+      "weight": 0.0022,
+      "cooc_count": 96,
+      "trans_count": 101
+    },
+    {
+      "source": "Peptic ulcer disease",
+      "target": "Renal disease",
+      "weight": 0.0433,
+      "cooc_count": 1718,
+      "trans_count": 2334
+    },
+    {
+      "source": "Peptic ulcer disease",
+      "target": "Malignancy",
+      "weight": 0.0178,
+      "cooc_count": 684,
+      "trans_count": 995
+    },
+    {
+      "source": "Peptic ulcer disease",
+      "target": "Moderate or severe liver disease",
+      "weight": 0.0157,
+      "cooc_count": 713,
+      "trans_count": 719
+    },
+    {
+      "source": "Peptic ulcer disease",
+      "target": "Metastatic solid tumor",
+      "weight": 0.0105,
+      "cooc_count": 437,
+      "trans_count": 533
+    },
+    {
+      "source": "Peptic ulcer disease",
+      "target": "AIDS/HIV",
+      "weight": 0.0007,
+      "cooc_count": 29,
+      "trans_count": 37
+    },
+    {
+      "source": "Mild liver disease",
+      "target": "Diabetes without complication",
+      "weight": 0.1338,
+      "cooc_count": 5190,
+      "trans_count": 7394
+    },
+    {
+      "source": "Mild liver disease",
+      "target": "Diabetes with complication",
+      "weight": 0.0852,
+      "cooc_count": 3197,
+      "trans_count": 4863
+    },
+    {
+      "source": "Mild liver disease",
+      "target": "Hemiplegia or paraplegia",
+      "weight": 0.0063,
+      "cooc_count": 281,
+      "trans_count": 298
+    },
+    {
+      "source": "Mild liver disease",
+      "target": "Renal disease",
+      "weight": 0.15,
+      "cooc_count": 5611,
+      "trans_count": 8587
+    },
+    {
+      "source": "Mild liver disease",
+      "target": "Malignancy",
+      "weight": 0.086,
+      "cooc_count": 3261,
+      "trans_count": 4861
+    },
+    {
+      "source": "Mild liver disease",
+      "target": "Moderate or severe liver disease",
+      "weight": 0.0463,
+      "cooc_count": 0,
+      "trans_count": 5179
+    },
+    {
+      "source": "Mild liver disease",
+      "target": "Metastatic solid tumor",
+      "weight": 0.0305,
+      "cooc_count": 1238,
+      "trans_count": 1605
+    },
+    {
+      "source": "Mild liver disease",
+      "target": "AIDS/HIV",
+      "weight": 0.0112,
+      "cooc_count": 426,
+      "trans_count": 633
+    },
+    {
+      "source": "Diabetes without complication",
+      "target": "Diabetes with complication",
+      "weight": 0.1223,
+      "cooc_count": 0,
+      "trans_count": 13665
+    },
+    {
+      "source": "Diabetes without complication",
+      "target": "Hemiplegia or paraplegia",
+      "weight": 0.032,
+      "cooc_count": 1428,
+      "trans_count": 1498
+    },
+    {
+      "source": "Diabetes without complication",
+      "target": "Renal disease",
+      "weight": 0.3809,
+      "cooc_count": 13451,
+      "trans_count": 22961
+    },
+    {
+      "source": "Diabetes without complication",
+      "target": "Malignancy",
+      "weight": 0.1813,
+      "cooc_count": 6972,
+      "trans_count": 10100
+    },
+    {
+      "source": "Diabetes without complication",
+      "target": "Moderate or severe liver disease",
+      "weight": 0.0779,
+      "cooc_count": 2876,
+      "trans_count": 4509
+    },
+    {
+      "source": "Diabetes without complication",
+      "target": "Metastatic solid tumor",
+      "weight": 0.0973,
+      "cooc_count": 3865,
+      "trans_count": 5243
+    },
+    {
+      "source": "Diabetes without complication",
+      "target": "AIDS/HIV",
+      "weight": 0.0093,
+      "cooc_count": 348,
+      "trans_count": 528
+    },
+    {
+      "source": "Diabetes with complication",
+      "target": "Hemiplegia or paraplegia",
+      "weight": 0.0189,
+      "cooc_count": 840,
+      "trans_count": 892
+    },
+    {
+      "source": "Diabetes with complication",
+      "target": "Renal disease",
+      "weight": 0.7967,
+      "cooc_count": 31118,
+      "trans_count": 43676
+    },
+    {
+      "source": "Diabetes with complication",
+      "target": "Malignancy",
+      "weight": 0.0912,
+      "cooc_count": 3455,
+      "trans_count": 5158
+    },
+    {
+      "source": "Diabetes with complication",
+      "target": "Moderate or severe liver disease",
+      "weight": 0.0383,
+      "cooc_count": 1484,
+      "trans_count": 2113
+    },
+    {
+      "source": "Diabetes with complication",
+      "target": "Metastatic solid tumor",
+      "weight": 0.0413,
+      "cooc_count": 1674,
+      "trans_count": 2173
+    },
+    {
+      "source": "Diabetes with complication",
+      "target": "AIDS/HIV",
+      "weight": 0.0058,
+      "cooc_count": 210,
+      "trans_count": 347
+    },
+    {
+      "source": "Hemiplegia or paraplegia",
+      "target": "Renal disease",
+      "weight": 0.0319,
+      "cooc_count": 1376,
+      "trans_count": 1558
+    },
+    {
+      "source": "Hemiplegia or paraplegia",
+      "target": "Malignancy",
+      "weight": 0.0157,
+      "cooc_count": 669,
+      "trans_count": 778
+    },
+    {
+      "source": "Hemiplegia or paraplegia",
+      "target": "Moderate or severe liver disease",
+      "weight": 0.002,
+      "cooc_count": 102,
+      "trans_count": 75
+    },
+    {
+      "source": "Hemiplegia or paraplegia",
+      "target": "Metastatic solid tumor",
+      "weight": 0.0137,
+      "cooc_count": 606,
+      "trans_count": 650
+    },
+    {
+      "source": "Hemiplegia or paraplegia",
+      "target": "AIDS/HIV",
+      "weight": 0.0011,
+      "cooc_count": 42,
+      "trans_count": 59
+    },
+    {
+      "source": "Renal disease",
+      "target": "Malignancy",
+      "weight": 0.2028,
+      "cooc_count": 7702,
+      "trans_count": 11437
+    },
+    {
+      "source": "Renal disease",
+      "target": "Moderate or severe liver disease",
+      "weight": 0.0703,
+      "cooc_count": 2710,
+      "trans_count": 3907
+    },
+    {
+      "source": "Renal disease",
+      "target": "Metastatic solid tumor",
+      "weight": 0.087,
+      "cooc_count": 3542,
+      "trans_count": 4561
+    },
+    {
+      "source": "Renal disease",
+      "target": "AIDS/HIV",
+      "weight": 0.0188,
+      "cooc_count": 682,
+      "trans_count": 1103
+    },
+    {
+      "source": "Malignancy",
+      "target": "Moderate or severe liver disease",
+      "weight": 0.0489,
+      "cooc_count": 1872,
+      "trans_count": 2736
+    },
+    {
+      "source": "Malignancy",
+      "target": "Metastatic solid tumor",
+      "weight": 0.0491,
+      "cooc_count": 0,
+      "trans_count": 5482
+    },
+    {
+      "source": "Malignancy",
+      "target": "AIDS/HIV",
+      "weight": 0.0166,
+      "cooc_count": 615,
+      "trans_count": 964
+    },
+    {
+      "source": "Moderate or severe liver disease",
+      "target": "Metastatic solid tumor",
+      "weight": 0.0174,
+      "cooc_count": 764,
+      "trans_count": 833
+    },
+    {
+      "source": "Moderate or severe liver disease",
+      "target": "AIDS/HIV",
+      "weight": 0.0035,
+      "cooc_count": 140,
+      "trans_count": 186
+    },
+    {
+      "source": "Metastatic solid tumor",
+      "target": "AIDS/HIV",
+      "weight": 0.0025,
+      "cooc_count": 95,
+      "trans_count": 143
+    }
+  ],
+  "modularity": 0.0394,
+  "n_communities": 3,
+  "communities": [
+    [
+      "AIDS/HIV",
+      "Chronic pulmonary disease",
+      "Diabetes without complication",
+      "Malignancy",
+      "Metastatic solid tumor",
+      "Mild liver disease",
+      "Moderate or severe liver disease",
+      "Peptic ulcer disease",
+      "Rheumatic disease"
+    ],
+    [
+      "Congestive heart failure",
+      "Diabetes with complication",
+      "Myocardial infarction",
+      "Peripheral vascular disease",
+      "Renal disease"
+    ],
+    [
+      "Cerebrovascular disease",
+      "Dementia",
+      "Hemiplegia or paraplegia"
+    ]
+  ]
+}

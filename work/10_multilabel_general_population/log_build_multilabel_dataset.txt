@@ -1,0 +1,5 @@
+General-population admission-pairs: 322,206
+Avg # categories present at NEXT visit: 1.47
+Avg # categories persisting from current visit: 1.00
+
+Saved general_multilabel_df.parquet: (322206, 77)

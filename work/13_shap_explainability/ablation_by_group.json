@@ -1,0 +1,83 @@
+{
+  "full": {
+    "n_features": 57,
+    "auroc": 0.7624,
+    "auprc": 0.3793,
+    "best_f1_on_test": 0.3931,
+    "base_rate": 0.1308
+  },
+  "Admission history and timing": {
+    "n_features_removed": 5,
+    "auroc": 0.7604,
+    "auprc": 0.3784,
+    "best_f1_on_test": 0.3907,
+    "base_rate": 0.1308,
+    "delta_auroc": -0.002,
+    "delta_auprc": -0.0009,
+    "delta_best_f1_on_test": -0.0024
+  },
+  "Age and sex": {
+    "n_features_removed": 3,
+    "auroc": 0.7581,
+    "auprc": 0.3765,
+    "best_f1_on_test": 0.3891,
+    "base_rate": 0.1308,
+    "delta_auroc": -0.0043,
+    "delta_auprc": -0.0028,
+    "delta_best_f1_on_test": -0.004
+  },
+  "Burden score and trajectory": {
+    "n_features_removed": 12,
+    "auroc": 0.7001,
+    "auprc": 0.2474,
+    "best_f1_on_test": 0.3207,
+    "base_rate": 0.1308,
+    "delta_auroc": -0.0623,
+    "delta_auprc": -0.1319,
+    "delta_best_f1_on_test": -0.0724
+  },
+  "Charlson category flags": {
+    "n_features_removed": 17,
+    "auroc": 0.756,
+    "auprc": 0.3738,
+    "best_f1_on_test": 0.3845,
+    "base_rate": 0.1308,
+    "delta_auroc": -0.0064,
+    "delta_auprc": -0.0055,
+    "delta_best_f1_on_test": -0.0086
+  },
+  "ICU, procedures and DRG": {
+    "n_features_removed": 13,
+    "auroc": 0.7617,
+    "auprc": 0.3762,
+    "best_f1_on_test": 0.393,
+    "base_rate": 0.1308,
+    "delta_auroc": -0.0007,
+    "delta_auprc": -0.0031,
+    "delta_best_f1_on_test": -0.0001
+  },
+  "Network communities (Louvain)": {
+    "n_features_removed": 7,
+    "auroc": 0.7626,
+    "auprc": 0.3791,
+    "best_f1_on_test": 0.3924,
+    "base_rate": 0.1308,
+    "delta_auroc": 0.0002,
+    "delta_auprc": -0.0002,
+    "delta_best_f1_on_test": -0.0007
+  },
+  "flags_only": {
+    "n_features": 17,
+    "auroc": 0.6108,
+    "auprc": 0.1844,
+    "best_f1_on_test": 0.2653,
+    "base_rate": 0.1308
+  },
+  "flags_plus_communities": {
+    "n_features": 24,
+    "auroc": 0.6175,
+    "auprc": 0.1882,
+    "best_f1_on_test": 0.2674,
+    "base_rate": 0.1308
+  }
+}

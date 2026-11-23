@@ -1,0 +1,23 @@
+Matrix: (545497, 251), categories: 251
+Computing co-occurrence matrix ...
+Computing transition matrix ...
+  admission-pairs used: 322,206
+Non-zero candidate edges: 30,768 of 31,375 possible pairs
+Network: 251 nodes, 12307 edges
+
+Louvain found 10 communities, modularity=0.0507
+  Community 0 (n=93): Esophageal disorders, Residual codes; unclassified, Mood disorders, Other nervous system disorders, Other nutritional; endocrine; and metabolic disorders, Other gastrointestinal disorders, Anxiety disorders, Substance-related disorders ...
+  Community 1 (n=69): Essential hypertension, Disorders of lipid metabolism, Other aftercare, Screening and history of mental health and substance abuse codes, Cardiac dysrhythmias, Coronary atherosclerosis and other heart disease, Diabetes mellitus without complication, Congestive heart failure; nonhypertensive ...
+  Community 2 (n=43): Deficiency and other anemia, Fluid and electrolyte disorders, Hypertension with complications and secondary hypertension, Chronic kidney disease, Acute and unspecified renal failure, Diabetes mellitus with complications, Genitourinary symptoms and ill-defined conditions, Urinary tract infections ...
+  Community 3 (n=21): External cause codes:  Place of occurrence, Complications of surgical procedures or medical care, Other injuries and conditions due to external causes, Acute posthemorrhagic anemia, Adverse effects of medical care, External cause codes:  Fall, Other fractures, Intracranial injury ...
+  Community 4 (n=20): Immunizations and screening for infectious disease, Other pregnancy and delivery including normal, Other complications of birth; puerperium affecting management of mother, Other complications of pregnancy, OB-related trauma to perineum and vulva, Other female genital disorders, Umbilical cord complication, Hypertension complicating pregnancy; childbirth and the puerperium ...
+  Community 5 (n=1): Acute and chronic tonsillitis
+  Community 6 (n=1): Otitis media and related conditions
+  Community 7 (n=1): Cancer of testis
+  Community 8 (n=1): Sexually transmitted infections (not HIV or hepatitis)
+  Community 9 (n=1): Poisoning by nonmedicinal substances
+  [sensitivity] resolution=0.5: 7 communities, sizes=[230, 16, 1, 1, 1, 1, 1]
+  [sensitivity] resolution=1.5: 40 communities, sizes=[23, 22, 19, 17, 13, 13, 12, 11, 10, 10]
+  [sensitivity] resolution=2.0: 69 communities, sizes=[22, 19, 18, 13, 12, 9, 8, 8, 7, 7]
+
+Saved ccs_network_data.json, ccs_cat_to_comm.json

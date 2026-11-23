@@ -1,0 +1,6 @@
+Loading vendored CCS mapping (recommended, reproducible)...
+Loading raw diagnoses from C:/Users/HP/OneDrive/Documents/VSCode/pipeline_run\raw\diagnoses_icd.csv ...
+Total rows: 6,364,488
+Mapped fraction (all rows): 0.9522
+Unique CCS categories observed: 279
+Saved C:/Users/HP/OneDrive/Documents/VSCode/pipeline_run\work\03_ccs_extension\dx_with_ccs.parquet

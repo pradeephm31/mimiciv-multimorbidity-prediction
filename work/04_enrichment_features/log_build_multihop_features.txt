@@ -1,0 +1,17 @@
+Age-points distribution:
+age_points
+0    164149
+1     93852
+2    108112
+3     91201
+4     65433
+5     22651
+6        99
+Name: count, dtype: int64
+
+Raw Charlson score:  mean=1.93, std=2.26
+ACCI (age-adjusted): mean=3.69, std=3.10
+
+Multi-hop feature availability: lag1=59.1%, lag2=40.7%, lag3=30.5%
+
+Saved adm_full_enriched_multihop.parquet: (545497, 60)

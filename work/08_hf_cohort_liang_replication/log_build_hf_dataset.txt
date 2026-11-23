@@ -1,0 +1,6 @@
+HF-cohort admission-pairs: 108,231
+Escalation rate: 18.31%
+  (full-cohort escalation rate was 13.09%, for comparison)
+Missing columns: []
+
+Saved hf_model_df.parquet: (108231, 60)

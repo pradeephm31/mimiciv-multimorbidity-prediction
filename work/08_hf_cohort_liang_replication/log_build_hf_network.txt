@@ -1,0 +1,11 @@
+HF cohort: 21,975 patients, 130,206 admissions, avg 5.93 visits/patient
+Transition pairs used: 108,231
+Network: 17 nodes, 55 edges
+
+Louvain (HF cohort): 3 communities, modularity=0.0000
+  Community 0 (n=15): ['Cerebrovascular disease', 'Chronic pulmonary disease', 'Congestive heart failure', 'Dementia', 'Diabetes with complication', 'Diabetes without complication', 'Malignancy', 'Metastatic solid tumor', 'Mild liver disease', 'Moderate or severe liver disease', 'Myocardial infarction', 'Peptic ulcer disease', 'Peripheral vascular disease', 'Renal disease', 'Rheumatic disease']
+  Community 1 (n=1): ['Hemiplegia or paraplegia']
+  Community 2 (n=1): ['AIDS/HIV']
+Silhouette (HF cohort network): 0.07803116670184508
+
+Saved hf_cohort_adm.parquet, hf_cat_to_comm.json, hf_network_summary.json

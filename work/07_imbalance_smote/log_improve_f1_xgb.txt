@@ -1,0 +1,22 @@
+Using tuned params: {'max_depth': 4, 'learning_rate': 0.02, 'min_child_weight': 10, 'subsample': 0.8, 'colsample_bytree': 0.8, 'gamma': 0.5, 'reg_alpha': 0, 'reg_lambda': 5.0}
+
+Full inverse-ratio scale_pos_weight = 6.71
+
+[XGBoost, scale_pos_weight=1.0 (no reweighting)] AUROC=0.7620 AUPRC=0.3795 Brier=0.0982 | thr=0.185 -> TEST F1=0.3911 P=0.319 R=0.506 Acc=0.794
+[XGBoost, scale_pos_weight=2.0] AUROC=0.7614 AUPRC=0.3784 Brier=0.1065 | thr=0.302 -> TEST F1=0.3890 P=0.308 R=0.527 Acc=0.784
+[XGBoost, scale_pos_weight=3.0] AUROC=0.7619 AUPRC=0.3787 Brier=0.1236 | thr=0.397 -> TEST F1=0.3895 P=0.311 R=0.520 Acc=0.787
+[XGBoost, scale_pos_weight=4.5] AUROC=0.7619 AUPRC=0.3785 Brier=0.1536 | thr=0.487 -> TEST F1=0.3875 P=0.302 R=0.540 Acc=0.777
+[XGBoost, scale_pos_weight=6.71 (full inverse ratio)] AUROC=0.7618 AUPRC=0.3783 Brier=0.1975 | thr=0.590 -> TEST F1=0.3877 P=0.306 R=0.529 Acc=0.781
+
+Best XGBoost variant by validation F1: xgb_spw_6p71
+[XGBoost (best) + isotonic calibration] AUROC=0.7614 AUPRC=0.3664 Brier=0.0983 | thr=0.200 -> TEST F1=0.3877 P=0.306 R=0.529 Acc=0.781
+
+Best linear model by validation F1: ridge_l2_logistic_c1e-3 (Ridge (L2) logistic, C=1e-3)
+[Ensemble: 50% XGBoost + 50% Ridge (L2) logistic (rank-averaged)] AUROC=0.7552 AUPRC=0.3638 Brier=0.2720 | thr=0.750 -> TEST F1=0.3817 P=0.295 R=0.539 Acc=0.771
+[Ensemble: 70% XGBoost + 30% Ridge (L2) logistic (rank-averaged)] AUROC=0.7594 AUPRC=0.3706 Brier=0.2716 | thr=0.772 -> TEST F1=0.3875 P=0.310 R=0.517 Acc=0.786
+[Ensemble: 85% XGBoost + 15% Ridge (L2) logistic (rank-averaged)] AUROC=0.7612 AUPRC=0.3750 Brier=0.2723 | thr=0.765 -> TEST F1=0.3887 P=0.305 R=0.536 Acc=0.780
+
+=== WINNER by validation F1: xgb_spw_6p71 -> XGBoost, scale_pos_weight=6.71 (full inverse ratio) ===
+    TEST: AUROC=0.7618  F1=0.3877
+
+Saved f1_improvement_results.json

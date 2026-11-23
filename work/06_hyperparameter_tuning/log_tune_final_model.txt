@@ -1,0 +1,35 @@
+Outer train (full): 257,804 pairs (80,045 patients)
+Search subsample:    90,408 pairs (28,016 patients)
+Outer test:  64,402 pairs (20,012 patients)
+
+Searching 20 candidates x 5-fold GroupKFold (with early stopping)...
+  [1/20] CV AUROC=0.7505 (+/-0.0083)  {'max_depth': 3, 'learning_rate': 0.02, 'min_child_weight': 5, 'subsample': 0.7, 'colsample_bytree': 0.6, 'gamma': 0.1, 'reg_alpha': 1.0, 'reg_lambda': 1.0}
+  [2/20] CV AUROC=0.7529 (+/-0.0052)  {'max_depth': 3, 'learning_rate': 0.1, 'min_child_weight': 10, 'subsample': 0.6, 'colsample_bytree': 0.5, 'gamma': 0, 'reg_alpha': 0, 'reg_lambda': 2.0}
+  [3/20] CV AUROC=0.7529 (+/-0.0048)  {'max_depth': 3, 'learning_rate': 0.1, 'min_child_weight': 3, 'subsample': 1.0, 'colsample_bytree': 0.8, 'gamma': 0.1, 'reg_alpha': 0.1, 'reg_lambda': 5.0}
+  [4/20] CV AUROC=0.7530 (+/-0.0058)  {'max_depth': 3, 'learning_rate': 0.03, 'min_child_weight': 10, 'subsample': 0.8, 'colsample_bytree': 0.7, 'gamma': 0.1, 'reg_alpha': 0, 'reg_lambda': 5.0}
+  [5/20] CV AUROC=0.7470 (+/-0.0102)  {'max_depth': 3, 'learning_rate': 0.02, 'min_child_weight': 10, 'subsample': 0.6, 'colsample_bytree': 0.7, 'gamma': 0.5, 'reg_alpha': 1.0, 'reg_lambda': 5.0}
+  [6/20] CV AUROC=0.7529 (+/-0.0056)  {'max_depth': 3, 'learning_rate': 0.08, 'min_child_weight': 20, 'subsample': 0.6, 'colsample_bytree': 0.8, 'gamma': 0, 'reg_alpha': 1.0, 'reg_lambda': 5.0}
+  [7/20] CV AUROC=0.7522 (+/-0.0043)  {'max_depth': 5, 'learning_rate': 0.1, 'min_child_weight': 3, 'subsample': 0.6, 'colsample_bytree': 0.5, 'gamma': 0.1, 'reg_alpha': 0.1, 'reg_lambda': 1.0}
+  [8/20] CV AUROC=0.7547 (+/-0.0041)  {'max_depth': 4, 'learning_rate': 0.02, 'min_child_weight': 10, 'subsample': 0.8, 'colsample_bytree': 0.8, 'gamma': 0.5, 'reg_alpha': 0, 'reg_lambda': 5.0}
+  [9/20] CV AUROC=0.7542 (+/-0.0041)  {'max_depth': 5, 'learning_rate': 0.03, 'min_child_weight': 5, 'subsample': 0.6, 'colsample_bytree': 1.0, 'gamma': 0.1, 'reg_alpha': 1.0, 'reg_lambda': 2.0}
+  [10/20] CV AUROC=0.7540 (+/-0.0040)  {'max_depth': 4, 'learning_rate': 0.08, 'min_child_weight': 10, 'subsample': 0.8, 'colsample_bytree': 1.0, 'gamma': 0.1, 'reg_alpha': 1.0, 'reg_lambda': 5.0}
+  [11/20] CV AUROC=0.7535 (+/-0.0040)  {'max_depth': 3, 'learning_rate': 0.03, 'min_child_weight': 1, 'subsample': 0.8, 'colsample_bytree': 0.8, 'gamma': 0.5, 'reg_alpha': 0, 'reg_lambda': 2.0}
+  [12/20] CV AUROC=0.7539 (+/-0.0047)  {'max_depth': 5, 'learning_rate': 0.03, 'min_child_weight': 10, 'subsample': 0.9, 'colsample_bytree': 0.8, 'gamma': 0.1, 'reg_alpha': 0.1, 'reg_lambda': 2.0}
+  [13/20] CV AUROC=0.7532 (+/-0.0047)  {'max_depth': 4, 'learning_rate': 0.1, 'min_child_weight': 20, 'subsample': 0.8, 'colsample_bytree': 1.0, 'gamma': 1.0, 'reg_alpha': 1.0, 'reg_lambda': 10.0}
+  [14/20] CV AUROC=0.7523 (+/-0.0042)  {'max_depth': 5, 'learning_rate': 0.03, 'min_child_weight': 3, 'subsample': 1.0, 'colsample_bytree': 0.8, 'gamma': 0, 'reg_alpha': 0, 'reg_lambda': 1.0}
+  [15/20] CV AUROC=0.7544 (+/-0.0056)  {'max_depth': 4, 'learning_rate': 0.03, 'min_child_weight': 10, 'subsample': 1.0, 'colsample_bytree': 0.5, 'gamma': 1.0, 'reg_alpha': 0.1, 'reg_lambda': 10.0}
+  [16/20] CV AUROC=0.7532 (+/-0.0042)  {'max_depth': 5, 'learning_rate': 0.1, 'min_child_weight': 1, 'subsample': 0.6, 'colsample_bytree': 1.0, 'gamma': 0.5, 'reg_alpha': 1.0, 'reg_lambda': 5.0}
+  [17/20] CV AUROC=0.7536 (+/-0.0048)  {'max_depth': 3, 'learning_rate': 0.05, 'min_child_weight': 10, 'subsample': 0.7, 'colsample_bytree': 0.8, 'gamma': 0, 'reg_alpha': 1.0, 'reg_lambda': 5.0}
+  [18/20] CV AUROC=0.7533 (+/-0.0036)  {'max_depth': 4, 'learning_rate': 0.1, 'min_child_weight': 1, 'subsample': 0.8, 'colsample_bytree': 1.0, 'gamma': 0.1, 'reg_alpha': 0, 'reg_lambda': 5.0}
+  [19/20] CV AUROC=0.7535 (+/-0.0047)  {'max_depth': 4, 'learning_rate': 0.1, 'min_child_weight': 20, 'subsample': 0.6, 'colsample_bytree': 1.0, 'gamma': 0.5, 'reg_alpha': 0.1, 'reg_lambda': 1.0}
+  [20/20] CV AUROC=0.7525 (+/-0.0048)  {'max_depth': 3, 'learning_rate': 0.05, 'min_child_weight': 5, 'subsample': 0.7, 'colsample_bytree': 0.5, 'gamma': 0.1, 'reg_alpha': 1.0, 'reg_lambda': 1.0}
+
+Best params (CV AUROC=0.7547): {'max_depth': 4, 'learning_rate': 0.02, 'min_child_weight': 10, 'subsample': 0.8, 'colsample_bytree': 0.8, 'gamma': 0.5, 'reg_alpha': 0, 'reg_lambda': 5.0}
+
+Final model: best_iteration=597 (of max 600)
+
+=== FINAL TUNED MODEL (held-out test set) ===
+AUROC=0.7624  AUPRC=0.3793  Brier=0.1972
+F1 (best thresh 0.629) = 0.3931
+Accuracy=0.8167  Precision=0.3467  Recall=0.4539
+exit 0

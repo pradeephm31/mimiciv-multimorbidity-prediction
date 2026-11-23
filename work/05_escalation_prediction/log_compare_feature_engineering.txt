@@ -1,0 +1,10 @@
+Train: 257,804 pairs (80,045 patients)
+Test:  64,402 pairs (20,012 patients)
+[v1: Charlson full (17 cat + network, no enrichment)] n_feat=30  AUROC=0.7068  AUPRC=0.3208  F1best=0.3527
+[v2: + age/ICU/procedures/DRG (single lag)] n_feat=41  AUROC=0.7490  AUPRC=0.3508  F1best=0.3754
+[v3: + ACCI + multi-hop (t-2,t-3) + admission-interval/frequency + cumulative ICU/procedures] n_feat=57  AUROC=0.7630  AUPRC=0.3804  F1best=0.3923
+
+=== Summary (default hyperparams, isolating feature-engineering effect) ===
+  v1: Charlson full (17 cat + network, no enrichment)                    AUROC=0.7068  F1best=0.3527
+  v2: + age/ICU/procedures/DRG (single lag)                              AUROC=0.7490  F1best=0.3754
+  v3: + ACCI + multi-hop (t-2,t-3) + admission-interval/frequency + cumulative ICU/procedures AUROC=0.7630  F1best=0.3923

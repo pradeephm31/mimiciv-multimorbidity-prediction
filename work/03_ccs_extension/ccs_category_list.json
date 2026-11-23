@@ -1,0 +1,1259 @@
+{
+  "categories": [
+    {
+      "ccs": 98,
+      "desc": "Essential hypertension",
+      "prevalence_admissions": 189688
+    },
+    {
+      "ccs": 53,
+      "desc": "Disorders of lipid metabolism",
+      "prevalence_admissions": 180795
+    },
+    {
+      "ccs": 257,
+      "desc": "Other aftercare",
+      "prevalence_admissions": 142317
+    },
+    {
+      "ccs": 663,
+      "desc": "Screening and history of mental health and substance abuse codes",
+      "prevalence_admissions": 121909
+    },
+    {
+      "ccs": 138,
+      "desc": "Esophageal disorders",
+      "prevalence_admissions": 116698
+    },
+    {
+      "ccs": 259,
+      "desc": "Residual codes; unclassified",
+      "prevalence_admissions": 114696
+    },
+    {
+      "ccs": 657,
+      "desc": "Mood disorders",
+      "prevalence_admissions": 111828
+    },
+    {
+      "ccs": 95,
+      "desc": "Other nervous system disorders",
+      "prevalence_admissions": 109852
+    },
+    {
+      "ccs": 106,
+      "desc": "Cardiac dysrhythmias",
+      "prevalence_admissions": 108827
+    },
+    {
+      "ccs": 59,
+      "desc": "Deficiency and other anemia",
+      "prevalence_admissions": 108387
+    },
+    {
+      "ccs": 101,
+      "desc": "Coronary atherosclerosis and other heart disease",
+      "prevalence_admissions": 108289
+    },
+    {
+      "ccs": 55,
+      "desc": "Fluid and electrolyte disorders",
+      "prevalence_admissions": 105094
+    },
+    {
+      "ccs": 58,
+      "desc": "Other nutritional; endocrine; and metabolic disorders",
+      "prevalence_admissions": 97143
+    },
+    {
+      "ccs": 99,
+      "desc": "Hypertension with complications and secondary hypertension",
+      "prevalence_admissions": 89873
+    },
+    {
+      "ccs": 155,
+      "desc": "Other gastrointestinal disorders",
+      "prevalence_admissions": 88728
+    },
+    {
+      "ccs": 158,
+      "desc": "Chronic kidney disease",
+      "prevalence_admissions": 81455
+    },
+    {
+      "ccs": 49,
+      "desc": "Diabetes mellitus without complication",
+      "prevalence_admissions": 81378
+    },
+    {
+      "ccs": 108,
+      "desc": "Congestive heart failure; nonhypertensive",
+      "prevalence_admissions": 80766
+    },
+    {
+      "ccs": 651,
+      "desc": "Anxiety disorders",
+      "prevalence_admissions": 75922
+    },
+    {
+      "ccs": 157,
+      "desc": "Acute and unspecified renal failure",
+      "prevalence_admissions": 73315
+    },
+    {
+      "ccs": 48,
+      "desc": "Thyroid disorders",
+      "prevalence_admissions": 68570
+    },
+    {
+      "ccs": 211,
+      "desc": "Other connective tissue disease",
+      "prevalence_admissions": 66201
+    },
+    {
+      "ccs": 117,
+      "desc": "Other circulatory disease",
+      "prevalence_admissions": 63564
+    },
+    {
+      "ccs": 50,
+      "desc": "Diabetes mellitus with complications",
+      "prevalence_admissions": 62529
+    },
+    {
+      "ccs": 2621,
+      "desc": "External cause codes:  Place of occurrence",
+      "prevalence_admissions": 61232
+    },
+    {
+      "ccs": 238,
+      "desc": "Complications of surgical procedures or medical care",
+      "prevalence_admissions": 56054
+    },
+    {
+      "ccs": 661,
+      "desc": "Substance-related disorders",
+      "prevalence_admissions": 52522
+    },
+    {
+      "ccs": 128,
+      "desc": "Asthma",
+      "prevalence_admissions": 50195
+    },
+    {
+      "ccs": 205,
+      "desc": "Spondylosis; intervertebral disc disorders; other back problems",
+      "prevalence_admissions": 50024
+    },
+    {
+      "ccs": 660,
+      "desc": "Alcohol-related disorders",
+      "prevalence_admissions": 49381
+    },
+    {
+      "ccs": 151,
+      "desc": "Other liver diseases",
+      "prevalence_admissions": 48386
+    },
+    {
+      "ccs": 163,
+      "desc": "Genitourinary symptoms and ill-defined conditions",
+      "prevalence_admissions": 47290
+    },
+    {
+      "ccs": 127,
+      "desc": "Chronic obstructive pulmonary disease and bronchiectasis",
+      "prevalence_admissions": 46867
+    },
+    {
+      "ccs": 133,
+      "desc": "Other lower respiratory disease",
+      "prevalence_admissions": 44407
+    },
+    {
+      "ccs": 62,
+      "desc": "Coagulation and hemorrhagic disorders",
+      "prevalence_admissions": 44379
+    },
+    {
+      "ccs": 96,
+      "desc": "Heart valve disorders",
+      "prevalence_admissions": 43464
+    },
+    {
+      "ccs": 159,
+      "desc": "Urinary tract infections",
+      "prevalence_admissions": 43213
+    },
+    {
+      "ccs": 3,
+      "desc": "Bacterial infection; unspecified site",
+      "prevalence_admissions": 42760
+    },
+    {
+      "ccs": 118,
+      "desc": "Phlebitis; thrombophlebitis and thromboembolism",
+      "prevalence_admissions": 38653
+    },
+    {
+      "ccs": 131,
+      "desc": "Respiratory failure; insufficiency; arrest (adult)",
+      "prevalence_admissions": 36601
+    },
+    {
+      "ccs": 103,
+      "desc": "Pulmonary heart disease",
+      "prevalence_admissions": 36589
+    },
+    {
+      "ccs": 52,
+      "desc": "Nutritional deficiencies",
+      "prevalence_admissions": 36059
+    },
+    {
+      "ccs": 105,
+      "desc": "Conduction disorders",
+      "prevalence_admissions": 34389
+    },
+    {
+      "ccs": 237,
+      "desc": "Complication of device; implant or graft",
+      "prevalence_admissions": 33932
+    },
+    {
+      "ccs": 10,
+      "desc": "Immunizations and screening for infectious disease",
+      "prevalence_admissions": 32261
+    },
+    {
+      "ccs": 653,
+      "desc": "Delirium dementia and amnestic and other cognitive disorders",
+      "prevalence_admissions": 31374
+    },
+    {
+      "ccs": 102,
+      "desc": "Nonspecific chest pain",
+      "prevalence_admissions": 30209
+    },
+    {
+      "ccs": 244,
+      "desc": "Other injuries and conditions due to external causes",
+      "prevalence_admissions": 30110
+    },
+    {
+      "ccs": 164,
+      "desc": "Hyperplasia of prostate",
+      "prevalence_admissions": 29918
+    },
+    {
+      "ccs": 60,
+      "desc": "Acute posthemorrhagic anemia",
+      "prevalence_admissions": 29544
+    },
+    {
+      "ccs": 203,
+      "desc": "Osteoarthritis",
+      "prevalence_admissions": 29522
+    },
+    {
+      "ccs": 122,
+      "desc": "Pneumonia (except that caused by tuberculosis or sexually transmitted disease)",
+      "prevalence_admissions": 28997
+    },
+    {
+      "ccs": 42,
+      "desc": "Secondary malignancies",
+      "prevalence_admissions": 28549
+    },
+    {
+      "ccs": 2616,
+      "desc": "Adverse effects of medical care",
+      "prevalence_admissions": 28433
+    },
+    {
+      "ccs": 63,
+      "desc": "Diseases of white blood cells",
+      "prevalence_admissions": 28027
+    },
+    {
+      "ccs": 2617,
+      "desc": "Adverse effects of medical drugs",
+      "prevalence_admissions": 27524
+    },
+    {
+      "ccs": 6,
+      "desc": "Hepatitis",
+      "prevalence_admissions": 27009
+    },
+    {
+      "ccs": 83,
+      "desc": "Epilepsy; convulsions",
+      "prevalence_admissions": 26402
+    },
+    {
+      "ccs": 2,
+      "desc": "Septicemia (except in labor)",
+      "prevalence_admissions": 26121
+    },
+    {
+      "ccs": 54,
+      "desc": "Gout and other crystal arthropathies",
+      "prevalence_admissions": 25556
+    },
+    {
+      "ccs": 114,
+      "desc": "Peripheral and visceral atherosclerosis",
+      "prevalence_admissions": 24678
+    },
+    {
+      "ccs": 84,
+      "desc": "Headache; including migraine",
+      "prevalence_admissions": 24330
+    },
+    {
+      "ccs": 197,
+      "desc": "Skin and subcutaneous tissue infections",
+      "prevalence_admissions": 22349
+    },
+    {
+      "ccs": 130,
+      "desc": "Pleurisy; pneumothorax; pulmonary collapse",
+      "prevalence_admissions": 22050
+    },
+    {
+      "ccs": 206,
+      "desc": "Osteoporosis",
+      "prevalence_admissions": 21572
+    },
+    {
+      "ccs": 149,
+      "desc": "Biliary tract disease",
+      "prevalence_admissions": 21515
+    },
+    {
+      "ccs": 662,
+      "desc": "Suicide and intentional self-inflicted injury",
+      "prevalence_admissions": 21372
+    },
+    {
+      "ccs": 250,
+      "desc": "Nausea and vomiting",
+      "prevalence_admissions": 21349
+    },
+    {
+      "ccs": 97,
+      "desc": "Peri-; endo-; and myocarditis; cardiomyopathy (except that caused by tuberculosis or sexually transmitted disease)",
+      "prevalence_admissions": 20888
+    },
+    {
+      "ccs": 251,
+      "desc": "Abdominal pain",
+      "prevalence_admissions": 20688
+    },
+    {
+      "ccs": 196,
+      "desc": "Other pregnancy and delivery including normal",
+      "prevalence_admissions": 20525
+    },
+    {
+      "ccs": 199,
+      "desc": "Chronic ulcer of skin",
+      "prevalence_admissions": 20450
+    },
+    {
+      "ccs": 24,
+      "desc": "Cancer of breast",
+      "prevalence_admissions": 18977
+    },
+    {
+      "ccs": 204,
+      "desc": "Other non-traumatic joint disorders",
+      "prevalence_admissions": 18749
+    },
+    {
+      "ccs": 51,
+      "desc": "Other endocrine disorders",
+      "prevalence_admissions": 18657
+    },
+    {
+      "ccs": 212,
+      "desc": "Other bone disease and musculoskeletal deformities",
+      "prevalence_admissions": 17143
+    },
+    {
+      "ccs": 2603,
+      "desc": "External cause codes:  Fall",
+      "prevalence_admissions": 16991
+    },
+    {
+      "ccs": 100,
+      "desc": "Acute myocardial infarction",
+      "prevalence_admissions": 16537
+    },
+    {
+      "ccs": 195,
+      "desc": "Other complications of birth; puerperium affecting management of mother",
+      "prevalence_admissions": 16184
+    },
+    {
+      "ccs": 47,
+      "desc": "Other and unspecified benign neoplasm",
+      "prevalence_admissions": 15915
+    },
+    {
+      "ccs": 153,
+      "desc": "Gastrointestinal hemorrhage",
+      "prevalence_admissions": 15866
+    },
+    {
+      "ccs": 29,
+      "desc": "Cancer of prostate",
+      "prevalence_admissions": 15551
+    },
+    {
+      "ccs": 249,
+      "desc": "Shock",
+      "prevalence_admissions": 15487
+    },
+    {
+      "ccs": 659,
+      "desc": "Schizophrenia and other psychotic disorders",
+      "prevalence_admissions": 15479
+    },
+    {
+      "ccs": 109,
+      "desc": "Acute cerebrovascular disease",
+      "prevalence_admissions": 15300
+    },
+    {
+      "ccs": 152,
+      "desc": "Pancreatic disorders (not diabetes)",
+      "prevalence_admissions": 14698
+    },
+    {
+      "ccs": 81,
+      "desc": "Other hereditary and degenerative nervous system conditions",
+      "prevalence_admissions": 14500
+    },
+    {
+      "ccs": 141,
+      "desc": "Other disorders of stomach and duodenum",
+      "prevalence_admissions": 14447
+    },
+    {
+      "ccs": 143,
+      "desc": "Abdominal hernia",
+      "prevalence_admissions": 14360
+    },
+    {
+      "ccs": 161,
+      "desc": "Other diseases of kidney and ureters",
+      "prevalence_admissions": 13987
+    },
+    {
+      "ccs": 134,
+      "desc": "Other upper respiratory disease",
+      "prevalence_admissions": 13936
+    },
+    {
+      "ccs": 181,
+      "desc": "Other complications of pregnancy",
+      "prevalence_admissions": 13712
+    },
+    {
+      "ccs": 255,
+      "desc": "Administrative/social admission",
+      "prevalence_admissions": 13360
+    },
+    {
+      "ccs": 231,
+      "desc": "Other fractures",
+      "prevalence_admissions": 12883
+    },
+    {
+      "ccs": 146,
+      "desc": "Diverticulosis and diverticulitis",
+      "prevalence_admissions": 12662
+    },
+    {
+      "ccs": 88,
+      "desc": "Glaucoma",
+      "prevalence_admissions": 12645
+    },
+    {
+      "ccs": 19,
+      "desc": "Cancer of bronchus; lung",
+      "prevalence_admissions": 12526
+    },
+    {
+      "ccs": 246,
+      "desc": "Fever of unknown origin",
+      "prevalence_admissions": 12470
+    },
+    {
+      "ccs": 113,
+      "desc": "Late effects of cerebrovascular disease",
+      "prevalence_admissions": 12412
+    },
+    {
+      "ccs": 23,
+      "desc": "Other non-epithelial cancer of skin",
+      "prevalence_admissions": 12404
+    },
+    {
+      "ccs": 253,
+      "desc": "Allergic reactions",
+      "prevalence_admissions": 12207
+    },
+    {
+      "ccs": 145,
+      "desc": "Intestinal obstruction without hernia",
+      "prevalence_admissions": 12049
+    },
+    {
+      "ccs": 38,
+      "desc": "Non-Hodgkin`s lymphoma",
+      "prevalence_admissions": 11796
+    },
+    {
+      "ccs": 89,
+      "desc": "Blindness and vision defects",
+      "prevalence_admissions": 11727
+    },
+    {
+      "ccs": 135,
+      "desc": "Intestinal infection",
+      "prevalence_admissions": 11550
+    },
+    {
+      "ccs": 121,
+      "desc": "Other diseases of veins and lymphatics",
+      "prevalence_admissions": 11510
+    },
+    {
+      "ccs": 198,
+      "desc": "Other inflammatory condition of skin",
+      "prevalence_admissions": 11342
+    },
+    {
+      "ccs": 233,
+      "desc": "Intracranial injury",
+      "prevalence_admissions": 11340
+    },
+    {
+      "ccs": 115,
+      "desc": "Aortic; peripheral; and visceral artery aneurysms",
+      "prevalence_admissions": 11220
+    },
+    {
+      "ccs": 4,
+      "desc": "Mycoses",
+      "prevalence_admissions": 11075
+    },
+    {
+      "ccs": 200,
+      "desc": "Other skin disorders",
+      "prevalence_admissions": 10984
+    },
+    {
+      "ccs": 144,
+      "desc": "Regional enteritis and ulcerative colitis",
+      "prevalence_admissions": 10815
+    },
+    {
+      "ccs": 258,
+      "desc": "Other screening for suspected conditions (not mental disorders or infectious disease)",
+      "prevalence_admissions": 10678
+    },
+    {
+      "ccs": 82,
+      "desc": "Paralysis",
+      "prevalence_admissions": 10416
+    },
+    {
+      "ccs": 245,
+      "desc": "Syncope",
+      "prevalence_admissions": 10253
+    },
+    {
+      "ccs": 87,
+      "desc": "Retinal detachments; defects; vascular occlusion; and retinopathy",
+      "prevalence_admissions": 10101
+    },
+    {
+      "ccs": 239,
+      "desc": "Superficial injury; contusion",
+      "prevalence_admissions": 10017
+    },
+    {
+      "ccs": 93,
+      "desc": "Conditions associated with dizziness or vertigo",
+      "prevalence_admissions": 9872
+    },
+    {
+      "ccs": 256,
+      "desc": "Medical examination/evaluation",
+      "prevalence_admissions": 9746
+    },
+    {
+      "ccs": 5,
+      "desc": "HIV infection",
+      "prevalence_admissions": 9732
+    },
+    {
+      "ccs": 193,
+      "desc": "OB-related trauma to perineum and vulva",
+      "prevalence_admissions": 9722
+    },
+    {
+      "ccs": 252,
+      "desc": "Malaise and fatigue",
+      "prevalence_admissions": 9615
+    },
+    {
+      "ccs": 129,
+      "desc": "Aspiration pneumonitis; food/vomitus",
+      "prevalence_admissions": 9400
+    },
+    {
+      "ccs": 202,
+      "desc": "Rheumatoid arthritis and related disease",
+      "prevalence_admissions": 9215
+    },
+    {
+      "ccs": 44,
+      "desc": "Neoplasms of unspecified nature or uncertain behavior",
+      "prevalence_admissions": 9161
+    },
+    {
+      "ccs": 7,
+      "desc": "Viral infection",
+      "prevalence_admissions": 9137
+    },
+    {
+      "ccs": 14,
+      "desc": "Cancer of colon",
+      "prevalence_admissions": 8455
+    },
+    {
+      "ccs": 201,
+      "desc": "Infective arthritis and osteomyelitis (except that caused by tuberculosis or sexually transmitted disease)",
+      "prevalence_admissions": 8293
+    },
+    {
+      "ccs": 39,
+      "desc": "Leukemias",
+      "prevalence_admissions": 8172
+    },
+    {
+      "ccs": 140,
+      "desc": "Gastritis and duodenitis",
+      "prevalence_admissions": 7725
+    },
+    {
+      "ccs": 162,
+      "desc": "Other diseases of bladder and urethra",
+      "prevalence_admissions": 7553
+    },
+    {
+      "ccs": 139,
+      "desc": "Gastroduodenal ulcer (except hemorrhage)",
+      "prevalence_admissions": 7552
+    },
+    {
+      "ccs": 94,
+      "desc": "Other ear and sense organ disorders",
+      "prevalence_admissions": 7541
+    },
+    {
+      "ccs": 230,
+      "desc": "Fracture of lower limb",
+      "prevalence_admissions": 7520
+    },
+    {
+      "ccs": 126,
+      "desc": "Other upper respiratory infections",
+      "prevalence_admissions": 7391
+    },
+    {
+      "ccs": 160,
+      "desc": "Calculus of urinary tract",
+      "prevalence_admissions": 7305
+    },
+    {
+      "ccs": 8,
+      "desc": "Other infections; including parasitic",
+      "prevalence_admissions": 7280
+    },
+    {
+      "ccs": 45,
+      "desc": "Maintenance chemotherapy; radiotherapy",
+      "prevalence_admissions": 7270
+    },
+    {
+      "ccs": 156,
+      "desc": "Nephritis; nephrosis; renal sclerosis",
+      "prevalence_admissions": 7226
+    },
+    {
+      "ccs": 670,
+      "desc": "Miscellaneous mental health disorders",
+      "prevalence_admissions": 7165
+    },
+    {
+      "ccs": 111,
+      "desc": "Other and ill-defined cerebrovascular disease",
+      "prevalence_admissions": 6914
+    },
+    {
+      "ccs": 229,
+      "desc": "Fracture of upper limb",
+      "prevalence_admissions": 6824
+    },
+    {
+      "ccs": 91,
+      "desc": "Other eye disorders",
+      "prevalence_admissions": 6808
+    },
+    {
+      "ccs": 110,
+      "desc": "Occlusion or stenosis of precerebral arteries",
+      "prevalence_admissions": 6692
+    },
+    {
+      "ccs": 85,
+      "desc": "Coma; stupor; and brain damage",
+      "prevalence_admissions": 6557
+    },
+    {
+      "ccs": 213,
+      "desc": "Cardiac and circulatory congenital anomalies",
+      "prevalence_admissions": 6492
+    },
+    {
+      "ccs": 16,
+      "desc": "Cancer of liver and intrahepatic bile duct",
+      "prevalence_admissions": 6464
+    },
+    {
+      "ccs": 652,
+      "desc": "Attention-deficit conduct and disruptive behavior disorders",
+      "prevalence_admissions": 6353
+    },
+    {
+      "ccs": 210,
+      "desc": "Systemic lupus erythematosus and connective tissue disorders",
+      "prevalence_admissions": 6311
+    },
+    {
+      "ccs": 33,
+      "desc": "Cancer of kidney and renal pelvis",
+      "prevalence_admissions": 6307
+    },
+    {
+      "ccs": 235,
+      "desc": "Open wounds of head; neck; and trunk",
+      "prevalence_admissions": 6295
+    },
+    {
+      "ccs": 120,
+      "desc": "Hemorrhoids",
+      "prevalence_admissions": 5914
+    },
+    {
+      "ccs": 32,
+      "desc": "Cancer of bladder",
+      "prevalence_admissions": 5571
+    },
+    {
+      "ccs": 148,
+      "desc": "Peritonitis and intestinal abscess",
+      "prevalence_admissions": 5467
+    },
+    {
+      "ccs": 79,
+      "desc": "Parkinson`s disease",
+      "prevalence_admissions": 5450
+    },
+    {
+      "ccs": 175,
+      "desc": "Other female genital disorders",
+      "prevalence_admissions": 5354
+    },
+    {
+      "ccs": 22,
+      "desc": "Melanomas of skin",
+      "prevalence_admissions": 5287
+    },
+    {
+      "ccs": 192,
+      "desc": "Umbilical cord complication",
+      "prevalence_admissions": 5115
+    },
+    {
+      "ccs": 234,
+      "desc": "Crushing injury or internal injury",
+      "prevalence_admissions": 5101
+    },
+    {
+      "ccs": 183,
+      "desc": "Hypertension complicating pregnancy; childbirth and the puerperium",
+      "prevalence_admissions": 5019
+    },
+    {
+      "ccs": 154,
+      "desc": "Noninfectious gastroenteritis",
+      "prevalence_admissions": 4885
+    },
+    {
+      "ccs": 64,
+      "desc": "Other hematologic conditions",
+      "prevalence_admissions": 4839
+    },
+    {
+      "ccs": 207,
+      "desc": "Pathological fracture",
+      "prevalence_admissions": 4821
+    },
+    {
+      "ccs": 658,
+      "desc": "Personality disorders",
+      "prevalence_admissions": 4706
+    },
+    {
+      "ccs": 2611,
+      "desc": "External cause codes:  Natural/environment",
+      "prevalence_admissions": 4551
+    },
+    {
+      "ccs": 104,
+      "desc": "Other and ill-defined heart disease",
+      "prevalence_admissions": 4532
+    },
+    {
+      "ccs": 17,
+      "desc": "Cancer of pancreas",
+      "prevalence_admissions": 4493
+    },
+    {
+      "ccs": 46,
+      "desc": "Benign neoplasm of uterus",
+      "prevalence_admissions": 4388
+    },
+    {
+      "ccs": 236,
+      "desc": "Open wounds of extremities",
+      "prevalence_admissions": 4296
+    },
+    {
+      "ccs": 191,
+      "desc": "Polyhydramnios and other problems of amniotic cavity",
+      "prevalence_admissions": 4276
+    },
+    {
+      "ccs": 57,
+      "desc": "Immunity disorders",
+      "prevalence_admissions": 4264
+    },
+    {
+      "ccs": 654,
+      "desc": "Developmental disorders",
+      "prevalence_admissions": 4148
+    },
+    {
+      "ccs": 209,
+      "desc": "Other acquired deformities",
+      "prevalence_admissions": 4018
+    },
+    {
+      "ccs": 228,
+      "desc": "Skull and face fractures",
+      "prevalence_admissions": 3962
+    },
+    {
+      "ccs": 226,
+      "desc": "Fracture of neck of femur (hip)",
+      "prevalence_admissions": 3912
+    },
+    {
+      "ccs": 25,
+      "desc": "Cancer of uterus",
+      "prevalence_admissions": 3760
+    },
+    {
+      "ccs": 40,
+      "desc": "Multiple myeloma",
+      "prevalence_admissions": 3745
+    },
+    {
+      "ccs": 15,
+      "desc": "Cancer of rectum and anus",
+      "prevalence_admissions": 3703
+    },
+    {
+      "ccs": 147,
+      "desc": "Anal and rectal conditions",
+      "prevalence_admissions": 3679
+    },
+    {
+      "ccs": 136,
+      "desc": "Disorders of teeth and jaw",
+      "prevalence_admissions": 3678
+    },
+    {
+      "ccs": 189,
+      "desc": "Previous C-section",
+      "prevalence_admissions": 3625
+    },
+    {
+      "ccs": 242,
+      "desc": "Poisoning by other medications and drugs",
+      "prevalence_admissions": 3525
+    },
+    {
+      "ccs": 142,
+      "desc": "Appendicitis and other appendiceal conditions",
+      "prevalence_admissions": 3517
+    },
+    {
+      "ccs": 36,
+      "desc": "Cancer of thyroid",
+      "prevalence_admissions": 3474
+    },
+    {
+      "ccs": 166,
+      "desc": "Other male genital disorders",
+      "prevalence_admissions": 3426
+    },
+    {
+      "ccs": 107,
+      "desc": "Cardiac arrest and ventricular fibrillation",
+      "prevalence_admissions": 3358
+    },
+    {
+      "ccs": 248,
+      "desc": "Gangrene",
+      "prevalence_admissions": 3317
+    },
+    {
+      "ccs": 217,
+      "desc": "Other congenital anomalies",
+      "prevalence_admissions": 3313
+    },
+    {
+      "ccs": 650,
+      "desc": "Adjustment disorders",
+      "prevalence_admissions": 3261
+    },
+    {
+      "ccs": 18,
+      "desc": "Cancer of other GI organs; peritoneum",
+      "prevalence_admissions": 3242
+    },
+    {
+      "ccs": 80,
+      "desc": "Multiple sclerosis",
+      "prevalence_admissions": 3230
+    },
+    {
+      "ccs": 137,
+      "desc": "Diseases of mouth; excluding dental",
+      "prevalence_admissions": 3211
+    },
+    {
+      "ccs": 86,
+      "desc": "Cataract",
+      "prevalence_admissions": 3089
+    },
+    {
+      "ccs": 41,
+      "desc": "Cancer; other and unspecified primary",
+      "prevalence_admissions": 3065
+    },
+    {
+      "ccs": 247,
+      "desc": "Lymphadenitis",
+      "prevalence_admissions": 3050
+    },
+    {
+      "ccs": 185,
+      "desc": "Prolonged pregnancy",
+      "prevalence_admissions": 2881
+    },
+    {
+      "ccs": 27,
+      "desc": "Cancer of ovary",
+      "prevalence_admissions": 2846
+    },
+    {
+      "ccs": 11,
+      "desc": "Cancer of head and neck",
+      "prevalence_admissions": 2805
+    },
+    {
+      "ccs": 215,
+      "desc": "Genitourinary congenital anomalies",
+      "prevalence_admissions": 2772
+    },
+    {
+      "ccs": 168,
+      "desc": "Inflammatory diseases of female pelvic organs",
+      "prevalence_admissions": 2739
+    },
+    {
+      "ccs": 90,
+      "desc": "Inflammation; infection of eye (except that caused by tuberculosis or sexually transmitteddisease)",
+      "prevalence_admissions": 2641
+    },
+    {
+      "ccs": 232,
+      "desc": "Sprains and strains",
+      "prevalence_admissions": 2637
+    },
+    {
+      "ccs": 2607,
+      "desc": "External cause codes:  Motor vehicle traffic (MVT)",
+      "prevalence_admissions": 2477
+    },
+    {
+      "ccs": 61,
+      "desc": "Sickle cell anemia",
+      "prevalence_admissions": 2470
+    },
+    {
+      "ccs": 2620,
+      "desc": "External cause codes:  Unspecified",
+      "prevalence_admissions": 2379
+    },
+    {
+      "ccs": 116,
+      "desc": "Aortic and peripheral arterial embolism or thrombosis",
+      "prevalence_admissions": 2370
+    },
+    {
+      "ccs": 186,
+      "desc": "Diabetes or abnormal glucose tolerance complicating pregnancy; childbirth; or the puerperium",
+      "prevalence_admissions": 2344
+    },
+    {
+      "ccs": 123,
+      "desc": "Influenza",
+      "prevalence_admissions": 2300
+    },
+    {
+      "ccs": 35,
+      "desc": "Cancer of brain and nervous system",
+      "prevalence_admissions": 2260
+    },
+    {
+      "ccs": 13,
+      "desc": "Cancer of stomach",
+      "prevalence_admissions": 2136
+    },
+    {
+      "ccs": 208,
+      "desc": "Acquired foot deformities",
+      "prevalence_admissions": 2105
+    },
+    {
+      "ccs": 43,
+      "desc": "Malignant neoplasm without specification of site",
+      "prevalence_admissions": 2102
+    },
+    {
+      "ccs": 184,
+      "desc": "Early or threatened labor",
+      "prevalence_admissions": 2070
+    },
+    {
+      "ccs": 167,
+      "desc": "Nonmalignant breast conditions",
+      "prevalence_admissions": 2051
+    },
+    {
+      "ccs": 187,
+      "desc": "Malposition; malpresentation",
+      "prevalence_admissions": 2031
+    },
+    {
+      "ccs": 171,
+      "desc": "Menstrual disorders",
+      "prevalence_admissions": 1981
+    },
+    {
+      "ccs": 190,
+      "desc": "Fetal distress and abnormal forces of labor",
+      "prevalence_admissions": 1950
+    },
+    {
+      "ccs": 225,
+      "desc": "Joint disorders and dislocations; trauma-related",
+      "prevalence_admissions": 1938
+    },
+    {
+      "ccs": 172,
+      "desc": "Ovarian cyst",
+      "prevalence_admissions": 1922
+    },
+    {
+      "ccs": 12,
+      "desc": "Cancer of esophagus",
+      "prevalence_admissions": 1894
+    },
+    {
+      "ccs": 112,
+      "desc": "Transient cerebral ischemia",
+      "prevalence_admissions": 1829
+    },
+    {
+      "ccs": 176,
+      "desc": "Contraceptive and procreative management",
+      "prevalence_admissions": 1785
+    },
+    {
+      "ccs": 26,
+      "desc": "Cancer of cervix",
+      "prevalence_admissions": 1738
+    },
+    {
+      "ccs": 78,
+      "desc": "Other CNS infection and poliomyelitis",
+      "prevalence_admissions": 1736
+    },
+    {
+      "ccs": 37,
+      "desc": "Hodgkin`s disease",
+      "prevalence_admissions": 1677
+    },
+    {
+      "ccs": 2614,
+      "desc": "External cause codes:  Struck by; against",
+      "prevalence_admissions": 1677
+    },
+    {
+      "ccs": 169,
+      "desc": "Endometriosis",
+      "prevalence_admissions": 1484
+    },
+    {
+      "ccs": 165,
+      "desc": "Inflammatory conditions of male genital organs",
+      "prevalence_admissions": 1409
+    },
+    {
+      "ccs": 1,
+      "desc": "Tuberculosis",
+      "prevalence_admissions": 1325
+    },
+    {
+      "ccs": 241,
+      "desc": "Poisoning by psychotropic agents",
+      "prevalence_admissions": 1313
+    },
+    {
+      "ccs": 227,
+      "desc": "Spinal cord injury",
+      "prevalence_admissions": 1268
+    },
+    {
+      "ccs": 214,
+      "desc": "Digestive congenital anomalies",
+      "prevalence_admissions": 1264
+    },
+    {
+      "ccs": 655,
+      "desc": "Disorders usually diagnosed in infancy childhood or adolescence",
+      "prevalence_admissions": 1245
+    },
+    {
+      "ccs": 76,
+      "desc": "Meningitis (except that caused by tuberculosis or sexually transmitted disease)",
+      "prevalence_admissions": 1204
+    },
+    {
+      "ccs": 182,
+      "desc": "Hemorrhage during pregnancy; abruptio placenta; placenta previa",
+      "prevalence_admissions": 1204
+    },
+    {
+      "ccs": 216,
+      "desc": "Nervous system congenital anomalies",
+      "prevalence_admissions": 1083
+    },
+    {
+      "ccs": 170,
+      "desc": "Prolapse of female genital organs",
+      "prevalence_admissions": 1082
+    },
+    {
+      "ccs": 132,
+      "desc": "Lung disease due to external agents",
+      "prevalence_admissions": 1080
+    },
+    {
+      "ccs": 125,
+      "desc": "Acute bronchitis",
+      "prevalence_admissions": 1066
+    },
+    {
+      "ccs": 21,
+      "desc": "Cancer of bone and connective tissue",
+      "prevalence_admissions": 1050
+    },
+    {
+      "ccs": 656,
+      "desc": "Impulse control disorders NEC",
+      "prevalence_admissions": 988
+    },
+    {
+      "ccs": 173,
+      "desc": "Menopausal disorders",
+      "prevalence_admissions": 966
+    },
+    {
+      "ccs": 119,
+      "desc": "Varicose veins of lower extremity",
+      "prevalence_admissions": 922
+    },
+    {
+      "ccs": 28,
+      "desc": "Cancer of other female genital organs",
+      "prevalence_admissions": 813
+    },
+    {
+      "ccs": 124,
+      "desc": "Acute and chronic tonsillitis",
+      "prevalence_admissions": 752
+    },
+    {
+      "ccs": 77,
+      "desc": "Encephalitis (except that caused by tuberculosis or sexually transmitted disease)",
+      "prevalence_admissions": 711
+    },
+    {
+      "ccs": 188,
+      "desc": "Fetopelvic disproportion; obstruction",
+      "prevalence_admissions": 653
+    },
+    {
+      "ccs": 92,
+      "desc": "Otitis media and related conditions",
+      "prevalence_admissions": 650
+    },
+    {
+      "ccs": 30,
+      "desc": "Cancer of testis",
+      "prevalence_admissions": 622
+    },
+    {
+      "ccs": 9,
+      "desc": "Sexually transmitted infections (not HIV or hepatitis)",
+      "prevalence_admissions": 622
+    },
+    {
+      "ccs": 243,
+      "desc": "Poisoning by nonmedicinal substances",
+      "prevalence_admissions": 532
+    }
+  ]
+}

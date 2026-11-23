@@ -1,0 +1,21 @@
+Age coverage: 100.0%, mean=59.2, range=[18,100]
+ICU stay coverage: 15.6% of admissions had >=1 ICU stay
+Procedure CCS-PCS mapping coverage: 99.9%
+APR DRG coverage: 67.3%
+
+Saved enrichment_features.parquet: (545497, 12)
+                                    count  ...           max
+hadm_id                          545497.0  ...  2.999994e+07
+age_at_admission                 545497.0  ...  1.000000e+02
+gender_male                      545497.0  ...  1.000000e+00
+n_icu_stays                      545497.0  ...  1.000000e+01
+icu_los_days                     545497.0  ...  2.265375e+02
+had_icu_stay                     545497.0  ...  1.000000e+00
+n_procedures                     545497.0  ...  4.100000e+01
+had_procedure                    545497.0  ...  1.000000e+00
+n_distinct_procedure_categories  545497.0  ...  2.600000e+01
+drg_severity                     545497.0  ...  4.000000e+00
+drg_mortality                    545497.0  ...  4.000000e+00
+has_apr_drg                      545497.0  ...  1.000000e+00
+
+[12 rows x 8 columns]

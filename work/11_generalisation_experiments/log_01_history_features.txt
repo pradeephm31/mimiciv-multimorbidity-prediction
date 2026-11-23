@@ -1,0 +1,29 @@
+pairs 322,206; train 192,825 val 64,979 test 64,402 (20,012 patients)
+Consistency check with Stage 10 passed (same test rows and labels).
+  [1/17] next__Myocardial infarction: pos_rate_train=0.093, best_iter=243
+  [2/17] next__Congestive heart failure: pos_rate_train=0.195, best_iter=399
+  [3/17] next__Peripheral vascular disease: pos_rate_train=0.081, best_iter=329
+  [4/17] next__Cerebrovascular disease: pos_rate_train=0.063, best_iter=286
+  [5/17] next__Dementia: pos_rate_train=0.033, best_iter=103
+  [6/17] next__Chronic pulmonary disease: pos_rate_train=0.198, best_iter=399
+  [7/17] next__Rheumatic disease: pos_rate_train=0.030, best_iter=211
+  [8/17] next__Peptic ulcer disease: pos_rate_train=0.014, best_iter=55
+  [9/17] next__Mild liver disease: pos_rate_train=0.058, best_iter=242
+  [10/17] next__Diabetes without complication: pos_rate_train=0.155, best_iter=302
+  [11/17] next__Diabetes with complication: pos_rate_train=0.115, best_iter=399
+  [12/17] next__Hemiplegia or paraplegia: pos_rate_train=0.016, best_iter=190
+  [13/17] next__Renal disease: pos_rate_train=0.203, best_iter=388
+  [14/17] next__Malignancy: pos_rate_train=0.107, best_iter=394
+  [15/17] next__Moderate or severe liver disease: pos_rate_train=0.032, best_iter=367
+  [16/17] next__Metastatic solid tumor: pos_rate_train=0.062, best_iter=42
+  [17/17] next__AIDS/HIV: pos_rate_train=0.009, best_iter=203
+trained 17 history models in 657s
+last-transition patients: 20,012; no current dx: 38.8%; no dx ever so far: 33.7%
+persistence_current        {3: 0.6416, 5: 0.6719, 10: 0.674}
+persistence_history        {3: 0.6384, 5: 0.6535, 10: 0.6504}
+stage10_model_rule_a       {3: 0.5769, 5: 0.5968, 10: 0.598}
+stage10_model_rule_b       {3: 0.6486, 5: 0.669, 10: 0.6702}
+history_model_rule_a       {3: 0.5938, 5: 0.6101, 10: 0.6106}
+history_model_rule_b       {3: 0.6589, 5: 0.6755, 10: 0.6759}
+history_model_rule_ever    {3: 0.6533, 5: 0.6588, 10: 0.6517}
+Saved history_features_results.json

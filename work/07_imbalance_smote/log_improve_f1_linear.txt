@@ -1,0 +1,33 @@
+{
+  "n_train_pairs": 192825,
+  "n_val_pairs": 64979,
+  "n_test_pairs": 64402,
+  "n_train_patients": 60033,
+  "n_val_patients": 20012,
+  "n_test_patients": 20012,
+  "base_rate_train": 0.1301,
+  "base_rate_val": 0.1332,
+  "base_rate_test": 0.1308
+}
+
+Leakage check passed: train/val/test patient sets are disjoint.
+[Unregularized-ish logistic (C=1.0)] AUROC=0.7366 AUPRC=0.3353 | thr(val)=0.571 -> TEST F1=0.3594 P=0.266 R=0.554 Acc=0.742
+    -> non-zero coefficients: 57/57
+[Ridge (L2) logistic, C=1e-3] AUROC=0.7366 AUPRC=0.3343 | thr(val)=0.558 -> TEST F1=0.3587 P=0.261 R=0.572 Acc=0.732
+    -> non-zero coefficients: 57/57
+[Ridge (L2) logistic, C=1e-4] AUROC=0.7339 AUPRC=0.3294 | thr(val)=0.549 -> TEST F1=0.3560 P=0.261 R=0.560 Acc=0.735
+    -> non-zero coefficients: 57/57
+[Ridge (L2) logistic, C=1e-5] AUROC=0.7257 AUPRC=0.3194 | thr(val)=0.533 -> TEST F1=0.3494 P=0.271 R=0.491 Acc=0.761
+    -> non-zero coefficients: 57/57
+[Lasso (L1) logistic, C=1e-3] AUROC=0.7328 AUPRC=0.3309 | thr(val)=0.570 -> TEST F1=0.3586 P=0.274 R=0.520 Acc=0.757
+    -> non-zero coefficients: 29/57
+[Lasso (L1) logistic, C=1e-4] AUROC=0.7003 AUPRC=0.2962 | thr(val)=0.518 -> TEST F1=0.3239 P=0.232 R=0.534 Acc=0.708
+    -> non-zero coefficients: 2/57
+[Lasso (L1) logistic, C=1e-5] AUROC=0.5000 AUPRC=0.1308 | thr(val)=0.500 -> TEST F1=0.2314 P=0.131 R=1.000 Acc=0.131
+    -> non-zero coefficients: 0/57
+[ElasticNet logistic, C=1e-4, l1_ratio=0.5] AUROC=0.7107 AUPRC=0.3064 | thr(val)=0.541 -> TEST F1=0.3322 P=0.250 R=0.494 Acc=0.740
+    -> non-zero coefficients: 9/57
+[ElasticNet logistic, C=1e-3, l1_ratio=0.5] AUROC=0.7355 AUPRC=0.3333 | thr(val)=0.590 -> TEST F1=0.3632 P=0.288 R=0.491 Acc=0.775
+    -> non-zero coefficients: 43/57
+
+Saved linear_model_results.json

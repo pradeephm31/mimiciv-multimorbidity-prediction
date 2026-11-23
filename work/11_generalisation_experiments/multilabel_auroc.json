@@ -1,0 +1,54 @@
+{
+  "n_test_pairs": 64402,
+  "note": "all test pairs, not only the last transition; micro = all (pair, category) cells pooled, macro = mean of per-category AUROC",
+  "models": {
+    "current_features_stage10": {
+      "micro_auroc": 0.9292,
+      "macro_auroc": 0.892,
+      "micro_ap": 0.6952,
+      "per_category_auroc": {
+        "Myocardial infarction": 0.8935,
+        "Congestive heart failure": 0.9305,
+        "Peripheral vascular disease": 0.8837,
+        "Cerebrovascular disease": 0.8445,
+        "Dementia": 0.9301,
+        "Chronic pulmonary disease": 0.8814,
+        "Rheumatic disease": 0.9266,
+        "Peptic ulcer disease": 0.692,
+        "Mild liver disease": 0.8474,
+        "Diabetes without complication": 0.9023,
+        "Diabetes with complication": 0.9534,
+        "Hemiplegia or paraplegia": 0.8038,
+        "Renal disease": 0.9421,
+        "Malignancy": 0.909,
+        "Moderate or severe liver disease": 0.9475,
+        "Metastatic solid tumor": 0.9407,
+        "AIDS/HIV": 0.9358
+      }
+    },
+    "history_features_stage11": {
+      "micro_auroc": 0.9429,
+      "macro_auroc": 0.9112,
+      "micro_ap": 0.7467,
+      "per_category_auroc": {
+        "Myocardial infarction": 0.912,
+        "Congestive heart failure": 0.9399,
+        "Peripheral vascular disease": 0.9055,
+        "Cerebrovascular disease": 0.8739,
+        "Dementia": 0.9375,
+        "Chronic pulmonary disease": 0.9146,
+        "Rheumatic disease": 0.9557,
+        "Peptic ulcer disease": 0.7414,
+        "Mild liver disease": 0.8725,
+        "Diabetes without complication": 0.9205,
+        "Diabetes with complication": 0.9632,
+        "Hemiplegia or paraplegia": 0.8259,
+        "Renal disease": 0.949,
+        "Malignancy": 0.9229,
+        "Moderate or severe liver disease": 0.9539,
+        "Metastatic solid tumor": 0.9487,
+        "AIDS/HIV": 0.9541
+      }
+    }
+  }
+}

@@ -1,0 +1,5 @@
+HF-cohort admission-pairs: 108,231
+Avg # categories present at NEXT visit: 2.48
+Avg # categories persisting from current visit: 1.74
+
+Saved hf_multilabel_df.parquet: (108231, 77)

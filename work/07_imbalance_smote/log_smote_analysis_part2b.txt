@@ -1,0 +1,8 @@
+[SMOTENC (categorical-aware), sampling_strategy=1.0 (n=335,480)] AUROC=0.7259 AUPRC=0.3221 Brier=0.1194 | TEST F1=0.3539 P=0.272 R=0.507 Acc=0.758
+[SMOTENC(0.3) + random undersample to 1:1 (n=100,644)] AUROC=0.7542 AUPRC=0.3663 Brier=0.1543 | TEST F1=0.3822 P=0.302 R=0.520 Acc=0.780
+
+Done. Saved smote_results_partial2.json
+{
+  "smotenc_ratio100": 0.3539,
+  "smotenc_underample_hybrid": 0.3822
+}

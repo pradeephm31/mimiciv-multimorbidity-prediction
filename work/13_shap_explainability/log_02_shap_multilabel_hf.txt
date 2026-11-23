@@ -1,0 +1,20 @@
+HF cohort: 21,975 patients; train 65,111 / val 21,209 / test 21,911 pairs
+  [1/17] Myocardial infarction: prevalence 0.179, AUROC 0.829, top: ['Myocardial infarction', 'n_categories_lag1', 'gender_male', 'comm1_count']
+  [2/17] Congestive heart failure: prevalence 0.592, AUROC 0.823, top: ['Congestive heart failure', 'age_at_admission', 'n_categories_lag1', 'n_categories_lag2']
+  [3/17] Peripheral vascular disease: prevalence 0.147, AUROC 0.838, top: ['Peripheral vascular disease', 'comm1_count', 'cum_procedures', 'n_categories_lag1']
+  [4/17] Cerebrovascular disease: prevalence 0.091, AUROC 0.800, top: ['Cerebrovascular disease', 'age_at_admission', 'comm2_count', 'score_trend']
+  [5/17] Dementia: prevalence 0.047, AUROC 0.887, top: ['Dementia', 'age_at_admission', 'age_points', 'comm2_count']
+  [6/17] Chronic pulmonary disease: prevalence 0.273, AUROC 0.882, top: ['Chronic pulmonary disease', 'score_trend', 'has_apr_drg', 'charlson_trend_slope_3adm']
+  [7/17] Rheumatic disease: prevalence 0.036, AUROC 0.919, top: ['Rheumatic disease', 'gender_male', 'score_trend', 'charlson_score']
+  [8/17] Peptic ulcer disease: prevalence 0.018, AUROC 0.670, top: ['Peptic ulcer disease', 'age_at_admission', 'cum_icu_stays', 'comm0_count']
+  [9/17] Mild liver disease: prevalence 0.062, AUROC 0.849, top: ['Mild liver disease', 'Moderate or severe liver disease', 'age_at_admission', 'gender_male']
+  [10/17] Diabetes without complication: prevalence 0.223, AUROC 0.877, top: ['Diabetes without complication', 'Diabetes with complication', 'n_categories_lag1', 'Renal disease']
+  [11/17] Diabetes with complication: prevalence 0.214, AUROC 0.932, top: ['Diabetes with complication', 'Diabetes without complication', 'admissions_per_year_so_far', 'charlson_score_lag1']
+  [12/17] Hemiplegia or paraplegia: prevalence 0.013, AUROC 0.737, top: ['Hemiplegia or paraplegia', 'comm2_count', 'admissions_per_year_so_far', 'cum_icu_los_days']
+  [13/17] Renal disease: prevalence 0.401, AUROC 0.907, top: ['Renal disease', 'comm1_count', 'charlson_score_lag2', 'charlson_score_lag1']
+  [14/17] Malignancy: prevalence 0.101, AUROC 0.894, top: ['Malignancy', 'age_at_admission', 'comm0_count', 'score_trend']
+  [15/17] Moderate or severe liver disease: prevalence 0.033, AUROC 0.933, top: ['Moderate or severe liver disease', 'Mild liver disease', 'comm0_count', 'age_at_admission']
+  [16/17] Metastatic solid tumor: prevalence 0.037, AUROC 0.904, top: ['Metastatic solid tumor', 'Malignancy', 'charlson_score', 'charlson_trend_slope_3adm']
+  [17/17] AIDS/HIV: prevalence 0.009, AUROC 0.951, top: ['AIDS/HIV', 'age_at_admission', 'gender_male', 'charlson_score']
+
+Saved multilabel_hf_shap.json (180s)
